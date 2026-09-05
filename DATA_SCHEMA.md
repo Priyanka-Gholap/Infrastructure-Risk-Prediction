@@ -4,11 +4,12 @@
 This document formalizes the input, internal feature engineering, and output prediction data contracts for **SIH26103**.
 
 > [!IMPORTANT]
-> **Data Grounding & Integrity Rule:**
+> **Data Grounding & Sourcing Policy:**
 > - Official MoSPI (Ministry of Statistics and Programme Implementation) Flash Reports publish monthly aggregated tables and PDF/HTML lists of Central Sector Projects costing ₹150 Crore and above.
-> - **We do not assume that a pre-packaged, ML-ready historical tabular dataset is directly downloadable from MoSPI.**
-> - Tabular data for training must either be parsed from publicly published report tables or generated via a statistically calibrated benchmark generator that mirrors real-world infrastructure parameters (cost ranges, schedule timelines, sector characteristics, and common delay factors).
-> - No fabricated datasets or fictitious ministry statistics will be claimed as official ground truth.
+> - We do not assume that an official MoSPI project-level ML dataset is directly available in clean tabular form.
+> - **Training data strategy is PENDING.** Candidate approaches include publicly extracted project-level records, carefully constructed benchmark/synthetic data where necessary, or a hybrid approach. The final strategy will be selected only after evaluating the actual availability and quality of project-level historical data.
+> - A synthetic dataset is not assumed to be necessary or already selected.
+> - No invented datasets or fabricated government statistics will be asserted as official ground truth.
 
 ---
 
@@ -76,7 +77,10 @@ Features generated programmatically prior to feeding the machine learning infere
 ---
 
 ## 4. Prediction & Output Schema (`ProjectRiskAssessment`)
-The payload returned by the prediction engine:
+
+> [!IMPORTANT]
+> **Ground Truth Derivation & Risk Thresholds [PENDING DATA VALIDATION]:**
+> The output risk tiers (`Low`, `Medium`, `High`, `Critical`) and score ranges ($0.0 - 100.0$) listed below represent the operational interface contract. The exact target formulation is **PENDING DATA VALIDATION**. Target labels must ultimately be derived from observable historical outcomes wherever possible (e.g., actual duration delay in months, realized cost overrun percentage), rather than arbitrarily assigning risk labels based only on current feature values. Delay risk and cost-overrun risk remain the two core prediction objectives.
 
 ### 4.1 Risk Scores & Classifications
 | Field Name | Type | Range / Format | Description |
@@ -119,10 +123,12 @@ The payload returned by the prediction engine:
 
 ---
 
-## 5. Sourcing & Benchmark Strategy [PENDING DATA RESEARCH]
+## 5. Candidate Data Sourcing Strategies [ALL STRATEGIES PENDING RESEARCH]
 
-| Strategy | Description | Advantages | Limitations / Risks | Status |
-|---|---|---|---|---|
-| **Option A: Public MoSPI Flash Report Extraction** | Scrape or parse tables from published monthly flash reports on `cspm.gov.in` / MoSPI portal. | Direct government grounding. | Reports often lack temporal milestone progressions; time-consuming manual cleaning required. | **PENDING EVALUATION** |
-| **Option B: Calibrated Synthetic Benchmark Generator** | Statistically calibrated simulation generating 1,000–5,000 realistic project life-cycles conforming to published MoSPI statistical spreads (average delay lengths, cost revision distributions). | Complete control over edge cases, reproducible, guarantees clean balanced training splits. | Must be transparently labeled as a calibrated domain benchmark, not unverified raw data. | **PENDING EVALUATION** |
-| **Option C: Hybrid Approach** | Seed benchmark with actual published macro parameters from recent MoSPI reports, then simulate plausible project trajectories. | Balances real macro statistics with rich ML feature granularity. | Requires careful calibration logic. | **RECOMMENDED DIRECTION** |
+Training data strategy is PENDING. Candidate approaches include publicly extracted project-level records, carefully constructed benchmark/synthetic data where necessary, or a hybrid approach. The final strategy will be selected only after evaluating the actual availability and quality of project-level historical data.
+
+| Candidate Approach | Description | Evaluation Focus | Status |
+|---|---|---|---|
+| **Approach 1: Public MoSPI Flash Report Extraction** | Evaluate feasibility of parsing historical tables from published monthly flash reports on `cspm.gov.in` / MoSPI portal. | Determine whether published records contain sufficiently complete project-level progress timelines and outcomes. | **PENDING EVALUATION** |
+| **Approach 2: Calibrated Benchmark / Synthetic Data** | Evaluate constructing a domain-calibrated simulation calibrated against MoSPI macro distributions (spread of delays, cost escalation rates). | Determine whether synthetic generation is required to model realistic longitudinal trajectories if public data lacks milestone granularity. | **PENDING EVALUATION** |
+| **Approach 3: Hybrid Approach** | Seed real project baseline disclosures from public reports and supplement with domain-calibrated milestone trajectory dynamics. | Assess whether blending extracted project records with calibrated simulation provides the highest fidelity. | **PENDING EVALUATION** |

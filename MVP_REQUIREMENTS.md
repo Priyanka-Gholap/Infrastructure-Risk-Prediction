@@ -48,33 +48,40 @@ The MVP is engineered to deliver a robust, highly convincing, and interactive de
   - Regulatory / Environmental clearance status flag.
   - Contractor revision count / scope change frequency.
 
-### FR-4: Predictive Risk Models
+### FR-4: Predictive Risk Models (Delay Risk + Cost Overrun Risk)
 - **FR-4.1 (Delay Risk Scoring):**
   - Predict likelihood of project delay.
-  - Output: Delay Risk Score ($0.0 - 1.0$ / $0 - 100$) and Categorical Risk Level (`Low`, `Medium`, `High`, `Critical`).
+  - Output: Delay Risk Score ($0.0 - 100.0$) and Categorical Risk Tier.
 - **FR-4.2 (Cost Overrun Risk Scoring):**
   - Predict likelihood of expenditure exceeding sanctioned budget.
-  - Output: Cost Overrun Risk Score ($0.0 - 1.0$ / $0 - 100$) and Categorical Risk Level (`Low`, `Medium`, `High`, `Critical`).
+  - Output: Cost Overrun Risk Score ($0.0 - 100.0$) and Categorical Risk Tier.
 - **FR-4.3 (Composite Project Risk Index):**
   - Synthesize Delay Risk and Cost Overrun Risk into a unified single Project Health / Risk Index.
+
+> [!IMPORTANT]
+> **Target Formulation & Ground Truth Derivation [PENDING DATA VALIDATION]:**
+> The exact target formulation and risk score thresholds are **PENDING DATA VALIDATION**. Target labels must ultimately be derived from observable historical outcomes wherever possible (e.g., realized schedule delay in months, actual cost growth ratio), rather than arbitrarily assigning risk labels based only on current feature values. Delay risk and cost overrun risk remain the two confirmed core prediction objectives.
 
 ### FR-5: Risk Factor Explainability
 - **FR-5.1 (Attribution Output):** Extract and display the top 3 to 5 contributing drivers behind a high risk score for any given project.
 - **FR-5.2 (Interpretability Methodology):** Utilize feature attribution mechanisms (e.g., Tree SHAP values or normalized weight impact) so officers understand *why* the model flagged the project (e.g., "+34% risk driven by 40% physical progress lag relative to 75% elapsed duration").
 
 ### FR-6: Early Warning Alert System
-- **FR-6.1 (Alert Generation):** Dynamically categorize projects into automated alert tiers based on predicted composite risk:
-  - 🟢 **Normal / Low Risk (< 35):** Regular monitoring; no corrective escalation required.
-  - 🟡 **Watchlist / Moderate Risk (35 - 60):** Emerging slippage; advisory warning issued.
-  - 🟠 **High Risk (61 - 80):** Action required; milestone and financial audit recommended.
-  - 🔴 **Critical / Red Flag (> 80):** Severe escalation; immediate administrative intervention needed.
+- **FR-6.1 (Alert Generation):** Dynamically categorize projects into automated alert tiers based on predicted composite risk. Indicative tiers:
+  - 🟢 **Normal / Low Risk:** Regular monitoring; no corrective escalation required.
+  - 🟡 **Watchlist / Moderate Risk:** Emerging slippage; advisory warning issued.
+  - 🟠 **High Risk:** Action required; milestone and financial audit recommended.
+  - 🔴 **Critical / Red Flag:** Severe escalation; immediate administrative intervention needed.
+  *(Note: Exact numeric threshold boundaries are subject to calibration during data validation.)*
 - **FR-6.2 (Actionable Recommendations):** Pair alerts with contextual mitigation suggestions (e.g., "Expedite Stage-2 environmental clearance", "Reallocate regional contractor manpower").
 
 ### FR-7: Interactive Demonstration Dashboard
 - **FR-7.1 (Portfolio Executive Summary):** Visual summary showing total projects monitored, portfolio risk distribution (pie/bar), total capital at risk, and critical alert tally.
 - **FR-7.2 (Project Explorer & Filtering):** Searchable, filterable table by sector, state, risk tier, and budget size.
 - **FR-7.3 (Project Detail View):** Dedicated drill-down view showing project trajectory, S-curve (planned vs actual progress), risk gauges, and top negative drivers.
-- **FR-7.4 (Interactive "What-If" Simulator):** Interactive sliders allowing an evaluator to adjust key project parameters (e.g., increase physical progress by 15%, clear pending land clearances) and watch the predicted risk score recalculate dynamically in real time.
+- **FR-7.4 (Interactive "What-If" Simulator - P1 Enhancement):**
+  - Interactive controls allowing an evaluator to adjust key project parameters (e.g., test 15% physical progress recovery, resolve pending forest clearance) and dynamically observe recalculated risk scores.
+  - **Priority Status:** Designated as a **P1 / high-priority enhancement**. The core MVP must remain fully functional, demo-ready, and valuable without this simulator.
 
 ---
 
@@ -92,9 +99,10 @@ The MVP is engineered to deliver a robust, highly convincing, and interactive de
 - **Visual Clarity:** Professional aesthetic appropriate for administrative governance; standard intuitive color coding for risk states (Emerald/Amber/Orange/Rose).
 - **Responsive Layout:** Optimized for standard presentation display resolutions (1080p desktop/laptop viewing).
 
-### NFR-4: Code Maintainability & Modularity
+### NFR-4: Code Maintainability & Architecture Simplicity
 - Decoupled API contracts between frontend and backend.
 - Pure function data pipelines with unit-testable feature engineering.
+- **Persistence Simplicity:** Use **SQLite** for initial MVP local/demo development; retain PostgreSQL as an optional future/production deployment path without introducing Docker/DB complexity prematurely.
 
 ---
 
@@ -112,11 +120,12 @@ The following items are **strictly outside the MVP scope**:
 
 ## 6. MVP Acceptance & Evaluation Criteria
 
-| Requirement | Acceptance Benchmark | Status |
-|---|---|---|
-| Input Ingestion | Both manual web form submission and preset/sample project loading work reliably. | Pending Implementation |
-| Data Sanitization | Pydantic model rejects negative budgets, impossible dates, and out-of-bound percentages with clear feedback. | Pending Implementation |
-| ML Predictive Pipeline | Trained models predict Delay Risk and Cost Overrun Risk scores for any valid input payload. | Pending Implementation |
-| Explainability | Top 3 risk contributors are visually rendered for any evaluated project. | Pending Implementation |
-| Early Warning Alerts | Projects receive appropriate tier labels (Low, Medium, High, Critical) based on composite risk. | Pending Implementation |
-| Interactive Dashboard | Portfolio view, detail inspector, and interactive What-If scenario simulator function smoothly. | Pending Implementation |
+| Requirement | Acceptance Benchmark | Priority | Status |
+|---|---|---|---|
+| **Input Ingestion** | Manual form entry and preloaded sample projects load reliably. | Core MVP (P0) | Pending Implementation |
+| **Data Sanitization** | Pydantic model rejects negative budgets, impossible dates, and out-of-bound percentages with clear feedback. | Core MVP (P0) | Pending Implementation |
+| **ML Predictive Pipeline** | Trained models predict Delay Risk and Cost Overrun Risk scores for valid input payloads. | Core MVP (P0) | Pending Implementation |
+| **Explainability** | Top 3 risk contributors are visually rendered for any evaluated project. | Core MVP (P0) | Pending Implementation |
+| **Early Warning Alerts** | Projects receive calibrated tier labels (Low, Medium, High, Critical) with actionable recommendations. | Core MVP (P0) | Pending Implementation |
+| **Interactive Dashboard** | Portfolio view and project inspector render smoothly and responsively. | Core MVP (P0) | Pending Implementation |
+| **What-If Simulator** | Dynamic parameter adjustment and real-time risk re-scoring. | High-Value Enhancement (P1) | Pending Implementation |

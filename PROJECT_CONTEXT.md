@@ -45,6 +45,9 @@ The end-to-end processing pipeline for the Minimum Viable Product (MVP) is stric
 [ Interactive Demonstration Dashboard (React + Charts) ]
 ```
 
+> [!NOTE]
+> The core MVP delivers the full pipeline above. An interactive "What-If Simulator" is designated as a **P1 / high-value enhancement** to enrich user interaction during demonstrations, but the core MVP remains fully functional, credible, and complete without it.
+
 ---
 
 ## 4. Guiding MVP Principles & Boundaries
@@ -58,7 +61,7 @@ To prevent scope creep and brittle dependencies during evaluation, the MVP expli
 - **IoT / On-site sensor integration:** No physical sensor ingestion, drone feeds, or RFID tracking.
 - **Nationwide infrastructure database:** No requirement to store or index tens of thousands of active national projects.
 - **Production-grade government authentication:** No integration with National Single Sign-On (Jan Parichay), Aadhaar, DigiLocker, or complex multi-tenant government RBAC.
-- **Separate ML models for every infrastructure sector:** A unified, robust model architecture across key indicators rather than 50 bespoke sector-specific models.
+- **Separate ML models for every infrastructure sector:** A unified, robust model architecture across key indicators rather than bespoke sector-specific models.
 - **Large-scale automated model retraining pipelines:** No MLOps distributed cluster or automated online continuous retraining.
 - **Enterprise notification infrastructure:** No production SMS gateways, telephonic alerts, or official government dispatch mechanisms.
 - **Chatbot as a core dependency:** A conversational bot is non-essential and will not be a blocker or prerequisite for core analytics.
@@ -68,20 +71,24 @@ To prevent scope creep and brittle dependencies during evaluation, the MVP expli
 ## 5. Classification of Project Knowledge
 
 ### 5.1 Confirmed Facts & Decisions
-1. **Core Problem:** Major infrastructure projects suffer from chronic schedule delays and budget overruns due to delayed detection of early distress signals.
-2. **Dual-Risk Focus:** Predictions must address both **Delay Risk** and **Cost Overrun Risk**, synthesized into a unified composite risk score.
-3. **Actionable Insights:** Predictions must not be opaque black-box numbers; they must be accompanied by explainable risk drivers (e.g., land acquisition lag, fund disbursement deficit, environmental clearance hurdles).
+1. **Core Problem:** Major capital infrastructure projects suffer from chronic schedule delays and budget escalations due to late detection of operational distress signals.
+2. **Dual Core Prediction Objectives:** Predictions must focus on **Delay Risk** and **Cost Overrun Risk**, synthesized into a unified composite project risk index.
+3. **Actionable Explainability Requirement:** Predictions must not be opaque black-box numbers; they must be accompanied by explainable, attributable risk drivers (e.g., time-elapsed vs physical progress divergence, cost burn anomalies, clearance bottlenecks).
 4. **Target Users for Demo:** Infrastructure monitoring officers, departmental analysts, and project appraisal committees seeking proactive intervention rather than retrospective auditing.
+5. **Database Strategy for Initial MVP:** For initial MVP development, **SQLite** is selected as the simplest local/demo persistence option. PostgreSQL is maintained as an optional future/production-oriented deployment path. Docker and PostgreSQL complexity will not be introduced before actually needed.
 
 ### 5.2 Assumptions
-1. **Data Availability:** Public project-level data from government sources (e.g., MoSPI Flash Reports) is largely available in aggregate PDF/HTML formats rather than ready-to-train ML tabular datasets.
-2. **Benchmark Generation:** A high-fidelity, statistically grounded synthetic/calibrated dataset representing real-world infrastructure parameters (cost ratios, milestone completion percentages, typical delay patterns) is necessary to train and validate robust demo models if raw historic tabular dumps are inaccessible.
-3. **Evaluation Environment:** The project will be evaluated in a local or cloud demo environment where stability, determinism, and zero external runtime failures are paramount.
+1. **Reporting Structure Assumption:** Historical project-level data from public government disclosures (e.g., MoSPI Flash Reports) is primarily formatted as periodic PDF/HTML publication tables rather than pre-packaged, ML-ready tabular feature matrices.
+2. **Evaluation Environment Assumption:** Hackathon evaluation will occur in a local or standalone presentation setting where offline stability, instant responsiveness, and zero external network dependencies are paramount.
 
 ### 5.3 Pending Decisions (Marked PENDING)
-1. **Data Sourcing Strategy [PENDING]:** Evaluation of whether public MoSPI flash reports can be extracted into a sufficiently rich tabular training set vs. developing a calibrated domain-accurate synthetic data generator based on published MoSPI statistical distributions.
-2. **Model Paradigm [PENDING]:** Decision between Dual Classification (High/Medium/Low Risk for delay & cost) vs. Hybrid Classification + Regression (predicting probability level + estimated delay duration in months and overrun percentage).
-3. **Database Selection for MVP Demo [PENDING]:** PostgreSQL as primary target vs. SQLite local fallback for zero-configuration standalone demonstration portability.
+1. **Training Data Strategy [PENDING]:**
+   > Training data strategy is PENDING. Candidate approaches include publicly extracted project-level records, carefully constructed benchmark/synthetic data where necessary, or a hybrid approach. The final strategy will be selected only after evaluating the actual availability and quality of project-level historical data.
+   > *(Note: A synthetic dataset is not assumed to be necessary or already selected.)*
+2. **Target Formulation & Ground Truth Derivation [PENDING DATA VALIDATION]:**
+   > The exact target formulation and risk thresholds are PENDING DATA VALIDATION. Target labels must ultimately be derived from observable historical outcomes wherever possible (e.g., actual delay in months, realized cost growth ratio), rather than arbitrarily assigning risk labels based only on current feature values. Delay risk and cost-overrun risk remain the two confirmed core prediction objectives.
+3. **Containerization & Deployment Orchestration [PENDING]:**
+   > Full Docker containerization is retained as an optional packaging path once application modules stabilize, but will not precede core functionality.
 
 ### 5.4 Future Scope (Post-MVP)
 - Live synchronization with MoSPI OCMS / PM GatiShakti national portals via secure government data APIs.
@@ -105,8 +112,8 @@ To prevent scope creep and brittle dependencies during evaluation, the MVP expli
 | **Machine Learning** | Scikit-learn / XGBoost | Classification, regression, and tree-based risk models | Provisional |
 | **Explainability** | SHAP / TreeExplainer | Feature attribution and top risk driver generation | Provisional |
 | **Validation** | Pydantic (v2) | Strict input data schema validation & integrity | Provisional |
-| **ORM / Storage** | SQLAlchemy / PostgreSQL | Persistence of project snapshots and alert logs | Provisional |
-| **Containerization** | Docker + Docker Compose | Portable, reproducible multi-container deployment | Provisional |
+| **Persistence** | SQLAlchemy + SQLite | Simplest local/demo persistence (PostgreSQL optional future path) | Confirmed Direction for MVP |
+| **Deployment** | Python / Node Local; Docker optional | Standalone execution without premature container overhead | Provisional / Optional |
 
 ---
 

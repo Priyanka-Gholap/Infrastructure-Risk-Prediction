@@ -1,7 +1,7 @@
 # System Architecture Specification
 
 ## 1. System Overview & Architecture Diagram
-The architecture for **SIH26103** is designed as a modular, decoupled, modern web-based predictive analytics platform. It separates presentation, API orchestration, ML inference, and data persistence to guarantee maintainability, testability, and demo reliability.
+The architecture for **SIH26103** is designed as a modular, decoupled, lightweight web-based predictive analytics platform. It cleanly separates presentation, API orchestration, ML inference, and data persistence to guarantee maintainability, testability, and offline demo reliability.
 
 ```mermaid
 graph TB
@@ -9,7 +9,7 @@ graph TB
         UI_Dash["Executive Dashboard<br/>(Recharts Summary)"]
         UI_Table["Project Explorer<br/>(Filterable Grid)"]
         UI_Detail["Project Inspector<br/>(S-Curve & Gauges)"]
-        UI_Sim["What-If Simulator<br/>(Interactive Sliders)"]
+        UI_Sim["What-If Simulator [P1]<br/>(High-Value Interactive Enhancement)"]
     end
 
     subgraph Gateway ["API & Orchestration Layer (FastAPI)"]
@@ -25,9 +25,9 @@ graph TB
         XAI_Engine["Explainability Engine<br/>(TreeSHAP Driver Attribution)"]
     end
 
-    subgraph Storage ["Persistence Layer"]
+    subgraph Storage ["Persistence Layer (SQLite Primary)"]
         DB_ORM["SQLAlchemy ORM"]
-        DB_Storage[("PostgreSQL / SQLite<br/>Project Store & Benchmarks")]
+        DB_Storage[("SQLite (Local MVP Storage)<br/>[PostgreSQL as Optional Future Path]")]
     end
 
     UI_Dash & UI_Table & UI_Detail & UI_Sim <-->|JSON / HTTP REST| API_Router
@@ -47,11 +47,13 @@ graph TB
 
 ### 2.1 Frontend Presentation Layer (React + TypeScript)
 - **Role:** Deliver a high-impact, responsive, government-executive grade dashboard.
-- **Key Modules:**
-  - `ExecutiveSummary`: KPI cards (Total Capital Monitored, Projects at Critical Delay Risk, Cost Escalation Exposure, High-Risk Heatmap).
-  - `ProjectExplorer`: Searchable, filterable data table with status pills, sector filters, and state tags.
-  - `ProjectInspector`: In-depth analytical view for a selected project displaying milestone timeline, EVM curves, and risk breakdown.
-  - `WhatIfSimulator`: Real-time reactive simulator with interactive sliders (e.g., adjusting physical progress, land clearance status) triggering dynamic API re-scoring.
+- **Core MVP Modules (P0):**
+  - `ExecutiveSummary`: High-level portfolio KPI cards (monitored capital, delayed projects tally, cost overrun exposure, portfolio risk breakdown).
+  - `ProjectExplorer`: Searchable, filterable data grid with sector tags, state filters, and risk status pills.
+  - `ProjectInspector`: In-depth analytical view for a selected project displaying milestone timeline, EVM curves, risk score gauges, and top explainability drivers.
+- **High-Value Enhancement Module (P1):**
+  - `WhatIfSimulator`: Interactive parameter adjustment sliders enabling evaluators to simulate scenario changes (e.g. progress catch-up, clearance resolution) and trigger live API re-scoring.
+  - *Note:* The core MVP dashboard functions completely and effectively without requiring the What-If simulator.
 - **Tech Choices (Provisional):** React 18, TypeScript, Tailwind CSS, Recharts, Lucide Icons.
 
 ### 2.2 Backend API Layer (FastAPI + Python)
@@ -63,7 +65,7 @@ graph TB
   - `POST /api/v1/predict`: Single-project on-the-fly inference and explainability evaluation.
   - `POST /api/v1/predict/batch`: Ingestion of multiple project records (CSV/JSON upload).
   - `GET /api/v1/portfolio/summary`: Aggregated portfolio analytics and alert distribution.
-- **Validation:** Enforced via Pydantic v2 data models for request and response payloads.
+- **Validation:** Strict validation enforced via Pydantic v2 schemas for all request/response contracts.
 
 ### 2.3 Analytics & ML Inference Engine
 - **Role:** Execute deterministic feature transformations, run pre-trained ML models, compute composite risk index, and generate explainability breakdowns.
@@ -73,11 +75,11 @@ graph TB
   3. `ExplainabilityService`: Calculates SHAP values and translates top mathematical drivers into human-readable governance summaries.
   4. `AlertEngine`: Maps composite scores into standardized alert tiers (`Normal`, `Watchlist`, `High Alert`, `Critical Red Flag`) with prescriptive recommendations.
 
-### 2.4 Persistence Layer (SQLAlchemy + Database)
+### 2.4 Persistence Layer (SQLAlchemy + SQLite Primary)
 - **Role:** Persist project records, audit history, milestone logs, and benchmark presets.
-- **Strategy:**
-  - **Production / Docker Target:** PostgreSQL.
-  - **Local Development / Standalone Demo Fallback:** SQLite (via SQLAlchemy abstraction) to guarantee zero-install, zero-network-failure execution during live jury evaluation.
+- **Strategic Decision:**
+  - **Initial MVP Development & Demo:** **SQLite** is preferred as the simplest, self-contained local persistence option, guaranteeing zero-configuration and zero-network-failure execution during evaluation.
+  - **Future / Production Path:** PostgreSQL is retained as an optional migration path via SQLAlchemy's abstraction, but Docker/PostgreSQL complexity will not be introduced before actually needed.
 
 ---
 
@@ -118,7 +120,7 @@ SIH26103-Infrastructure-Risk-Prediction/
 │   ├── app/
 │   │   ├── api/             # FastAPI routers & endpoints
 │   │   ├── core/            # Config, security, logging
-│   │   ├── models/          # SQLAlchemy database models
+│   │   ├── models/          # SQLAlchemy database models (SQLite default)
 │   │   ├── schemas/         # Pydantic request/response schemas
 │   │   ├── services/        # Business logic & orchestration
 │   │   ├── ml/              # Model loaders, transformers, SHAP explainers
@@ -130,7 +132,7 @@ SIH26103-Infrastructure-Risk-Prediction/
 │   ├── src/
 │   │   ├── assets/          # Icons, logos, styles
 │   │   ├── components/      # UI components (cards, tables, charts)
-│   │   ├── pages/           # Dashboard, Project Detail, Simulator
+│   │   ├── pages/           # Dashboard, Project Detail, Simulator (P1)
 │   │   ├── services/        # API client bindings
 │   │   ├── types/           # TypeScript interfaces conforming to backend schemas
 │   │   └── App.tsx
@@ -138,21 +140,20 @@ SIH26103-Infrastructure-Risk-Prediction/
 │   └── vite.config.ts
 │
 ├── ml_research/             # Offline data preparation, training notebooks, benchmarks
-│   ├── data/                # Raw & processed benchmark datasets
+│   ├── data/                # Evaluated raw & processed project datasets
 │   ├── notebooks/           # Exploratory data analysis & model tuning
-│   ├── artifacts/           # Serialized trained models (.joblib)
-│   └── generate_benchmark.py # Calibrated synthetic project generator
+│   └── artifacts/           # Serialized trained models (.joblib)
 │
-└── docker/                  # Dockerfiles & docker-compose configurations
+└── docker/                  # Optional deployment configs (for future containerization)
 ```
 
 ---
 
-## 5. Architectural Quality Attributes & Non-Functional Decisions
+## 5. Architectural Quality Attributes & Pragmatic Decisions
 
 | Attribute | Architectural Tactic |
 |---|---|
-| **Determinism** | Model inference uses frozen serialized pipelines with fixed random seeds; given the same input, the system produces identical risk outputs. |
+| **Simplicity & Zero-Config** | SQLite eliminates database daemon setup, port conflicts, and container networking issues during live hackathon demos. |
+| **Determinism** | Model inference uses frozen serialized pipelines with fixed random seeds; identical inputs consistently produce identical risk outputs. |
 | **Decoupling** | Strict Pydantic contracts ensure frontend and backend can be tested and developed independently with mocked API contracts. |
-| **Portability** | Multi-stage Docker Compose ensures that the entire stack (FastAPI + React + DB) can be spun up on any judge's machine with a single command (`docker compose up`). |
 | **Fault Isolation** | If the ML inference engine encounters an edge case, graceful fallback to standard EVM heuristic scoring prevents frontend crashes. |
