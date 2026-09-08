@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "InferenceOutputResponse",
+  "description": "JSON response schema returned by the SIH26103 early-warning inference endpoint.",
+  "type": "object",
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "description": "Project ID of evaluated snapshot."
+    },
+    "cost_overrun_probability": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "description": "Predicted probability of cost overrun >= 10% from cost_overrun_model.joblib."
+    },
+    "cost_overrun_flag": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ],
+      "description": "Binary early-warning alert: 1 if cost_overrun_probability >= cost_overrun_threshold, else 0."
+    },
+    "cost_overrun_threshold": {
+      "type": "number",
+      "example": 0.4,
+      "description": "Locked operating decision threshold for cost overrun classification."
+    },
+    "delay_probability": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "description": "Predicted probability of delay >= 60 days vs revised deadline from delay_model.joblib."
+    },
+    "delay_flag": {
+      "type": "integer",
+      "enum": [
+        0,
+        1
+      ],
+      "description": "Binary early-warning alert: 1 if delay_probability >= delay_threshold, else 0."
+    },
+    "delay_threshold": {
+      "type": "number",
+      "example": 0.5,
+      "description": "Locked operating decision threshold for delay classification."
+    },
+    "predicted_delay_months": {
+      "type": "number",
+      "description": "Continuous prediction of total calendar months delayed from original baseline from delay_regressor.joblib."
+    },
+    "overall_risk_level": {
+      "type": "string",
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH",
+        "CRITICAL"
+      ],
+      "description": "Deterministic rule-based composite risk category: CRITICAL if both cost and delay flagged; HIGH if either cost or delay flagged; MEDIUM if probability >= 0.30; LOW otherwise."
+    }
+  },
+  "required": [
+    "project_id",
+    "cost_overrun_probability",
+    "cost_overrun_flag",
+    "cost_overrun_threshold",
+    "delay_probability",
+    "delay_flag",
+    "delay_threshold",
+    "predicted_delay_months",
+    "overall_risk_level"
+  ]
+}

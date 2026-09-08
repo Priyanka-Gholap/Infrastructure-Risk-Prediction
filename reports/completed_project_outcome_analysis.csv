@@ -1,0 +1,825 @@
+project_id,project_name,ministry,sector,state,implementing_agency,completion_report_month,has_table6_history,first_table6_month,last_table6_month,table6_observation_count,lead_time_months_last_obs,date_of_approval,start_date,original_doc,revised_doc,actual_date_of_completion,effective_actual_doc,original_cost,revised_cost,completion_cost,last_table6_expenditure,last_table6_progress_pct,absolute_cost_change,cost_overrun_percent,revised_cost_change,cost_overrun_vs_revised_percent,delay_from_original_days,delay_from_original_months,delay_from_revised_days,delay_from_revised_months,cost_overrun_ge_0pct,cost_overrun_ge_10pct,cost_overrun_ge_20pct,delay_ge_0d,delay_ge_90d,delay_ge_180d,delay_ge_12m,delay_ge_24m,data_quality_flags
+610940,"Additional Infrastructure at IISc Bangalore-RCC Monolithic for Men Hostel S14, Women Hostel S11 , Postdoctoral Hostel S12 2 Block , International Hostel S 12 , D&E Block S 12 2 Block FR.",Department of Higher Education,Education,Karnataka,IISC Bangalore,2025-12,False,,,0,,2021-08,2021-08,2024-03,2025-12,2025-12,2025-12,420.41,420.41,367.92,,,-52.49,-12.49,-52.49,-12.49,640,21,0.0,0.0,0,0,0,1,1,1,1,0,NO_PRIOR_T6_HISTORY; COST_UNDERRUN
+612135,Hostel 4 -Earlier Known as Hostel 20,Department of Higher Education,Education,Maharashtra,"Indian Institute of Technology, Bombay",2025-12,False,,,0,,2022-09,2023-12,2025-09,2025-12,2025-12,2025-12,182.33,,178.17,,,-4.16,-2.28,,,91,3,0.0,0.0,0,0,0,1,1,0,0,0,NO_PRIOR_T6_HISTORY; COST_UNDERRUN
+709858,OPTICAL TRANSPORT NETWORK [OTN] PH-4 IN BSNL,Department of Telecommunications,Telecommunication,PAN India,BSNL,2025-12,False,,,0,,2024-02,2024-02,2025-08,2025-10,2025-10,2025-10,810.99,,786.86,,,-24.13,-2.98,,,61,2,0.0,0.0,0,0,0,1,0,0,0,0,NO_PRIOR_T6_HISTORY; COST_UNDERRUN
+612063,"Construction of New Terminal Building, Second Link Taxi Track, Apron Expansion, and associated works at Prayagraj Airport- On Design & Build Basis.",Ministry of Civil Aviation,Aviation & Aviation Infrastructure,Uttar Pradesh,Airport Authority of India [AAI],2025-12,False,,,0,,2023-08,,2024-11,2025-10,2025-10,2025-10,219.18,274.38,215.51,,,-3.67,-1.67,-58.87,-21.46,334,11,0.0,0.0,0,0,0,1,1,1,0,0,NO_PRIOR_T6_HISTORY; COST_UNDERRUN
+400145,CHHAL OC SEAM III [6 MTY],Ministry of Coal,Coal,Chhattisgarh,South Eastern Coalfields Limited [SECL],2025-12,False,,,0,,2013-12,2013-12,2022-03,2026-01,2025-12,2025-12,610.63,,583.26,,,-27.37,-4.48,,,1371,45,-31.0,-1.0,0,0,0,1,1,1,1,1,NO_PRIOR_T6_HISTORY; COST_UNDERRUN
+702842,Nagpur Water Supply Infrastructure Project,Ministry of Housing & Urban Affairs,Waste & Water,Maharashtra,Ministry of Housing & Urban Affairs,2025-12,False,,,0,,2015-12,2018-08,2023-03,2026-01,2026-01,2026-01,273.78,271.86,267.57,,,-6.21,-2.27,-4.29,-1.58,1037,34,0.0,0.0,0,0,0,1,1,1,1,1,NO_PRIOR_T6_HISTORY; COST_UNDERRUN
+612239,Construction of 100 bedded ESIC Hospital & 32 nos. of Staff qtrs at OMPURA J&K.,Ministry of Labour and Employment,Healthcare,Jammu and Kashmir,Employee's State Insurance Company [ESIC],2025-12,False,,,0,,2019-09,2021-12,2024-09,2025-12,2025-12,2025-12,131.05,164.93,162.05,,,31.0,23.66,-2.88,-1.75,456,15,0.0,0.0,1,1,1,1,1,1,1,0,NO_PRIOR_T6_HISTORY
+400158,Debottlenecking and Augmentation of Cryogenic facilities at Uran LPG Import Terminal,Ministry of Petroleum & Natural Gas,Oil & Gas,Maharashtra,"Department of Water Resources, River Development & GR",2025-12,False,,,0,,2021-04,2021-04,2024-02,2025-12,2025-12,2025-12,1164.69,1629.86,1048.74,,,-115.95,-9.96,-581.12,-35.65,669,22,0.0,0.0,0,0,0,1,1,1,1,0,NO_PRIOR_T6_HISTORY; COST_UNDERRUN
+610985,Construction of lube oil blending plant at Rasayani,Ministry of Petroleum & Natural Gas,Oil & Gas,Maharashtra,Ministry of Petroleum & Natural Gas,2025-12,False,,,0,,2022-05,2022-05,2023-12,2025-12,2025-12,2025-12,423.39,526.26,333.48,,,-89.91,-21.24,-192.78,-36.63,731,24,0.0,0.0,0,0,0,1,1,1,1,1,NO_PRIOR_T6_HISTORY; COST_UNDERRUN
+709748,BIKANER SOLAR POWER PROJECT,Ministry of Power,Electricity Generation,Rajasthan,Satluj Jal Vidyut Nigam [SJVN] Thermal Limited,2025-12,False,,,0,,2021-10,2022-05,2024-04,2025-12,2025-12,2025-12,5491.89,,5523.11,,,31.22,0.57,,,609,20,0.0,0.0,1,0,0,1,1,1,1,0,NO_PRIOR_T6_HISTORY
+602194,Khurja super Thermal Power Plant [2X660 MW],Ministry of Power,Electricity Generation,Uttar Pradesh,THDC India Limited,2025-12,False,,,0,,2019-03,2019-08,2024-02,2025-09,2025-09,2025-09,11089.42,13276.2,12888.23,,,1798.81,16.22,-387.97,-2.92,578,19,0.0,0.0,1,1,0,1,1,1,1,0,NO_PRIOR_T6_HISTORY
+611659,Transmission system strengthening scheme for evacuation of power from solar energy zones in Rajasthan[8.1 GW] under phase-II- Part E,Ministry of Power,Transmission & Distribution,Rajasthan,Power Grid Corporation of India Limited [POWERGRID],2025-12,False,,,0,,2023-03,2023-03,2024-09,2026-01,2026-01,2026-01,1433.28,1433.0,1433.0,,,-0.28,-0.02,0.0,0.0,487,16,0.0,0.0,0,0,0,1,1,1,1,0,NO_PRIOR_T6_HISTORY; COST_UNDERRUN
+611937,Adraj Moti Vijapur 40 Kms,Ministry of Railways,Railways,Gujarat,Western Railway (WR) - II,2025-12,False,,,0,,2022-05,2022-05,2026-05,2025-12,2025-12,2025-12,417.53,417.53,513.61,,,96.08,23.01,96.08,23.01,-151,-5,0.0,0.0,1,1,1,0,0,0,0,0,NO_PRIOR_T6_HISTORY; COMPLETED_EARLY
+705300,Western Region Video Surveillance Project,Ministry of Railways,Railways,PAN India,RCIL,2025-12,False,,,0,,2020-06,2023-04,2023-12,2026-07,2026-01,2026-01,227.59,,0.0,,,-227.59,-100.0,,,762,25,-181.0,-6.0,0,0,0,1,1,1,1,1,NO_PRIOR_T6_HISTORY; ZERO_COMPLETION_COST; COST_UNDERRUN
+705779,"Phephna-Indara, Mau-Shahganj doubling excluding Indara-Mau",Ministry of Railways,Railways,Uttar Pradesh,RVNL - I,2025-12,False,,,0,,2017-05,2019-10,2024-12,2025-12,2025-12,2025-12,1178.0,2215.0,2217.85,,,1039.85,88.27,2.85,0.13,365,12,0.0,0.0,1,1,1,1,1,1,1,0,NO_PRIOR_T6_HISTORY
+705784,Janghai-Phaphamau Doubling Rail Line Project,"Completed Projects During Month
+DECEMBER 2025
+Actual Date of Completion
+Date of Approval (Orignal/Target DoC) Orignal Cost Cumulative
+Sl.No Project Name (Agency) (Project Code) State (Start Date) (Revised DoC) Revised Cost Expenditure
+MM/YYYY MM/YYYY in Rs. Crore in Rs. Crore
+Janghai-Phaphamau Doubling Rail Line Project 01/2025
+11/2018 357
+16 (RVNL) Uttar Pradesh (03/2025) 844.84
+(03/2020) (978.77)
+705784 (01/2025)
+Total (4) 2180.12 3576.3
+Ministry of Steel
+Steel
+Installation of 4th Slab Caster along with its Auxiliaries and a New Ladle Furnace
+NA
+in SMS-II at Rourkela Steel Plant 01/2022 1105.23
+17 Odisha (05/2025) 809.53
+(Steel Authority of India Limited [SAIL]) (02/2022) (-)
+(09/2025)
+400065
+Total (1) 1105.23 809.53
+Note: Cumulative Expenditure is as per last reporting by Central Line Ministries/ Departments on the IPM portal, this may not be the actual
+completion cost.",Railways,Uttar Pradesh,RVNL,2025-12,False,,,0,,2018-11,2020-03,2025-03,2025-01,2025-01,2025-01,357.0,978.77,844.84,,,487.84,136.65,-133.93,-13.68,-59,-2,0.0,0.0,1,1,1,0,0,0,0,0,NO_PRIOR_T6_HISTORY; COMPLETED_EARLY
+400065,Installation of 4th Slab Caster along with its Auxiliaries and a New Ladle Furnace in SMS-II at Rourkela Steel Plant,Ministry of Steel,Steel,Odisha,Steel Authority of India Limited [SAIL],2025-12,False,,,0,,2022-01,2022-02,2025-05,2025-09,,2025-12,1105.23,,809.53,,,-295.7,-26.75,,,214,7,91.0,3.0,0,0,0,1,1,1,0,0,NO_PRIOR_T6_HISTORY; IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH; COST_UNDERRUN
+400235,"Setting up a common user Petroleum Terminal at Jammu, J&K for resitement of existing PSU OMC's Depots from Jammu City",Ministry of Petroleum & Natural Gas,Energy Storage,Jammu and Kashmir,Bharat Petroleum Corporation Limited [BPCL],2026-01,True,2025-12,2025-12,1,1.0,2023-04,2023-04,2025-03,2026-01,2026-01,2026-01,676.89,715.89,587.36,576.69,91.0,-89.53,-13.23,-128.53,-17.95,306,10,0.0,0.0,0,0,0,1,1,1,0,0,COST_UNDERRUN
+611657,Transmission scheme for evacuation of 4.5GW RE injection at Khavda PS under Phase II- Part C,Ministry of Power,Transmission & Distribution,Gujarat,Power Grid Corporation of India Limited [POWERGRID],2026-01,True,2025-12,2025-12,1,1.0,2023-03,2023-03,2025-03,2026-01,2026-01,2026-01,2820.99,,2820.99,2783.19,98.0,0.0,0.0,,,306,10,0.0,0.0,1,0,0,1,1,1,0,0,CLEAN
+400234,Third Railway Line between Patratu-Sonnagar [291 kms],Ministry of Railways,Railways,"Multi-States (Bihar,
+Jharkhand)",RVNL - II,2026-01,True,2025-12,2025-12,1,1.0,2016-11,2018-08,2026-03,2026-07,2026-02,2026-02,8975.0,8975.0,5690.22,4798.96,90.0,-3284.78,-36.6,-3284.78,-36.6,-28,-1,-150.0,-5.0,0,0,0,0,0,0,0,0,COST_UNDERRUN; COMPLETED_EARLY
+702948,Jaunpur Sewerage Management Infrastructure Project,Ministry of Housing & Urban Affairs,Waste & Water,Uttar Pradesh,Ministry of Housing & Urban Affairs,2026-02,True,2025-12,2026-01,2,1.0,2017-03,2019-08,2023-06,2026-03,2026-03,2026-03,235.73,231.62,231.62,221.27,100.0,-4.11,-1.74,0.0,0.0,1004,33,0.0,0.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+709790,Replacement and Extension of Jetty Pipelines [REJP] at KR,Ministry of Petroleum & Natural Gas,Oil & Gas,Kerala,Bharat Petroleum Corporation Limited [BPCL],2026-02,True,2025-12,2026-01,2,1.0,2023-03,2023-03,2026-03,2026-02,2026-02,2026-02,621.87,372.0,220.0,220.0,95.0,-401.87,-64.62,-152.0,-40.86,-28,-1,0.0,0.0,0,0,0,0,0,0,0,0,COST_UNDERRUN; COMPLETED_EARLY
+709789,Installation of Independent De- Aromatized Solvents [DAS] production facilities at MR,Ministry of Petroleum & Natural Gas,Oil & Gas,Maharashtra,Bharat Petroleum Corporation Limited [BPCL],2026-02,True,2025-12,2026-01,2,1.0,2023-03,2023-03,2025-07,2026-02,2026-02,2026-02,405.0,343.0,254.56,250.41,98.0,-150.44,-37.15,-88.44,-25.78,215,7,0.0,0.0,0,0,0,1,1,1,0,0,COST_UNDERRUN
+400161,"PP Project, Pata",Ministry of Petroleum & Natural Gas,Oil & Gas,Uttar Pradesh,Gas Authority of India Limited [GAIL],2026-02,True,2025-12,2026-01,2,1.0,2019-03,2019-03,2024-01,2026-02,2026-02,2026-02,910.56,1299.02,1082.0,1073.0,99.0,171.44,18.83,-217.02,-16.71,762,25,0.0,0.0,1,1,0,1,1,1,1,1,CLEAN
+611950,Transmission system for evacuation of power from REZ in Rajasthan 20 GW under Phase-III part B1,Ministry of Power,Transmission & Distribution,Rajasthan,Power Grid Corporation of India Limited [POWERGRID],2026-02,True,2025-12,2026-01,2,1.0,2023-09,2023-09,2025-04,2026-02,2026-03,2026-03,2190.54,,2190.54,2139.44,99.0,0.0,0.0,,,334,11,28.0,1.0,1,0,0,1,1,1,0,0,CLEAN
+705789,Penukonda - Dharmavaram Doubling Project [41.5 Km],Ministry of Railways,Railways,Andhra Pradesh,South Western Railway [SWR] - II,2026-02,True,2025-12,2026-01,2,1.0,2018-06,2018-12,2026-03,2026-03,2026-02,2026-02,307.66,307.66,311.28,296.58,89.0,3.62,1.18,3.62,1.18,-28,-1,-28.0,-1.0,1,0,0,0,0,0,0,0,COMPLETED_EARLY
+611944,Quadrupling between Gandhidham Adipur with Y connection at Adipur for providing direct entry towards Mundra Port and Bhuj and high level platform at Gopalpur 11Kms,Ministry of Railways,Railways,Gujarat,Western Railway [WR] - II,2026-02,True,2025-12,2026-01,2,1.0,2023-02,2023-02,2026-03,2026-01,2026-02,2026-02,152.44,152.44,120.36,120.36,95.0,-32.08,-21.04,-32.08,-21.04,-28,-1,31.0,1.0,0,0,0,0,0,0,0,0,COST_UNDERRUN; COMPLETED_EARLY
+705635,Trivandrum- Kanyakumari,Ministry of Railways,Railways,"Multi-States (Kerala,
+Tamil Nadu)",Southern Railway [SR] - I,2026-02,True,2025-12,2026-01,2,1.0,2017-08,2016-03,2025-03,2026-12,2026-03,2026-03,1432.0,3785.45,2882.55,2851.29,52.0,1450.55,101.3,-902.9,-23.85,365,12,-275.0,-9.0,1,1,1,1,1,1,1,0,CLEAN
+618424,Construction of 2-Laning with hard shoulders of Hayuliang Hawai bypass Road on EPC basis from design Km. 51.825 to Km. 63.131 Existing Km 45.050 of HayuliangHawai road to Hawai Town under SARDP-NE -Balance work Pkg - IV,Ministry of Road Transport & Highways,Roads & Highways,Arunachal Pradesh,NHIDCL,2026-02,True,2025-12,2026-01,2,1.0,2017-01,2021-05,2023-05,2026-07,,2026-02,256.66,216.76,0.0,0.0,93.0,-256.66,-100.0,-216.76,-100.0,1007,33,-150.0,-5.0,0,0,0,1,1,1,1,1,IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH; ZERO_COMPLETION_COST; COST_UNDERRUN
+701600,354 Uncovered Villages Scheme,Department of Telecommunications,Telecommunication,"Multi-States (Bihar,
+Gujarat, Himachal
+Pradesh, Jammu and
+Kashmir, Ladakh,
+Rajasthan, Uttar
+Pradesh)",Department of Telecommunications [DoT],2026-03,True,2025-12,2026-02,3,1.0,2019-12,2020-04,2021-10,2025-08,,2026-03,336.89,301.13,246.04,241.23,100.0,-90.85,-26.97,-55.09,-18.29,1612,53,212.0,7.0,0,0,0,1,1,1,1,1,IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH; COST_UNDERRUN
+702631,"Ahmedabad Metro Rail Project, Phase-II",Ministry of Housing & Urban Affairs,Urban Public Transport,Gujarat,Gujarat Metro Rail Corporation Limited [GMRCL],2026-03,True,2025-12,2026-02,3,1.0,2019-03,2019-03,2024-03,2025-12,,2026-03,5384.17,,5358.41,5019.61,100.0,-25.76,-0.48,,,730,24,90.0,3.0,0,0,0,1,1,1,1,1,IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH; COST_UNDERRUN
+702633,Delhi-Ghaziabad-Meerut Regional Rapid Transit System [RRTS] corridor,Ministry of Housing & Urban Affairs,Urban Public Transport,"Multi-States (Delhi, Uttar
+Pradesh)",National Capital Region Transport Corporation [NCRTC],2026-03,True,2025-12,2026-02,3,1.0,2019-03,2019-03,2025-06,2026-02,2026-02,2026-02,30274.0,30274.0,27950.13,27720.41,96.0,-2323.87,-7.68,-2323.87,-7.68,245,8,0.0,0.0,0,0,0,1,1,1,0,0,COST_UNDERRUN
+612185,C/o Construction of 200 bedded [Up-gradable to 300 bedded] ESI Hospital at Surat Gujarat.,Ministry of Labour and Employment,Healthcare,Gujarat,Employee's State Insurance Company [ESIC],2026-03,True,2025-12,2026-02,3,1.0,2019-06,2021-03,2025-06,2026-01,,2026-03,209.36,,202.62,202.62,100.0,-6.74,-3.22,,,273,9,59.0,2.0,0,0,0,1,1,1,0,0,IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH; COST_UNDERRUN
+616235,Construction of Aviation Fuel farm Facilities at Bhogapuram Airport,Ministry of Petroleum & Natural Gas,Energy Storage,Andhra Pradesh,Ministry of Petroleum & Natural Gas,2026-03,True,2025-12,2026-02,3,1.0,2024-08,2024-08,2026-03,2026-03,2026-03,2026-03,240.0,240.0,152.91,147.75,95.0,-87.09,-36.29,-87.09,-36.29,0,0,0.0,0.0,0,0,0,1,0,0,0,0,COST_UNDERRUN
+400077,"Grass root POL Terminal at Vallur, Chennai",Ministry of Petroleum & Natural Gas,Energy Storage,Tamil Nadu,Indian Oil Corporation Limited [IOCL],2026-03,True,2025-12,2026-02,3,1.0,2022-01,2022-01,2024-12,2026-03,2026-03,2026-03,827.0,887.71,661.1,647.01,93.0,-165.9,-20.06,-226.61,-25.53,455,15,0.0,0.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+709766,"City Gas Distribution Project at Kurnool, Guntur & Prakasam Districts",Ministry of Petroleum & Natural Gas,Oil & Gas,Andhra Pradesh,MinistryofPetroleumNaturalGas,2026-03,True,2025-12,2026-02,3,1.0,2022-03,2022-03,2030-03,2026-03,2026-03,2026-03,1420.0,1420.0,171.55,170.54,6.0,-1248.45,-87.92,-1248.45,-87.92,-1461,-48,0.0,0.0,0,0,0,0,0,0,0,0,COST_UNDERRUN; COMPLETED_EARLY
+709846,Part Replacement Pipeline Project [PRPP],Ministry of Petroleum & Natural Gas,Oil & Gas,Maharashtra,Oil and Natural Gas Corporation Limited [ONGC],2026-03,True,2025-12,2026-02,3,1.0,2022-11,2022-11,2024-05,2026-03,2026-03,2026-03,1219.48,1145.1,833.21,820.4,97.0,-386.27,-31.67,-311.89,-27.24,669,22,0.0,0.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+701350,Upgradation of Facilities of Numaligarh-Siliguri Product Pipeline [NSPL] for transportation of additional products from existing 1.72 MMTPA to 5.5 MMTPA,Ministry of Petroleum & Natural Gas,Oil & Gas,"Multi-States (Assam,
+West Bengal)",Ministry of Petroleum & Natural Gas,2026-03,True,2025-12,2026-02,3,1.0,2021-06,2021-06,2024-12,2026-03,2026-03,2026-03,860.0,750.0,639.43,636.92,99.0,-220.57,-25.65,-110.57,-14.74,455,15,0.0,0.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+701568,Construction of oil jetty No.8 at old kandla through internal resources,"Ministry of Ports, Shipping and Waterways",Shipping,Gujarat,Deendayal Port Trust [DPT],2026-03,True,2025-12,2026-02,3,1.0,2018-02,2021-02,2023-02,2024-07,2024-03,2024-03,100.0,225.85,186.47,186.47,90.0,86.47,86.47,-39.38,-17.44,394,13,-122.0,-4.0,1,1,1,1,1,1,1,0,CLEAN
+701576,Berth No. 2 [previously Berth 3] of HDC Mechanization Project,"Ministry of Ports, Shipping and Waterways",Shipping,West Bengal,"Haldia Dock Complex, Syama Prasad Mookerjee Port Authority",2026-03,True,2025-12,2026-02,3,1.0,2022-11,2023-03,2025-09,2026-01,2026-01,2026-01,298.26,298.26,480.0,480.0,100.0,181.74,60.93,181.74,60.93,122,4,0.0,0.0,1,1,1,1,1,0,0,0,CLEAN
+602193,Tehri Pumped Storage Plant Project [4x250 MW],Ministry of Power,Electricity Generation,Uttarakhand,THDC India Limited,2026-03,True,2025-12,2026-02,3,1.0,2006-07,2011-06,2022-06,2026-04,2026-04,2026-04,4825.6,8339.0,8267.03,8213.03,99.0,3441.43,71.32,-71.97,-0.86,1400,46,0.0,0.0,1,1,1,1,1,1,1,1,CLEAN
+612856,Augmentation of 1x1500 MVA 3rd 765/400 kV transformation capacity at Kurnool New Substation,Ministry of Power,Transmission & Distribution,Andhra Pradesh,Power Grid Corporation of India Limited [POWERGRID],2026-03,True,2025-12,2026-02,3,1.0,2023-05,2023-12,2025-09,2026-03,2026-03,2026-03,163.61,,163.61,145.61,91.0,0.0,0.0,,,181,6,0.0,0.0,1,0,0,1,1,1,0,0,CLEAN
+705651,Katni - Bina Third Railway Line [279 km],Ministry of Railways,Railways,Madhya Pradesh,West Central Railway WCR I,2026-03,True,2025-12,2026-02,3,1.0,2016-06,2017-01,2022-03,2026-02,2026-03,2026-03,2478.23,4127.23,3368.11,3368.11,100.0,889.88,35.91,-759.12,-18.39,1461,48,28.0,1.0,1,1,1,1,1,1,1,1,CLEAN
+705662,Hotgi-Kudgi-Gadag Doubling Project,Ministry of Railways,Railways,"Multi-States (Karnataka,
+Maharashtra)",South Western Railway [SWR] - II,2026-03,True,2025-12,2026-02,3,1.0,2014-04,2016-01,2024-12,2026-03,2026-03,2026-03,1878.0,2459.0,2771.29,2763.97,93.0,893.29,47.57,312.29,12.7,455,15,0.0,0.0,1,1,1,1,1,1,1,0,CLEAN
+618575,"6L Standalone Flyovers at Bongaigaon, Chapaguri, Pathsala, Simlaguri chowk and Baihata Bypass Junctions on stretches of NH-31 and NH-27",Ministry of Road Transport & Highways,Roads & Highways,Assam,National Highways Authority of India [NHAI],2026-03,True,2025-12,2026-02,3,1.0,2022-03,2023-01,2024-07,2026-02,,2026-03,457.72,412.15,371.63,371.63,100.0,-86.09,-18.81,-40.52,-9.83,608,20,28.0,1.0,0,0,0,1,1,1,1,0,IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH; COST_UNDERRUN
+618461,Delhi-Vadodara Greenfield Alignment NH-148N Pkg-30 Ch 803420 to Ch.824920 [Baletiya Village - Junction near Pratap Nagar Village],"Completed Projects During Month
+MARCH 2026
+Actual Date of Completion
+Date of Approval (Orignal/Target DoC) Orignal Cost Cumulative
+Sl.No Project Name (Agency) (Project Code) State (Start Date) (Revised DoC) Revised Cost Expenditure
+MM/YYYY MM/YYYY in Rs. Crore in Rs. Crore
+Delhi-Vadodara Greenfield Alignment NH-148N Pkg-30 Ch 803420 to Ch.824920
+NA
+[Baletiya Village - Junction near Pratap Nagar Village] 11/2019 1800.73
+17 Gujarat (09/2023) 1090.06
+(National Highways Authority of India [NHAI]) (09/2021) (1800.73)
+(01/2026)
+618461
+Construction of Tunnels/Viaducts at identified sliding/slip zones at Km 130.550 to
+Km.130.750 Km. 131.170 to Km. 131.763 Km. 132.560 to Km. 133.168 Km.
+NA
+133.590 to Km. 133.743 and Km. 147.877 to Km. 148.715 of Udhampur-Ramban 09/2021 442.14
+18 Jammu and Kashmir (10/2023) 458.86
+section of NH-44 (04/2022) (533.11)
+(12/2025)
+(National Highways Authority of India [NHAI])
+618546
+Stand-alone Ring road/bypass around Jammu City from Raya Morh km. -0.687 to
+NA
+Jagti km. 57.568 12/2017 2023.88
+19 Jammu and Kashmir (01/2021) 996.53
+(National Highways Authority of India [NHAI]) (01/2018) (2117.63)
+(01/2026)
+618548
+4L of Byrapura to Challakere Section from km 308.550 to km 358.500 of NH-150
+NA
+A 03/2018 796.77
+20 Karnataka (12/2020) 430.26
+(National Highways Authority of India [NHAI]) (12/2018) (1195.54)
+(03/2026)
+619115
+Bellary to Byrapura Section km 253.600 to km 308.550 of NH-150A NA
+Multi-States (Andhra 03/2018 1281.47
+21 (National Highways Authority of India [NHAI]) (10/2021) 553.21
+Pradesh, Karnataka) (10/2019) (1689.6)
+618696 (03/2026)
+4L of Nagina-Kashipur section from km. 73.00 to km. 175.00 of NH-74 NA
+Multi-States (Uttar 01/2015 2125.03
+22 (National Highways Authority of India [NHAI]) (04/2020) 496.78
+Pradesh, Uttarakhand) (10/2017) (2531.19)
+618876 (02/2026)
+6L of IT City Chowk to Kurali Chandigarh Road NA
+03/2021 1525.31
+23 (National Highways Authority of India [NHAI]) Punjab (10/2024) 1695.39
+(10/2022) (1936.54)
+618789 (12/2025)
+4L Rampur Bypass from Km. 181.000 to Km. 189.500 NA
+10/2021 364.47
+24 (National Highways Authority of India [NHAI]) Uttar Pradesh (04/2024) 272.05
+(10/2022) (307.95)
+618689 (03/2026)
+Total (9) 10817.52 6364.77
+Ministry of Steel
+Steel
+CONSTRUCTION OF RESIDENTIAL TOWERS AT BIOM KIRANDUL COMPLEX 03/2026
+07/2021 349.75
+25 (National Mineral Development Corporation Limited [NMDC]) Chhattisgarh (12/2025) 326.85
+(10/2022) (-)
+709827 (03/2026)
+Total (1) 349.75 326.85
+Note: Cumulative Expenditure is as per last reporting by Central Line Ministries/ Departments on the IPM portal, this may not be the actual
+completion cost.",Roads & Highways,Gujarat,National Highways Authority of India [NHAI],2026-03,True,2025-12,2026-02,3,1.0,2019-11,2021-09,2023-09,2026-01,,2026-03,1800.73,1800.73,1090.06,1090.06,99.0,-710.67,-39.47,-710.67,-39.47,912,30,59.0,2.0,0,0,0,1,1,1,1,1,IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH; COST_UNDERRUN
+618546,Construction of Tunnels/Viaducts at identified sliding/slip zones at Km 130.550 to Km.130.750 Km. 131.170 to Km. 131.763 Km. 132.560 to Km. 133.168 Km. 133.590 to Km. 133.743 and Km. 147.877 to Km. 148.715 of Udhampur-Ramban section of NH-44,"Completed Projects During Month
+MARCH 2026
+Actual Date of Completion
+Date of Approval (Orignal/Target DoC) Orignal Cost Cumulative
+Sl.No Project Name (Agency) (Project Code) State (Start Date) (Revised DoC) Revised Cost Expenditure
+MM/YYYY MM/YYYY in Rs. Crore in Rs. Crore
+Delhi-Vadodara Greenfield Alignment NH-148N Pkg-30 Ch 803420 to Ch.824920
+NA
+[Baletiya Village - Junction near Pratap Nagar Village] 11/2019 1800.73
+17 Gujarat (09/2023) 1090.06
+(National Highways Authority of India [NHAI]) (09/2021) (1800.73)
+(01/2026)
+618461
+Construction of Tunnels/Viaducts at identified sliding/slip zones at Km 130.550 to
+Km.130.750 Km. 131.170 to Km. 131.763 Km. 132.560 to Km. 133.168 Km.
+NA
+133.590 to Km. 133.743 and Km. 147.877 to Km. 148.715 of Udhampur-Ramban 09/2021 442.14
+18 Jammu and Kashmir (10/2023) 458.86
+section of NH-44 (04/2022) (533.11)
+(12/2025)
+(National Highways Authority of India [NHAI])
+618546
+Stand-alone Ring road/bypass around Jammu City from Raya Morh km. -0.687 to
+NA
+Jagti km. 57.568 12/2017 2023.88
+19 Jammu and Kashmir (01/2021) 996.53
+(National Highways Authority of India [NHAI]) (01/2018) (2117.63)
+(01/2026)
+618548
+4L of Byrapura to Challakere Section from km 308.550 to km 358.500 of NH-150
+NA
+A 03/2018 796.77
+20 Karnataka (12/2020) 430.26
+(National Highways Authority of India [NHAI]) (12/2018) (1195.54)
+(03/2026)
+619115
+Bellary to Byrapura Section km 253.600 to km 308.550 of NH-150A NA
+Multi-States (Andhra 03/2018 1281.47
+21 (National Highways Authority of India [NHAI]) (10/2021) 553.21
+Pradesh, Karnataka) (10/2019) (1689.6)
+618696 (03/2026)
+4L of Nagina-Kashipur section from km. 73.00 to km. 175.00 of NH-74 NA
+Multi-States (Uttar 01/2015 2125.03
+22 (National Highways Authority of India [NHAI]) (04/2020) 496.78
+Pradesh, Uttarakhand) (10/2017) (2531.19)
+618876 (02/2026)
+6L of IT City Chowk to Kurali Chandigarh Road NA
+03/2021 1525.31
+23 (National Highways Authority of India [NHAI]) Punjab (10/2024) 1695.39
+(10/2022) (1936.54)
+618789 (12/2025)
+4L Rampur Bypass from Km. 181.000 to Km. 189.500 NA
+10/2021 364.47
+24 (National Highways Authority of India [NHAI]) Uttar Pradesh (04/2024) 272.05
+(10/2022) (307.95)
+618689 (03/2026)
+Total (9) 10817.52 6364.77
+Ministry of Steel
+Steel
+CONSTRUCTION OF RESIDENTIAL TOWERS AT BIOM KIRANDUL COMPLEX 03/2026
+07/2021 349.75
+25 (National Mineral Development Corporation Limited [NMDC]) Chhattisgarh (12/2025) 326.85
+(10/2022) (-)
+709827 (03/2026)
+Total (1) 349.75 326.85
+Note: Cumulative Expenditure is as per last reporting by Central Line Ministries/ Departments on the IPM portal, this may not be the actual
+completion cost.",Roads & Highways,Jammu and Kashmir,National Highways Authority of India [NHAI],2026-03,True,2025-12,2026-02,3,1.0,2021-09,2022-04,2023-10,2025-12,,2026-03,442.14,533.11,458.86,324.74,36.0,16.72,3.78,-74.25,-13.93,882,29,90.0,3.0,1,0,0,1,1,1,1,1,IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH
+618548,Stand-alone Ring road/bypass around Jammu City from Raya Morh km. -0.687 to Jagti km. 57.568,"Completed Projects During Month
+MARCH 2026
+Actual Date of Completion
+Date of Approval (Orignal/Target DoC) Orignal Cost Cumulative
+Sl.No Project Name (Agency) (Project Code) State (Start Date) (Revised DoC) Revised Cost Expenditure
+MM/YYYY MM/YYYY in Rs. Crore in Rs. Crore
+Delhi-Vadodara Greenfield Alignment NH-148N Pkg-30 Ch 803420 to Ch.824920
+NA
+[Baletiya Village - Junction near Pratap Nagar Village] 11/2019 1800.73
+17 Gujarat (09/2023) 1090.06
+(National Highways Authority of India [NHAI]) (09/2021) (1800.73)
+(01/2026)
+618461
+Construction of Tunnels/Viaducts at identified sliding/slip zones at Km 130.550 to
+Km.130.750 Km. 131.170 to Km. 131.763 Km. 132.560 to Km. 133.168 Km.
+NA
+133.590 to Km. 133.743 and Km. 147.877 to Km. 148.715 of Udhampur-Ramban 09/2021 442.14
+18 Jammu and Kashmir (10/2023) 458.86
+section of NH-44 (04/2022) (533.11)
+(12/2025)
+(National Highways Authority of India [NHAI])
+618546
+Stand-alone Ring road/bypass around Jammu City from Raya Morh km. -0.687 to
+NA
+Jagti km. 57.568 12/2017 2023.88
+19 Jammu and Kashmir (01/2021) 996.53
+(National Highways Authority of India [NHAI]) (01/2018) (2117.63)
+(01/2026)
+618548
+4L of Byrapura to Challakere Section from km 308.550 to km 358.500 of NH-150
+NA
+A 03/2018 796.77
+20 Karnataka (12/2020) 430.26
+(National Highways Authority of India [NHAI]) (12/2018) (1195.54)
+(03/2026)
+619115
+Bellary to Byrapura Section km 253.600 to km 308.550 of NH-150A NA
+Multi-States (Andhra 03/2018 1281.47
+21 (National Highways Authority of India [NHAI]) (10/2021) 553.21
+Pradesh, Karnataka) (10/2019) (1689.6)
+618696 (03/2026)
+4L of Nagina-Kashipur section from km. 73.00 to km. 175.00 of NH-74 NA
+Multi-States (Uttar 01/2015 2125.03
+22 (National Highways Authority of India [NHAI]) (04/2020) 496.78
+Pradesh, Uttarakhand) (10/2017) (2531.19)
+618876 (02/2026)
+6L of IT City Chowk to Kurali Chandigarh Road NA
+03/2021 1525.31
+23 (National Highways Authority of India [NHAI]) Punjab (10/2024) 1695.39
+(10/2022) (1936.54)
+618789 (12/2025)
+4L Rampur Bypass from Km. 181.000 to Km. 189.500 NA
+10/2021 364.47
+24 (National Highways Authority of India [NHAI]) Uttar Pradesh (04/2024) 272.05
+(10/2022) (307.95)
+618689 (03/2026)
+Total (9) 10817.52 6364.77
+Ministry of Steel
+Steel
+CONSTRUCTION OF RESIDENTIAL TOWERS AT BIOM KIRANDUL COMPLEX 03/2026
+07/2021 349.75
+25 (National Mineral Development Corporation Limited [NMDC]) Chhattisgarh (12/2025) 326.85
+(10/2022) (-)
+709827 (03/2026)
+Total (1) 349.75 326.85
+Note: Cumulative Expenditure is as per last reporting by Central Line Ministries/ Departments on the IPM portal, this may not be the actual
+completion cost.",Roads & Highways,Jammu and Kashmir,National Highways Authority of India [NHAI],2026-03,True,2025-12,2026-02,3,1.0,2017-12,2018-01,2021-01,2026-01,,2026-03,2023.88,2117.63,996.53,54.24,99.0,-1027.35,-50.76,-1121.1,-52.94,1885,62,59.0,2.0,0,0,0,1,1,1,1,1,IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH; COST_UNDERRUN
+619115,4L of Byrapura to Challakere Section from km 308.550 to km 358.500 of NH-150 A,"Completed Projects During Month
+MARCH 2026
+Actual Date of Completion
+Date of Approval (Orignal/Target DoC) Orignal Cost Cumulative
+Sl.No Project Name (Agency) (Project Code) State (Start Date) (Revised DoC) Revised Cost Expenditure
+MM/YYYY MM/YYYY in Rs. Crore in Rs. Crore
+Delhi-Vadodara Greenfield Alignment NH-148N Pkg-30 Ch 803420 to Ch.824920
+NA
+[Baletiya Village - Junction near Pratap Nagar Village] 11/2019 1800.73
+17 Gujarat (09/2023) 1090.06
+(National Highways Authority of India [NHAI]) (09/2021) (1800.73)
+(01/2026)
+618461
+Construction of Tunnels/Viaducts at identified sliding/slip zones at Km 130.550 to
+Km.130.750 Km. 131.170 to Km. 131.763 Km. 132.560 to Km. 133.168 Km.
+NA
+133.590 to Km. 133.743 and Km. 147.877 to Km. 148.715 of Udhampur-Ramban 09/2021 442.14
+18 Jammu and Kashmir (10/2023) 458.86
+section of NH-44 (04/2022) (533.11)
+(12/2025)
+(National Highways Authority of India [NHAI])
+618546
+Stand-alone Ring road/bypass around Jammu City from Raya Morh km. -0.687 to
+NA
+Jagti km. 57.568 12/2017 2023.88
+19 Jammu and Kashmir (01/2021) 996.53
+(National Highways Authority of India [NHAI]) (01/2018) (2117.63)
+(01/2026)
+618548
+4L of Byrapura to Challakere Section from km 308.550 to km 358.500 of NH-150
+NA
+A 03/2018 796.77
+20 Karnataka (12/2020) 430.26
+(National Highways Authority of India [NHAI]) (12/2018) (1195.54)
+(03/2026)
+619115
+Bellary to Byrapura Section km 253.600 to km 308.550 of NH-150A NA
+Multi-States (Andhra 03/2018 1281.47
+21 (National Highways Authority of India [NHAI]) (10/2021) 553.21
+Pradesh, Karnataka) (10/2019) (1689.6)
+618696 (03/2026)
+4L of Nagina-Kashipur section from km. 73.00 to km. 175.00 of NH-74 NA
+Multi-States (Uttar 01/2015 2125.03
+22 (National Highways Authority of India [NHAI]) (04/2020) 496.78
+Pradesh, Uttarakhand) (10/2017) (2531.19)
+618876 (02/2026)
+6L of IT City Chowk to Kurali Chandigarh Road NA
+03/2021 1525.31
+23 (National Highways Authority of India [NHAI]) Punjab (10/2024) 1695.39
+(10/2022) (1936.54)
+618789 (12/2025)
+4L Rampur Bypass from Km. 181.000 to Km. 189.500 NA
+10/2021 364.47
+24 (National Highways Authority of India [NHAI]) Uttar Pradesh (04/2024) 272.05
+(10/2022) (307.95)
+618689 (03/2026)
+Total (9) 10817.52 6364.77
+Ministry of Steel
+Steel
+CONSTRUCTION OF RESIDENTIAL TOWERS AT BIOM KIRANDUL COMPLEX 03/2026
+07/2021 349.75
+25 (National Mineral Development Corporation Limited [NMDC]) Chhattisgarh (12/2025) 326.85
+(10/2022) (-)
+709827 (03/2026)
+Total (1) 349.75 326.85
+Note: Cumulative Expenditure is as per last reporting by Central Line Ministries/ Departments on the IPM portal, this may not be the actual
+completion cost.",Roads & Highways,Karnataka,National Highways Authority of India [NHAI],2026-03,True,2026-01,2026-02,2,1.0,2018-03,2018-12,2020-12,2026-03,,2026-03,796.77,1195.54,430.26,201.53,100.0,-366.51,-46.0,-765.28,-64.01,1916,63,0.0,0.0,0,0,0,1,1,1,1,1,IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH; COST_UNDERRUN
+618696,Bellary to Byrapura Section km 253.600 to km 308.550 of NH-150A,"Completed Projects During Month
+MARCH 2026
+Actual Date of Completion
+Date of Approval (Orignal/Target DoC) Orignal Cost Cumulative
+Sl.No Project Name (Agency) (Project Code) State (Start Date) (Revised DoC) Revised Cost Expenditure
+MM/YYYY MM/YYYY in Rs. Crore in Rs. Crore
+Delhi-Vadodara Greenfield Alignment NH-148N Pkg-30 Ch 803420 to Ch.824920
+NA
+[Baletiya Village - Junction near Pratap Nagar Village] 11/2019 1800.73
+17 Gujarat (09/2023) 1090.06
+(National Highways Authority of India [NHAI]) (09/2021) (1800.73)
+(01/2026)
+618461
+Construction of Tunnels/Viaducts at identified sliding/slip zones at Km 130.550 to
+Km.130.750 Km. 131.170 to Km. 131.763 Km. 132.560 to Km. 133.168 Km.
+NA
+133.590 to Km. 133.743 and Km. 147.877 to Km. 148.715 of Udhampur-Ramban 09/2021 442.14
+18 Jammu and Kashmir (10/2023) 458.86
+section of NH-44 (04/2022) (533.11)
+(12/2025)
+(National Highways Authority of India [NHAI])
+618546
+Stand-alone Ring road/bypass around Jammu City from Raya Morh km. -0.687 to
+NA
+Jagti km. 57.568 12/2017 2023.88
+19 Jammu and Kashmir (01/2021) 996.53
+(National Highways Authority of India [NHAI]) (01/2018) (2117.63)
+(01/2026)
+618548
+4L of Byrapura to Challakere Section from km 308.550 to km 358.500 of NH-150
+NA
+A 03/2018 796.77
+20 Karnataka (12/2020) 430.26
+(National Highways Authority of India [NHAI]) (12/2018) (1195.54)
+(03/2026)
+619115
+Bellary to Byrapura Section km 253.600 to km 308.550 of NH-150A NA
+Multi-States (Andhra 03/2018 1281.47
+21 (National Highways Authority of India [NHAI]) (10/2021) 553.21
+Pradesh, Karnataka) (10/2019) (1689.6)
+618696 (03/2026)
+4L of Nagina-Kashipur section from km. 73.00 to km. 175.00 of NH-74 NA
+Multi-States (Uttar 01/2015 2125.03
+22 (National Highways Authority of India [NHAI]) (04/2020) 496.78
+Pradesh, Uttarakhand) (10/2017) (2531.19)
+618876 (02/2026)
+6L of IT City Chowk to Kurali Chandigarh Road NA
+03/2021 1525.31
+23 (National Highways Authority of India [NHAI]) Punjab (10/2024) 1695.39
+(10/2022) (1936.54)
+618789 (12/2025)
+4L Rampur Bypass from Km. 181.000 to Km. 189.500 NA
+10/2021 364.47
+24 (National Highways Authority of India [NHAI]) Uttar Pradesh (04/2024) 272.05
+(10/2022) (307.95)
+618689 (03/2026)
+Total (9) 10817.52 6364.77
+Ministry of Steel
+Steel
+CONSTRUCTION OF RESIDENTIAL TOWERS AT BIOM KIRANDUL COMPLEX 03/2026
+07/2021 349.75
+25 (National Mineral Development Corporation Limited [NMDC]) Chhattisgarh (12/2025) 326.85
+(10/2022) (-)
+709827 (03/2026)
+Total (1) 349.75 326.85
+Note: Cumulative Expenditure is as per last reporting by Central Line Ministries/ Departments on the IPM portal, this may not be the actual
+completion cost.",Roads & Highways,"Multi-States (Andhra
+Pradesh, Karnataka)",National Highways Authority of India [NHAI],2026-03,True,2026-02,2026-02,1,1.0,2018-03,2019-10,2021-10,2026-03,,2026-03,1281.47,1689.6,553.21,349.37,100.0,-728.26,-56.83,-1136.39,-67.26,1612,53,0.0,0.0,0,0,0,1,1,1,1,1,IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH; COST_UNDERRUN
+618876,4L of Nagina-Kashipur section from km. 73.00 to km. 175.00 of NH-74,"Completed Projects During Month
+MARCH 2026
+Actual Date of Completion
+Date of Approval (Orignal/Target DoC) Orignal Cost Cumulative
+Sl.No Project Name (Agency) (Project Code) State (Start Date) (Revised DoC) Revised Cost Expenditure
+MM/YYYY MM/YYYY in Rs. Crore in Rs. Crore
+Delhi-Vadodara Greenfield Alignment NH-148N Pkg-30 Ch 803420 to Ch.824920
+NA
+[Baletiya Village - Junction near Pratap Nagar Village] 11/2019 1800.73
+17 Gujarat (09/2023) 1090.06
+(National Highways Authority of India [NHAI]) (09/2021) (1800.73)
+(01/2026)
+618461
+Construction of Tunnels/Viaducts at identified sliding/slip zones at Km 130.550 to
+Km.130.750 Km. 131.170 to Km. 131.763 Km. 132.560 to Km. 133.168 Km.
+NA
+133.590 to Km. 133.743 and Km. 147.877 to Km. 148.715 of Udhampur-Ramban 09/2021 442.14
+18 Jammu and Kashmir (10/2023) 458.86
+section of NH-44 (04/2022) (533.11)
+(12/2025)
+(National Highways Authority of India [NHAI])
+618546
+Stand-alone Ring road/bypass around Jammu City from Raya Morh km. -0.687 to
+NA
+Jagti km. 57.568 12/2017 2023.88
+19 Jammu and Kashmir (01/2021) 996.53
+(National Highways Authority of India [NHAI]) (01/2018) (2117.63)
+(01/2026)
+618548
+4L of Byrapura to Challakere Section from km 308.550 to km 358.500 of NH-150
+NA
+A 03/2018 796.77
+20 Karnataka (12/2020) 430.26
+(National Highways Authority of India [NHAI]) (12/2018) (1195.54)
+(03/2026)
+619115
+Bellary to Byrapura Section km 253.600 to km 308.550 of NH-150A NA
+Multi-States (Andhra 03/2018 1281.47
+21 (National Highways Authority of India [NHAI]) (10/2021) 553.21
+Pradesh, Karnataka) (10/2019) (1689.6)
+618696 (03/2026)
+4L of Nagina-Kashipur section from km. 73.00 to km. 175.00 of NH-74 NA
+Multi-States (Uttar 01/2015 2125.03
+22 (National Highways Authority of India [NHAI]) (04/2020) 496.78
+Pradesh, Uttarakhand) (10/2017) (2531.19)
+618876 (02/2026)
+6L of IT City Chowk to Kurali Chandigarh Road NA
+03/2021 1525.31
+23 (National Highways Authority of India [NHAI]) Punjab (10/2024) 1695.39
+(10/2022) (1936.54)
+618789 (12/2025)
+4L Rampur Bypass from Km. 181.000 to Km. 189.500 NA
+10/2021 364.47
+24 (National Highways Authority of India [NHAI]) Uttar Pradesh (04/2024) 272.05
+(10/2022) (307.95)
+618689 (03/2026)
+Total (9) 10817.52 6364.77
+Ministry of Steel
+Steel
+CONSTRUCTION OF RESIDENTIAL TOWERS AT BIOM KIRANDUL COMPLEX 03/2026
+07/2021 349.75
+25 (National Mineral Development Corporation Limited [NMDC]) Chhattisgarh (12/2025) 326.85
+(10/2022) (-)
+709827 (03/2026)
+Total (1) 349.75 326.85
+Note: Cumulative Expenditure is as per last reporting by Central Line Ministries/ Departments on the IPM portal, this may not be the actual
+completion cost.",Roads & Highways,"Multi-States (Uttar
+Pradesh, Uttarakhand)",National Highways Authority of India [NHAI],2026-03,True,2026-02,2026-02,1,1.0,2015-01,2017-10,2020-04,2026-02,,2026-03,2125.03,2531.19,496.78,354.2,98.0,-1628.25,-76.62,-2034.41,-80.37,2160,71,28.0,1.0,0,0,0,1,1,1,1,1,IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH; COST_UNDERRUN
+618789,6L of IT City Chowk to Kurali Chandigarh Road,"Completed Projects During Month
+MARCH 2026
+Actual Date of Completion
+Date of Approval (Orignal/Target DoC) Orignal Cost Cumulative
+Sl.No Project Name (Agency) (Project Code) State (Start Date) (Revised DoC) Revised Cost Expenditure
+MM/YYYY MM/YYYY in Rs. Crore in Rs. Crore
+Delhi-Vadodara Greenfield Alignment NH-148N Pkg-30 Ch 803420 to Ch.824920
+NA
+[Baletiya Village - Junction near Pratap Nagar Village] 11/2019 1800.73
+17 Gujarat (09/2023) 1090.06
+(National Highways Authority of India [NHAI]) (09/2021) (1800.73)
+(01/2026)
+618461
+Construction of Tunnels/Viaducts at identified sliding/slip zones at Km 130.550 to
+Km.130.750 Km. 131.170 to Km. 131.763 Km. 132.560 to Km. 133.168 Km.
+NA
+133.590 to Km. 133.743 and Km. 147.877 to Km. 148.715 of Udhampur-Ramban 09/2021 442.14
+18 Jammu and Kashmir (10/2023) 458.86
+section of NH-44 (04/2022) (533.11)
+(12/2025)
+(National Highways Authority of India [NHAI])
+618546
+Stand-alone Ring road/bypass around Jammu City from Raya Morh km. -0.687 to
+NA
+Jagti km. 57.568 12/2017 2023.88
+19 Jammu and Kashmir (01/2021) 996.53
+(National Highways Authority of India [NHAI]) (01/2018) (2117.63)
+(01/2026)
+618548
+4L of Byrapura to Challakere Section from km 308.550 to km 358.500 of NH-150
+NA
+A 03/2018 796.77
+20 Karnataka (12/2020) 430.26
+(National Highways Authority of India [NHAI]) (12/2018) (1195.54)
+(03/2026)
+619115
+Bellary to Byrapura Section km 253.600 to km 308.550 of NH-150A NA
+Multi-States (Andhra 03/2018 1281.47
+21 (National Highways Authority of India [NHAI]) (10/2021) 553.21
+Pradesh, Karnataka) (10/2019) (1689.6)
+618696 (03/2026)
+4L of Nagina-Kashipur section from km. 73.00 to km. 175.00 of NH-74 NA
+Multi-States (Uttar 01/2015 2125.03
+22 (National Highways Authority of India [NHAI]) (04/2020) 496.78
+Pradesh, Uttarakhand) (10/2017) (2531.19)
+618876 (02/2026)
+6L of IT City Chowk to Kurali Chandigarh Road NA
+03/2021 1525.31
+23 (National Highways Authority of India [NHAI]) Punjab (10/2024) 1695.39
+(10/2022) (1936.54)
+618789 (12/2025)
+4L Rampur Bypass from Km. 181.000 to Km. 189.500 NA
+10/2021 364.47
+24 (National Highways Authority of India [NHAI]) Uttar Pradesh (04/2024) 272.05
+(10/2022) (307.95)
+618689 (03/2026)
+Total (9) 10817.52 6364.77
+Ministry of Steel
+Steel
+CONSTRUCTION OF RESIDENTIAL TOWERS AT BIOM KIRANDUL COMPLEX 03/2026
+07/2021 349.75
+25 (National Mineral Development Corporation Limited [NMDC]) Chhattisgarh (12/2025) 326.85
+(10/2022) (-)
+709827 (03/2026)
+Total (1) 349.75 326.85
+Note: Cumulative Expenditure is as per last reporting by Central Line Ministries/ Departments on the IPM portal, this may not be the actual
+completion cost.",Roads & Highways,Punjab,National Highways Authority of India [NHAI],2026-03,True,2025-12,2026-02,3,1.0,2021-03,2022-10,2024-10,2025-12,,2026-03,1525.31,1936.54,1695.39,1689.83,98.0,170.08,11.15,-241.15,-12.45,516,17,90.0,3.0,1,1,0,1,1,1,1,0,IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH
+618689,4L Rampur Bypass from Km. 181.000 to Km. 189.500,"Completed Projects During Month
+MARCH 2026
+Actual Date of Completion
+Date of Approval (Orignal/Target DoC) Orignal Cost Cumulative
+Sl.No Project Name (Agency) (Project Code) State (Start Date) (Revised DoC) Revised Cost Expenditure
+MM/YYYY MM/YYYY in Rs. Crore in Rs. Crore
+Delhi-Vadodara Greenfield Alignment NH-148N Pkg-30 Ch 803420 to Ch.824920
+NA
+[Baletiya Village - Junction near Pratap Nagar Village] 11/2019 1800.73
+17 Gujarat (09/2023) 1090.06
+(National Highways Authority of India [NHAI]) (09/2021) (1800.73)
+(01/2026)
+618461
+Construction of Tunnels/Viaducts at identified sliding/slip zones at Km 130.550 to
+Km.130.750 Km. 131.170 to Km. 131.763 Km. 132.560 to Km. 133.168 Km.
+NA
+133.590 to Km. 133.743 and Km. 147.877 to Km. 148.715 of Udhampur-Ramban 09/2021 442.14
+18 Jammu and Kashmir (10/2023) 458.86
+section of NH-44 (04/2022) (533.11)
+(12/2025)
+(National Highways Authority of India [NHAI])
+618546
+Stand-alone Ring road/bypass around Jammu City from Raya Morh km. -0.687 to
+NA
+Jagti km. 57.568 12/2017 2023.88
+19 Jammu and Kashmir (01/2021) 996.53
+(National Highways Authority of India [NHAI]) (01/2018) (2117.63)
+(01/2026)
+618548
+4L of Byrapura to Challakere Section from km 308.550 to km 358.500 of NH-150
+NA
+A 03/2018 796.77
+20 Karnataka (12/2020) 430.26
+(National Highways Authority of India [NHAI]) (12/2018) (1195.54)
+(03/2026)
+619115
+Bellary to Byrapura Section km 253.600 to km 308.550 of NH-150A NA
+Multi-States (Andhra 03/2018 1281.47
+21 (National Highways Authority of India [NHAI]) (10/2021) 553.21
+Pradesh, Karnataka) (10/2019) (1689.6)
+618696 (03/2026)
+4L of Nagina-Kashipur section from km. 73.00 to km. 175.00 of NH-74 NA
+Multi-States (Uttar 01/2015 2125.03
+22 (National Highways Authority of India [NHAI]) (04/2020) 496.78
+Pradesh, Uttarakhand) (10/2017) (2531.19)
+618876 (02/2026)
+6L of IT City Chowk to Kurali Chandigarh Road NA
+03/2021 1525.31
+23 (National Highways Authority of India [NHAI]) Punjab (10/2024) 1695.39
+(10/2022) (1936.54)
+618789 (12/2025)
+4L Rampur Bypass from Km. 181.000 to Km. 189.500 NA
+10/2021 364.47
+24 (National Highways Authority of India [NHAI]) Uttar Pradesh (04/2024) 272.05
+(10/2022) (307.95)
+618689 (03/2026)
+Total (9) 10817.52 6364.77
+Ministry of Steel
+Steel
+CONSTRUCTION OF RESIDENTIAL TOWERS AT BIOM KIRANDUL COMPLEX 03/2026
+07/2021 349.75
+25 (National Mineral Development Corporation Limited [NMDC]) Chhattisgarh (12/2025) 326.85
+(10/2022) (-)
+709827 (03/2026)
+Total (1) 349.75 326.85
+Note: Cumulative Expenditure is as per last reporting by Central Line Ministries/ Departments on the IPM portal, this may not be the actual
+completion cost.",Roads & Highways,Uttar Pradesh,National Highways Authority of India [NHAI],2026-03,True,2025-12,2026-02,3,1.0,2021-10,2022-10,2024-04,2026-03,,2026-03,364.47,307.95,272.05,272.05,99.0,-92.42,-25.36,-35.9,-11.66,699,23,0.0,0.0,0,0,0,1,1,1,1,0,IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH; COST_UNDERRUN
+709827,CONSTRUCTION OF RESIDENTIAL TOWERS AT BIOM KIRANDUL COMPLEX,Ministry of Steel,Steel,Chhattisgarh,National Mineral Development Corporation Limited [NMDC],2026-03,True,2025-12,2026-02,3,1.0,2021-07,2022-10,2025-12,2026-03,2026-03,2026-03,349.75,,326.85,326.85,100.0,-22.9,-6.55,,,90,3,0.0,0.0,0,0,0,1,1,0,0,0,COST_UNDERRUN
+707267,Upgradation of Sewerage system in Gandhinagar City,Ministry of Housing & Urban Affairs,Waste & Water,Gujarat,ministry of housing and urban affairs,2026-04,True,2025-12,2026-03,4,1.0,2020-07,2021-03,2023-06,,2026-03,2026-03,200.0,,100.0,100.0,10.0,-100.0,-50.0,,,1004,33,,,0,0,0,1,1,1,1,1,COST_UNDERRUN
+702735,Sewerage Management Scheme Part-3 Implementation,Ministry of Housing & Urban Affairs,Waste & Water,Haryana,Ministry of Housing & Urban Affairs,2026-04,True,2025-12,2026-03,4,1.0,2017-03,2018-10,2023-03,2026-04,2026-04,2026-04,213.19,,180.32,180.32,100.0,-32.87,-15.42,,,1127,37,0.0,0.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+702764,24/7 water supply under AMRUT for Davanagere,Ministry of Housing & Urban Affairs,Waste & Water,Karnataka,Ministry of Housing & Urban Affairs,2026-04,True,2025-12,2026-03,4,1.0,2016-11,2018-01,2023-03,2026-05,2026-05,2026-05,174.96,,171.6,103.73,65.0,-3.36,-1.92,,,1157,38,0.0,0.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+702798,Jabalpur Sewerage Management and Treatment Infrastructure Project,Ministry of Housing & Urban Affairs,Waste & Water,Madhya Pradesh,Ministry of Housing & Urban Affairs,2026-04,True,2025-12,2026-03,4,1.0,2018-10,2017-12,2023-03,2026-04,2026-04,2026-04,362.31,,332.05,332.05,100.0,-30.26,-8.35,,,1127,37,0.0,0.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+612178,"Construction of 100 Bedded ESIC Hospital building and 32 Nos Residential Quarters at Vallam Vadangal, SIPCOT, Sriperumbudur",Ministry of Labour and Employment,Healthcare,Tamil Nadu,Employee's State Insurance Company [ESIC],2026-04,True,2025-12,2026-03,4,1.0,2015-02,2023-03,2025-06,2026-05,2026-05,2026-05,152.95,177.01,130.22,127.22,100.0,-22.73,-14.86,-46.79,-26.43,334,11,0.0,0.0,0,0,0,1,1,1,0,0,COST_UNDERRUN
+612151,Transmission System for Evacuation of Power from potential Renewable Energy zone in Khavda Area of Gujarat under Phase IV [7 GW] Part E3,Ministry of Power,Transmission & Distribution,Gujarat,Power Grid Corporation of India Limited [POWERGRID],2026-04,True,2025-12,2026-03,4,1.0,2023-07,2023-07,2025-07,2026-04,2026-04,2026-04,334.0,,334.0,327.32,99.6,0.0,0.0,,,274,9,0.0,0.0,1,0,0,1,1,1,0,0,CLEAN
+611951,Transmission system for evacuation of power from REZ in Rajasthan 20GW under Phase-III Part E1,Ministry of Power,Transmission & Distribution,Rajasthan,Power Grid Corporation of India Limited [POWERGRID],2026-04,True,2025-12,2026-03,4,1.0,2021-12,2023-08,2025-02,2026-04,2026-04,2026-04,688.74,,688.74,686.67,99.7,0.0,0.0,,,424,14,0.0,0.0,1,0,0,1,1,1,1,0,CLEAN
+705503,Pune - Miraj-Londa [467 Kilometres],Ministry of Railways,Railways,Maharashtra,Central Railway,2026-04,True,2025-12,2026-03,4,1.0,2016-06,2016-06,2025-02,2025-08,,2026-04,4027.53,4872.52,4924.05,5248.72,100.0,896.52,22.26,51.53,1.06,424,14,243.0,8.0,1,1,1,1,1,1,1,0,IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH
+618555,"Flyover at Km.544.650 including ROB, Service Roads ,Footpath for RCC drains on urban link to Nagpur -Raipur road Pardi octroi Naka to Itwari",Ministry of Road Transport & Highways,Roads & Highways,Maharashtra,National Highways Authority of India [NHAI],2026-04,True,2025-12,2026-03,4,1.0,2015-12,2016-03,2019-03,2026-04,,2026-04,1097.81,758.4,316.23,308.61,97.77,-781.58,-71.19,-442.17,-58.3,2588,85,0.0,0.0,0,0,0,1,1,1,1,1,IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH; COST_UNDERRUN
+612819,300 MW SPP part of 510 MW CPSU scheme,Ministry of Coal,Electricity Generation,Rajasthan,NLC India Limited [NLCIL],2026-05,True,2025-12,2026-04,5,1.0,2022-07,2023-03,2024-09,2026-01,2026-01,2026-01,1813.0,1813.0,1753.07,1753.07,100.0,-59.93,-3.31,-59.93,-3.31,487,16,0.0,0.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+615327,50 MW Solar PP Minedout Area,Ministry of Coal,Electricity Generation,Tamil Nadu,NLC India Limited [NLCIL],2026-05,True,2025-12,2026-04,5,1.0,2023-08,2024-02,2025-03,2026-01,2026-01,2026-01,218.03,,170.13,169.95,100.0,-47.9,-21.97,,,306,10,0.0,0.0,0,0,0,1,1,1,0,0,COST_UNDERRUN
+400259,Ghatampur Thermal Power Plant 3 X 660 MW,Ministry of Coal,Electricity Generation,Uttar Pradesh,NLC India Limited [NLCIL],2026-05,True,2025-12,2026-04,5,1.0,2016-07,2016-08,2020-11,2026-06,2026-06,2026-06,17237.8,21780.9,21287.24,21237.52,95.68,4049.44,23.49,-493.66,-2.27,2038,67,0.0,0.0,1,1,1,1,1,1,1,1,CLEAN
+702639,Ahmedabad Metro Rail Project [Phase-I],Ministry of Housing & Urban Affairs,Urban Public Transport,Gujarat,Gujarat Metro Rail Corporation Limited [GMRCL],2026-05,True,2025-12,2026-04,5,1.0,2014-11,2015-02,2018-03,2026-05,2026-05,2026-05,10773.0,12924.5,12521.43,12520.65,99.99,1748.43,16.23,-403.07,-3.12,2983,98,0.0,0.0,1,1,0,1,1,1,1,1,CLEAN
+702840,Mira-Bhayandar Water Supply Infrastructure Project,Ministry of Housing & Urban Affairs,Waste & Water,Maharashtra,Ministry of Housing & Urban Affairs,2026-05,True,2025-12,2026-04,5,1.0,2016-11,2018-08,2023-03,2026-06,2026-06,2026-06,204.55,,193.2,186.13,99.0,-11.35,-5.55,,,1188,39,0.0,0.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+702854,Solapur Sewerage Management Infrastructure Project,Ministry of Housing & Urban Affairs,Waste & Water,Maharashtra,Ministry of Housing & Urban Affairs,2026-05,True,2025-12,2026-04,5,1.0,2017-03,2018-04,2023-03,2026-06,2026-06,2026-06,180.24,,172.22,172.22,98.0,-8.02,-4.45,,,1188,39,0.0,0.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+612201,"Construction of 200 bedded ESIC Hospital with 62 Nos Staff quarters , Beltola",Ministry of Labour and Employment,Healthcare,Assam,Employee's State Insurance Company [ESIC],2026-05,True,2025-12,2026-04,5,1.0,2017-12,2021-10,2025-04,2026-06,2026-05,2026-05,143.23,154.75,130.08,130.08,98.0,-13.15,-9.18,-24.67,-15.94,395,13,-31.0,-1.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+612188,"Construction of 200 Bedded [Upgradable to 500 Bedded including 50 beds of SST] ESIC Hospital at Bibewadi, Pune",Ministry of Labour and Employment,Healthcare,Maharashtra,Employee's State Insurance Company [ESIC],2026-05,True,2025-12,2026-04,5,1.0,2018-05,2023-03,2025-09,2026-08,,2026-05,429.25,,341.9,341.9,78.0,-87.35,-20.35,,,242,8,-92.0,-3.0,0,0,0,1,1,1,0,0,IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH; COST_UNDERRUN
+607701,"Guwahati Refinery Expansion [1.0 to 1.2 MMTPA] along with installation of CRU, Guwahati Refinery",Ministry of Petroleum & Natural Gas,Oil & Gas,Assam,Ministry of Petroleum & Natural Gas,2026-05,True,2025-12,2026-04,5,1.0,2021-05,2021-05,2023-10,2026-05,2026-05,2026-05,412.3,577.0,487.31,457.64,94.9,75.01,18.19,-89.69,-15.54,943,31,0.0,0.0,1,1,0,1,1,1,1,1,CLEAN
+709757,"CGD Project in Banka, Dumka, Godda, Jamtara, Pakur, Sahibganj GA ID 11A.02",Ministry of Petroleum & Natural Gas,Oil & Gas,"Multi-States (Bihar,
+Jharkhand)",Hindustan Petroleum Corporation Limited,2026-05,True,2025-12,2026-04,5,1.0,2022-06,2022-06,2030-06,2026-05,2026-05,2026-05,1377.0,1377.0,377.51,375.17,37.0,-999.49,-72.58,-999.49,-72.58,-1492,-49,0.0,0.0,0,0,0,0,0,0,0,0,COST_UNDERRUN; COMPLETED_EARLY
+701354,Mumbai Nagpur Jharsuguda Pipeline Project,Ministry of Petroleum & Natural Gas,Oil & Gas,"Multi-States
+(Chhattisgarh, Madhya
+Pradesh, Maharashtra,
+Odisha)",Ministry of Petroleum & Natural Gas,2026-05,True,2025-12,2026-04,5,1.0,2020-06,2020-06,2023-05,2026-06,2026-05,2026-05,7844.25,8255.0,7109.3,7070.1,98.9,-734.95,-9.37,-1145.7,-13.88,1096,36,-31.0,-1.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+709758,"CGD Project in Malda, Birbhum, Murshidabad, Dakshin Dinajpur GA ID 11A.03",Ministry of Petroleum & Natural Gas,Oil & Gas,West Bengal,Hindustan Petroleum Corporation Limited,2026-05,True,2025-12,2026-04,5,1.0,2022-06,2022-06,2030-06,2026-05,2026-05,2026-05,2628.0,2628.0,390.91,388.06,36.3,-2237.09,-85.13,-2237.09,-85.13,-1492,-49,0.0,0.0,0,0,0,0,0,0,0,0,COST_UNDERRUN; COMPLETED_EARLY
+400005,Transmission Network Expansion in Gujarat to increase its ATC from ISTS Part B,Ministry of Power,Transmission & Distribution,"Multi-States (Dadra &
+Nagar Haveli and
+Daman & Diu, Gujarat,
+Maharashtra)",Power Grid Corporation of India Limited [POWERGRID],2026-05,True,2025-12,2026-04,5,1.0,2022-01,2022-07,2023-06,2026-05,2026-05,2026-05,4546.26,,4546.26,4528.07,99.9,0.0,0.0,,,1065,35,0.0,0.0,1,0,0,1,1,1,1,1,CLEAN
+611947,Transmission System for Evacuation of Power from REZ in Rajasthan 20GW under Phase III- Part E2,Ministry of Power,Transmission & Distribution,Rajasthan,Power Grid Corporation of India Limited [POWERGRID],2026-05,True,2025-12,2026-04,5,1.0,2023-11,2023-11,2025-06,2026-06,2026-05,2026-05,428.3,,428.3,415.45,98.4,0.0,0.0,,,334,11,-31.0,-1.0,1,0,0,1,1,1,0,0,CLEAN
+619137,4L of Dwarka-Khambaliya-Devariya section from km 203.500 to km 176.500 and from km 171.800 to km 125.000 of NH-151A,Ministry of Road Transport & Highways,Roads & Highways,Gujarat,National Highways Authority of India [NHAI],2026-05,True,2026-01,2026-04,4,1.0,2019-01,2020-02,2022-08,2026-05,,2026-05,1024.69,1753.95,885.64,882.1,100.0,-139.05,-13.57,-868.31,-49.51,1369,45,0.0,0.0,0,0,0,1,1,1,1,1,IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH; COST_UNDERRUN
+619070,Tumkur-Chitradurga,Ministry of Road Transport & Highways,Roads & Highways,Karnataka,National Highways Authority of India [NHAI],2026-05,True,2026-01,2026-04,4,1.0,2010-04,2011-06,2013-12,2026-05,,2026-05,839.0,47.44,8.42,8.42,100.0,-830.58,-99.0,-39.02,-82.25,4534,149,0.0,0.0,0,0,0,1,1,1,1,1,IMPUTED_ACTUAL_DOC_FROM_REPORT_MONTH; COST_UNDERRUN
+701105,Goa Airport Terminal Building Extension Project,Ministry of Civil Aviation,Aviation & Aviation Infrastructure,Goa,Airport Authority of India [AAI],2026-06,True,2025-12,2026-05,6,1.0,2017-11,2019-12,2021-12,2026-04,2026-06,2026-06,255.69,255.69,161.06,158.78,100.0,-94.63,-37.01,-94.63,-37.01,1643,54,61.0,2.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+701263,Rajasthan Refinery Project,Ministry of Petroleum & Natural Gas,Energy Storage,Rajasthan,MinistryofPetroleumNaturalGas,2026-06,True,2025-12,2026-05,6,1.0,2017-10,2017-10,2022-10,2026-06,2026-06,2026-06,43129.0,79459.0,70293.57,69996.68,92.1,27164.57,62.98,-9165.43,-11.53,1339,44,0.0,0.0,1,1,1,1,1,1,1,1,CLEAN
+400035,"Grass Root Rail-fed Depot at Sekerkote, Agartala as resitement of existing Dharmanagar Depot",Ministry of Petroleum & Natural Gas,Energy Storage,Tripura,Indian Oil Corporation Limited [IOCL],2026-06,True,2025-12,2026-05,6,1.0,2022-06,2022-06,2025-09,2026-06,2026-06,2026-06,656.0,656.0,546.57,541.81,97.7,-109.43,-16.68,-109.43,-16.68,273,9,0.0,0.0,0,0,0,1,1,1,0,0,COST_UNDERRUN
+709760,HP TDAE Unit in Mumbai Refinery,Ministry of Petroleum & Natural Gas,Oil & Gas,Maharashtra,Hindustan Petroleum Corporation Limited,2026-06,True,2025-12,2026-05,6,1.0,2024-06,2024-06,2026-04,2026-06,2026-06,2026-06,240.0,240.0,160.8,152.75,92.0,-79.2,-33.0,-79.2,-33.0,61,2,0.0,0.0,0,0,0,1,0,0,0,0,COST_UNDERRUN
+709782,ATF Pipeline from Jawaharlal Nehru Port Trust to Navi Mumbai International Airport,Ministry of Petroleum & Natural Gas,Oil & Gas,Maharashtra,Indian Oil Corporation Limited [IOCL],2026-06,True,2025-12,2026-05,6,1.0,2022-08,2022-08,2025-08,2026-06,2026-06,2026-06,165.0,165.0,103.36,102.79,98.8,-61.64,-37.36,-61.64,-37.36,304,10,0.0,0.0,0,0,0,1,1,1,0,0,COST_UNDERRUN
+611967,Transmission Scheme for Solar Energy Zone in Ananthpuram 2500MW and Kurnool 1000MW,Ministry of Power,Transmission & Distribution,Andhra Pradesh,Power Grid Corporation of India Limited [POWERGRID],2026-06,True,2025-12,2026-05,6,1.0,2023-09,2023-09,2025-09,2026-05,2026-06,2026-06,823.0,,798.31,798.31,98.57,-24.69,-3.0,,,273,9,31.0,1.0,0,0,0,1,1,1,0,0,COST_UNDERRUN
+900808,Transmission System for Kurnool Wind Energy Zone/ Solar Energy Zone Part-A and Part-B,Ministry of Power,Transmission & Distribution,"Multi-States (Telangana,
+Andhra Pradesh)",Power Grid Corporation of India Limited [POWERGRID],2026-06,True,2025-12,2026-05,6,1.0,2022-11,2023-03,2024-11,2026-05,2026-06,2026-06,3546.94,,3546.94,3532.75,99.69,0.0,0.0,,,577,19,31.0,1.0,1,0,0,1,1,1,1,0,CLEAN
+611948,Transmission system for evacuation of power from REZ in Rajasthan 20 GW under Phase-III part H,Ministry of Power,Transmission & Distribution,Rajasthan,Power Grid Corporation of India Limited [POWERGRID],2026-06,True,2025-12,2026-05,6,1.0,2023-10,2023-10,2025-04,2026-06,2026-06,2026-06,1910.0,,1910.0,1852.7,99.46,0.0,0.0,,,426,14,0.0,0.0,1,0,0,1,1,1,1,0,CLEAN
+617907,Rehabilitation and Up-gradation from Km 170700 Bhadrachalam to Km 234567 Konta on NH-30 to Two lane with Paved Shoulder in the State of Andra Pradesh on EPC mode.,Ministry of Road Transport & Highways,Roads & Highways,Andhra Pradesh,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2021-12,2022-09,2024-09,2026-04,2026-06,2026-06,436.09,,240.15,221.22,100.0,-195.94,-44.93,,,638,21,61.0,2.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+617990,Construction of bypass road to Adoni town connecting NH-167 Hagari - Jadcharla road from km.62/700 to 71/400 in Kurnool District in the State of Andhra Pradesh.,Ministry of Road Transport & Highways,Roads & Highways,Andhra Pradesh,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2023-03,2024-02,2025-11,2025-11,2026-06,2026-06,242.0,,99.13,78.49,95.94,-142.87,-59.04,,,212,7,212.0,7.0,0,0,0,1,1,1,0,0,COST_UNDERRUN
+618145,Widening to two lane with paved shoulder of Rampachodavaram - Koyyuru section of NH 516E from Km 43700 to Km 113820 in the State of Andhra Pradesh on EPC mode Job No. 737,Ministry of Road Transport & Highways,Roads & Highways,Andhra Pradesh,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2022-03,2023-01,2025-01,2026-04,2026-06,2026-06,568.12,,324.96,303.13,98.63,-243.16,-42.8,,,516,17,61.0,2.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618161,Widening and Reconstruction of existing road to four lane from Km.56400 to Km 120300 i.e. from B.Kothapalli Junction to Gorantla excluding Kadiri Bypass from Km 70200 to Km 77105 of NH 716G in the State of Andhra Pradesh on EPC mode Job no. 742,Ministry of Road Transport & Highways,Roads & Highways,Andhra Pradesh,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2022-03,2023-09,2025-12,2026-03,2026-06,2026-06,839.98,,415.11,355.56,99.45,-424.87,-50.58,,,182,6,92.0,3.0,0,0,0,1,1,1,0,0,COST_UNDERRUN
+618191,"Rehabilitation and upgradation of NH-167AD from Macherla to Dachepalli via Paluvai Junction, Rentachinthala, Gurazala from Km.0.000 to 43.659 to two lane with paved shoulders in the state of Andhra Pradesh job-729",Ministry of Road Transport & Highways,Roads & Highways,Andhra Pradesh,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2022-01,2023-01,2025-01,2026-02,2026-06,2026-06,403.22,,256.17,227.13,99.06,-147.05,-36.47,,,516,17,120.0,4.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618237,Rehabilitation and Up-gradation of Pasarlapudi to Dhindi section from Km 105/170 to Km 126/510 of NH -214 New NH -216 to two lane with paved shoulder in the state of Andhra Pradesh under NHDP-IV,Ministry of Road Transport & Highways,Roads & Highways,Andhra Pradesh,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2017-03,2017-09,2019-09,2026-01,2026-06,2026-06,263.45,,158.8,151.56,98.4,-104.65,-39.72,,,2465,81,151.0,5.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618258,Two laning with paved shoulders of Gondiguda to Araku uptoBhallaguda section of NH 516E,Ministry of Road Transport & Highways,Roads & Highways,Andhra Pradesh,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2020-08,2021-09,2023-09,2025-12,2026-06,2026-06,296.66,289.11,275.38,237.52,91.5,-21.28,-7.17,-13.73,-4.75,1004,33,182.0,6.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618259,Two laning with paved shoulders of Paderu to GundigudaSection of NH 516E,Ministry of Road Transport & Highways,Roads & Highways,Andhra Pradesh,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2020-08,2021-03,2023-03,2025-10,2026-06,2026-06,222.61,,181.04,122.52,100.0,-41.57,-18.67,,,1188,39,243.0,8.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618527,Six Laning of Vijayawada Bypass from Gollapudi to Chinnakakani in Vijayawada - Gundugolanu Section from km. 30.00 to km. 47.881 Pkg-IV,Ministry of Road Transport & Highways,Roads & Highways,Andhra Pradesh,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2020-01,2021-07,2024-01,2026-05,2026-06,2026-06,1194.57,1757.82,862.83,862.59,99.92,-331.74,-27.77,-894.99,-50.91,882,29,31.0,1.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618748,Khammam-Devarapalle Pkg IV [4L Access Controlled Greenfield from Recherla village to Gurvaygudem village Design Chainage 105236 to 132664],Ministry of Road Transport & Highways,Roads & Highways,Andhra Pradesh,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2020-11,2022-09,2024-09,2026-01,2026-06,2026-06,569.37,752.02,499.99,355.88,100.0,-69.38,-12.19,-252.03,-33.51,638,21,151.0,5.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618919,4L PS from Mandlem Existing Km. 38.000/Design Km.30.600 to Atmakur Existing Km.73.000/Design Km 66.115 of NH340C Package2,Ministry of Road Transport & Highways,Roads & Highways,Andhra Pradesh,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2023-03,2023-11,2025-11,2025-11,2026-06,2026-06,887.28,913.03,550.42,374.39,99.94,-336.86,-37.97,-362.61,-39.72,212,7,212.0,7.0,0,0,0,1,1,1,0,0,COST_UNDERRUN
+618576,"6L Standalone Flyovers at Raha, Demow, Borghat, Kathiatali junctions and ROB at Jagiroad on stretches of NH 36 and NH 27",Ministry of Road Transport & Highways,Roads & Highways,Assam,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2022-03,2022-12,2024-06,2024-10,2026-06,2026-06,280.75,255.53,212.27,211.79,99.04,-68.48,-24.39,-43.26,-16.93,730,24,608.0,20.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618285,Widening/Improvement to 4 -Lane with Paved Shoulder from Ch. 88.000km to Ch.99.930 km Design Ch.84.100km to Ch.96.000 km of Sagunbashi forest near Nichinta to starting of Krishnai Bypass Section of Bilasipura Guwahati road NH 17 on EPC Package-7,Ministry of Road Transport & Highways,Roads & Highways,Assam,NHIDCL,2026-06,True,2025-12,2026-05,6,1.0,2021-03,2023-10,2025-10,2025-08,2026-06,2026-06,286.72,,220.81,186.64,100.0,-65.91,-22.99,,,243,8,304.0,10.0,0,0,0,1,1,1,0,0,COST_UNDERRUN
+618327,Widening/Improvement to 4-Lane with Paved Shoulder from KM 113300 to Km 146230 Design Chainage 113830 to 145712 of Kwaram Taro Village - Dillai Section in Assam on EPC Package-6,Ministry of Road Transport & Highways,Roads & Highways,Assam,NHIDCL,2026-06,True,2025-12,2026-05,6,1.0,2021-09,2022-07,2024-07,2025-03,2026-06,2026-06,625.64,,578.19,0.0,0.0,-47.45,-7.58,,,700,23,457.0,15.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618330,Construction of 4/6 Laning from existing Km 159.400 of NH-36 to existing Km 102.500 of NH-39 and upto end point of Assam portion [Design Km 118.050 to design Km 132.375] Total New Alignment length of 14.325 Km of Daboka - Dimapur Section Dimapur Bypass in the state of Assam under SARDP-NE 'Phase-A' on EPC mode Assam Portion,Ministry of Road Transport & Highways,Roads & Highways,Assam,NHIDCL,2026-06,True,2025-12,2026-05,6,1.0,2018-03,2019-11,2022-11,2025-11,2026-06,2026-06,511.02,,671.35,647.21,100.0,160.33,31.37,,,1308,43,212.0,7.0,1,1,1,1,1,1,1,1,CLEAN
+618372,"Widening / Improvement to 4-Lane with Paved Shoulder configuration of existing single lane road from Kachukhana Harichara Paglagaunj to Dhubri - Phulbari Bridge approach Package-II of Srirampur - Dhubri Section of NH-127B from existing Km 28.050 to Km 55.060 Design Km 27.650 to Km 54.154, Design Length26.504 Km under JICA ODA Loan assistance Phase-V [Srirampur - Dhubri Pkg-2]",Ministry of Road Transport & Highways,Roads & Highways,Assam,NHIDCL,2026-06,True,2025-12,2026-05,6,1.0,2022-03,2023-01,2025-01,2025-06,2026-06,2026-06,909.02,,683.81,638.5,100.0,-225.21,-24.78,,,516,17,365.0,12.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+617959,Rehabilitation & Widening work for 2 Lane with Paved Shoulder of Existing NH-80 from km 70.15 to Km 121.025 of Munger-Suttanganj -BhagatpurMirzachowki section on EPC Mode in the State of Bihar.,Ministry of Road Transport & Highways,Roads & Highways,Bihar,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2021-03,2023-02,2025-01,2025-11,2026-06,2026-06,477.54,,343.05,311.39,95.66,-134.49,-28.16,,,516,17,212.0,7.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618570,4L Elevated Highway and at grade improvements at Gopalganj Town from Km. 384.000 to Km. 386.750 on NH-27,Ministry of Road Transport & Highways,Roads & Highways,Bihar,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2021-10,2022-03,2024-08,2025-05,2026-06,2026-06,325.57,248.92,241.89,225.44,99.78,-83.68,-25.7,-7.03,-2.82,669,22,396.0,13.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618582,4L of Galgalia - Bahadurganj section from Km 0.000 to Km 49.000 Package-I of NH327E,Ministry of Road Transport & Highways,Roads & Highways,Bihar,NHAI,2026-06,True,2026-02,2026-05,4,1.0,2021-01,2022-01,2024-01,2025-02,2026-06,2026-06,1282.97,1282.97,816.12,599.36,100.0,-466.85,-36.39,-466.85,-36.39,882,29,485.0,16.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618583,4L of Bahadurganj Araria section from Km 49.000 to Km 94.000 Package-II of NH-327E,Ministry of Road Transport & Highways,Roads & Highways,Bihar,NHAI,2026-06,True,2026-02,2026-05,4,1.0,2021-01,2022-01,2024-01,2025-01,2026-06,2026-06,1358.77,1358.77,812.28,713.95,100.0,-546.49,-40.22,-546.49,-40.22,882,29,516.0,17.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618774,Ara - Mohania Pkg-II,Ministry of Road Transport & Highways,Roads & Highways,Bihar,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2020-08,2021-01,2023-07,2025-11,2026-06,2026-06,984.63,827.51,798.25,798.12,100.0,-186.38,-18.93,-29.26,-3.54,1066,35,212.0,7.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618779,4L of Aurangabad-Paithan,Ministry of Road Transport & Highways,Roads & Highways,Bihar,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2022-09,2023-01,2024-07,2025-12,2026-06,2026-06,1505.0,349.96,328.32,319.54,96.5,-1176.68,-78.18,-21.64,-6.18,700,23,182.0,6.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618839,Aunta - Simaria including Ganga Bridge,Ministry of Road Transport & Highways,Roads & Highways,Bihar,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2017-01,2018-08,2022-02,2026-03,2026-06,2026-06,1309.47,2107.68,1209.46,812.81,100.0,-100.01,-7.64,-898.22,-42.62,1581,52,92.0,3.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618915,4L of Bal. works of Patna - Gaya -Dobhi Pkg-II from km. 39.00 to km. 83.00 of Old NH-83,Ministry of Road Transport & Highways,Roads & Highways,Bihar,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2019-09,2020-11,2022-11,2025-05,2026-06,2026-06,1637.29,777.2,764.68,728.91,89.01,-872.61,-53.3,-12.52,-1.61,1308,43,396.0,13.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618916,4L of Bal. works of Patna - Gaya -Dobhi Pkg-III from km. 83.00 to km. 127.217 of Old NH-83,Ministry of Road Transport & Highways,Roads & Highways,Bihar,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2019-09,2020-11,2022-11,2025-05,2026-06,2026-06,1077.46,799.7,803.33,774.78,92.0,-274.13,-25.44,3.63,0.45,1308,43,396.0,13.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+619320,Muzaffarpur - Sonbarsa Section of NH-77 from km 2.800 to km 89.000,Ministry of Road Transport & Highways,Roads & Highways,Bihar,NHAI,2026-06,True,2026-04,2026-05,2,1.0,2011-05,2011-05,2013-11,2026-03,2026-06,2026-06,2290.72,2311.1,2308.19,468.71,100.0,17.47,0.76,-2.91,-0.13,4595,151,92.0,3.0,1,0,0,1,1,1,1,1,CLEAN
+617973,Strengthening and widening of existing 2 lane road to two lane paved shoulder from km 7.750 to 26.542 & km. 32.093 to 45.786 of NH-130 on EPC mode in the state of chhattisgarh.job No. 130-CG-2017-18-348,Ministry of Road Transport & Highways,Roads & Highways,Chhattisgarh,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2017-11,2019-05,2020-11,2023-06,2026-06,2026-06,188.8,,107.79,102.56,97.0,-81.01,-42.91,,,2038,67,1096.0,36.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618064,Up-gradation of NH-930 Sherpar to Kohka from Km.67880 to Km.114860 to 2LPS in Chhattisgarh under EPC mode,Ministry of Road Transport & Highways,Roads & Highways,Chhattisgarh,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2020-03,2022-05,2024-05,2025-12,2026-06,2026-06,278.97,,210.82,201.05,90.0,-68.15,-24.43,,,761,25,182.0,6.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618078,Up-gradation of NH-130C Abhanpur to Paund from NH Km. 0000 to KM 40380 to two lane with paved shoulders in the State of Chhattisgarh on EPC mode.,Ministry of Road Transport & Highways,Roads & Highways,Chhattisgarh,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2020-12,2022-03,2023-09,2025-08,2026-06,2026-06,193.16,,116.5,97.78,85.0,-76.66,-39.69,,,1004,33,304.0,10.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618849,Conversion of Partially Excavated Escape Tunnel to Uni-Directional 2L Tunnelincluding construction of cross passages and approach roads on either side of the tunnel from Km 12.732 to Km 14.568 of Kiratpur to Nerchowk Section of NH-21,Ministry of Road Transport & Highways,Roads & Highways,Chhattisgarh,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2022-05,2022-09,2024-03,2026-04,2026-06,2026-06,444.21,412.88,394.73,394.65,100.0,-49.48,-11.14,-18.15,-4.4,822,27,61.0,2.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618578,6L Access Controlled Highway from DND Maharani Bagh - Jn. with Jaitpur - Pushta Road of NH-148NA from km. 0.00 to km. 9.00 in NCR,Ministry of Road Transport & Highways,Roads & Highways,Delhi,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2020-07,2022-01,2024-07,2026-04,2026-06,2026-06,1467.44,2510.34,1652.29,1615.93,98.25,184.85,12.6,-858.05,-34.18,700,23,61.0,2.0,1,1,0,1,1,1,1,0,CLEAN
+618464,Vadodara Mumbai Expressway Ena -Kim Phase IB - Pkg VI [Km 217.500 to Km 254.430],Ministry of Road Transport & Highways,Roads & Highways,Gujarat,NHAI,2026-06,True,2026-02,2026-05,4,1.0,2020-05,2021-12,2023-12,2025-06,2026-06,2026-06,2271.86,4297.28,2991.42,2574.42,98.9,719.56,31.67,-1305.86,-30.39,913,30,365.0,12.0,1,1,1,1,1,1,1,1,CLEAN
+618465,Vadodara Mumbai Expressway Gandeva to Ena Phase IB - Pkg VII [Km 190.00 to Km 217.500],Ministry of Road Transport & Highways,Roads & Highways,Gujarat,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2020-07,2021-11,2023-11,2026-01,2026-06,2026-06,1710.3,3392.21,2451.01,2158.87,97.05,740.71,43.31,-941.2,-27.75,943,31,151.0,5.0,1,1,1,1,1,1,1,1,CLEAN
+618501,Ahmedabad - Dholera Pkg I from km. 0.00 to km. 22.00 [Sardar Patel Ring Road - Sindhrej Village],Ministry of Road Transport & Highways,Roads & Highways,Gujarat,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2020-05,2022-01,2024-01,2026-01,2026-06,2026-06,1298.0,1421.05,1385.83,1024.93,100.0,87.83,6.77,-35.22,-2.48,882,29,151.0,5.0,1,0,0,1,1,1,1,1,CLEAN
+618502,Ahmedabad - Dholera Pkg II from km. 22.00 to km. 48.52 [Sindhrej Village - Vejallka Village],Ministry of Road Transport & Highways,Roads & Highways,Gujarat,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2020-05,2022-01,2024-01,2026-04,2026-06,2026-06,1415.34,1729.69,1785.68,1427.49,100.0,370.34,26.17,55.99,3.24,882,29,61.0,2.0,1,1,1,1,1,1,1,1,CLEAN
+618614,Sanchore - Santalpur from km 67.000 - km 99.000 of NH-754K AJ-RGBS- Package-3,Ministry of Road Transport & Highways,Roads & Highways,Gujarat,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2020-02,2021-08,2023-08,2024-01,2026-06,2026-06,752.3,765.25,601.6,569.58,99.0,-150.7,-20.03,-163.65,-21.39,1035,34,882.0,29.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618699,Pipli Bhavnagar-Package 1 from km 136.025 to km 169.328,Ministry of Road Transport & Highways,Roads & Highways,Gujarat,NHAI,2026-06,True,2026-02,2026-05,4,1.0,2018-03,2019-02,2021-09,2024-03,2026-06,2026-06,819.14,1297.38,975.85,188.7,100.0,156.71,19.13,-321.53,-24.78,1734,57,822.0,27.0,1,1,0,1,1,1,1,1,CLEAN
+618834,4L Kodinar - Veraval Package VI from km. 222.400 to km. 230.00 Kodinar Bypass of NH-8E NH 51 new,Ministry of Road Transport & Highways,Roads & Highways,Gujarat,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2022-03,2022-04,2023-09,2025-05,2026-06,2026-06,162.73,192.01,189.95,174.82,100.0,27.22,16.73,-2.06,-1.07,1004,33,396.0,13.0,1,1,0,1,1,1,1,1,CLEAN
+618835,4L of Bal Works of Talaja - Mahuva from 54.990 km. to 100.450 km. of Old NH- 8E Package-II,Ministry of Road Transport & Highways,Roads & Highways,Gujarat,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2020-08,2021-03,2022-09,2024-05,2026-06,2026-06,698.4,735.51,726.01,418.41,100.0,27.61,3.95,-9.5,-1.29,1369,45,761.0,25.0,1,0,0,1,1,1,1,1,CLEAN
+619067,6L of Chiloda-Naroda section from Km. 540.595 to Km. 555.595 of NH- 8Package-VII,Ministry of Road Transport & Highways,Roads & Highways,Gujarat,NHAI,2026-06,True,2026-01,2026-05,5,1.0,2016-11,2017-05,2019-05,2026-02,2026-06,2026-06,356.6,463.03,443.07,104.04,100.0,86.47,24.25,-19.96,-4.31,2588,85,120.0,4.0,1,1,1,1,1,1,1,1,CLEAN
+619147,4L of Bal Works of Mahuva to Kagvadar from 100.450 Km. to 140.470 Km. of NH-8E Pkg- III,Ministry of Road Transport & Highways,Roads & Highways,Gujarat,NHAI,2026-06,True,2026-01,2026-05,5,1.0,2020-08,2021-03,2022-09,2024-07,2026-06,2026-06,603.08,628.49,624.43,624.41,99.71,21.35,3.54,-4.06,-0.65,1369,45,700.0,23.0,1,0,0,1,1,1,1,1,CLEAN
+619148,4L of Bhavnagar - Talaja Package-I from Km. 6.945 to Km. 54.990 of Old NH-8E,Ministry of Road Transport & Highways,Roads & Highways,Gujarat,NHAI,2026-06,True,2026-01,2026-05,5,1.0,2016-03,2017-02,2019-08,2024-06,2026-06,2026-06,1185.66,1343.16,1316.53,53.18,100.0,130.87,11.04,-26.63,-1.98,2496,82,730.0,24.0,1,1,0,1,1,1,1,1,CLEAN
+618484,Delhi-Amritsar-Katra Expressway Phase-I Pkg-III from Junction with Jind-Panipat road NH-352A near Gangana village to Junction with Jind-Karnal road NH-709A near Alewa village Km 60800 to Km 91400,Ministry of Road Transport & Highways,Roads & Highways,Haryana,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2020-12,2021-12,2023-12,2025-11,2026-06,2026-06,1606.27,1813.91,1322.85,631.62,79.08,-283.42,-17.64,-491.06,-27.07,913,30,212.0,7.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618485,Delhi-Amritsar-Katra Expressway Phase-I Pkg-IV from Junction with Jind-Karnal road NH-709A near Alewa village to Junction with Ambala-Kaithal-Hissar road NH-152 near Kharak Pandwa village Km 91400 to Km 120250,Ministry of Road Transport & Highways,Roads & Highways,Haryana,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2021-01,2021-12,2023-12,2025-11,2026-06,2026-06,1306.95,1578.66,1098.84,563.2,76.13,-208.11,-15.92,-479.82,-30.39,913,30,212.0,7.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618050,Rehabilitation and Upgradation to 2-lane/Intermediate lane configuration of Ashyari-Shri Kyari Section km 50.000 to km 75.000 of NH-707 in the state of Himachal Pradesh under Green National Highways Corridor Project GNHCP with the loan assistance of World Bank on EPC mode.,Ministry of Road Transport & Highways,Roads & Highways,Himachal Pradesh,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2020-08,2021-09,2023-09,2025-12,2026-06,2026-06,345.89,359.56,232.82,146.64,98.16,-113.07,-32.69,-126.74,-35.25,1004,33,182.0,6.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618396,Construction & Upgradation to 2 lane with paved shoulder from Design Km. 31.449 Khellani Ex. Km 44.946 to Km 51.700 Prem Nagar Ex. Km 68617 of 20.251 Km length on Khellani - Kishtwar - Chattroo section of NH-244 in the UT of J&K on EPC Mode under NHO-Gen PKG- 1,Ministry of Road Transport & Highways,Roads & Highways,Jammu and Kashmir,NHIDCL,2026-06,True,2025-12,2026-05,6,1.0,2021-02,2021-03,2022-09,2024-11,2026-06,2026-06,486.45,,300.52,0.0,0.0,-185.93,-38.22,,,1369,45,577.0,19.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618829,4L from km 196.87 Sankha to km 219.6 Khajuri on NH-75 [Rehla / Garhwa Bypass],Ministry of Road Transport & Highways,Roads & Highways,Jharkhand,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2020-09,2021-10,2023-10,2025-03,2026-06,2026-06,1129.48,1129.48,790.59,527.11,93.45,-338.89,-30.0,-338.89,-30.0,974,32,457.0,15.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618946,4L of Mehgama - Hansdiha from km. 41.900 to km. 93.000 of NH -133A Pkg-II,Ministry of Road Transport & Highways,Roads & Highways,Jharkhand,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2022-03,2023-05,2025-05,2026-05,2026-06,2026-06,1479.72,1568.18,1034.52,878.21,99.5,-445.2,-30.09,-533.66,-34.03,396,13,31.0,1.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+617954,Balance work of Rehabilitation and upgrading to 2lane/2lane with paved shoulder configuration and strengthening from from Km 343.80 to 400.33 of Gowribidanur- Chik Ballapur section in the state of Karnataka Under Annual Plan 2021-22 under EPC Mode.-952,Ministry of Road Transport & Highways,Roads & Highways,Karnataka,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2022-03,2023-02,2025-02,2025-10,2026-06,2026-06,398.48,,242.02,211.59,93.25,-156.46,-39.26,,,485,16,243.0,8.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618698,Challakere to Hariyur section from km 358.500 to km 414.205 of NH-150 A,Ministry of Road Transport & Highways,Roads & Highways,Karnataka,NHAI,2026-06,True,2026-02,2026-05,4,1.0,2018-03,2021-01,2023-01,2025-12,2026-06,2026-06,1167.52,1873.58,1243.48,843.6,99.5,75.96,6.51,-630.1,-33.63,1247,41,182.0,6.0,1,0,0,1,1,1,1,1,CLEAN
+619121,4L of Hubli - Hospet Section of NH-63 from Km 128.850 to Km 272.571,Ministry of Road Transport & Highways,Roads & Highways,Karnataka,NHAI,2026-06,True,2026-01,2026-05,5,1.0,2016-07,2017-03,2020-03,2026-03,2026-06,2026-06,2531.99,3619.32,3522.85,1360.9,99.65,990.86,39.13,-96.47,-2.67,2283,75,92.0,3.0,1,1,1,1,1,1,1,1,CLEAN
+619144,Hospet - Chitradurga from km. 299.00 to km. 418.750,Ministry of Road Transport & Highways,Roads & Highways,Karnataka,NHAI,2026-06,True,2026-01,2026-05,5,1.0,2015-03,2016-02,2018-08,2026-06,2026-06,2026-06,1519.72,387.48,331.26,36.7,100.0,-1188.46,-78.2,-56.22,-14.51,2861,94,0.0,0.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618045,"Construction of Mihona bypass, Lahar bypass, Daboh bypass & Bhander Bypass total length 20.60 km to 2-lane with paved shoulder from on Mihona-Bhander- MP/UP border section of NH 552E in the State of Madhya Pradesh on EPC mode",Ministry of Road Transport & Highways,Roads & Highways,Madhya Pradesh,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2022-03,2023-06,2024-12,2025-07,2026-06,2026-06,179.18,,74.89,71.77,67.0,-104.29,-58.2,,,547,18,335.0,11.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618625,Indore - Gujarat / MP Border from km. Km 9.500 to Km 171.000 of NH-59 in MP,Ministry of Road Transport & Highways,Roads & Highways,Madhya Pradesh,NHAI,2026-06,True,2026-02,2026-05,4,1.0,2009-12,2010-08,2013-02,2026-02,2026-06,2026-06,1175.0,217.22,191.43,14.04,99.93,-983.57,-83.71,-25.79,-11.87,4868,160,120.0,4.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618665,4L of Sagar - Mohari from Km.8 to Km.50 Pkg-I,Ministry of Road Transport & Highways,Roads & Highways,Madhya Pradesh,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2021-03,2022-04,2024-04,2026-03,2026-06,2026-06,790.78,660.38,555.28,454.54,98.64,-235.5,-29.78,-105.1,-15.92,791,26,92.0,3.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618695,Indore - Harda Pkg-III [Nanasa to Pidgaon Section from km 95.000 to km 142.445],Ministry of Road Transport & Highways,Roads & Highways,Madhya Pradesh,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2020-01,2021-10,2023-10,2026-04,2026-06,2026-06,1146.22,1240.64,758.23,626.02,98.21,-387.99,-33.85,-482.41,-38.88,974,32,61.0,2.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618701,Balance work of 4L of Nauradehi Sanctuary de-scoped stretch of Hiran River to Sindoor River from Km. 66.00 to 130.00 NH-12 New NH-45,Ministry of Road Transport & Highways,Roads & Highways,Madhya Pradesh,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2021-01,2021-07,2023-07,2025-07,2026-06,2026-06,178.18,153.15,143.37,142.2,57.14,-34.81,-19.54,-9.78,-6.39,1066,35,335.0,11.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618099,"Rehabilitation & up-gradation for Talere Gaganbawada - kolhapur Road NH 166G stretch start from km. 0/00 to Km. 06/00 and km. 13/00 to km 19/440 of NH-166G, length 12.440 km in the State of Maharashtra.",Ministry of Road Transport & Highways,Roads & Highways,Maharashtra,MoRTH,2026-06,True,2026-02,2026-05,4,1.0,2024-03,2024-10,2026-04,2025-10,2026-06,2026-06,164.13,,115.51,98.68,100.0,-48.62,-29.62,,,61,2,243.0,8.0,0,0,0,1,0,0,0,0,COST_UNDERRUN
+618468,Vadodara Mumbai Expressway Phase II - Pkg XI [Km. 77.000 to Km. 103.400] Ganjad - Talsari,Ministry of Road Transport & Highways,Roads & Highways,Maharashtra,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2020-06,2022-05,2024-05,2026-01,2026-06,2026-06,1524.71,1913.95,901.76,813.35,99.76,-622.95,-40.86,-1012.19,-52.88,761,25,151.0,5.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618638,Tarsod - Fagne section of NH-6,Ministry of Road Transport & Highways,Roads & Highways,Maharashtra,NHAI,2026-06,True,2026-02,2026-05,4,1.0,2016-06,2019-01,2021-07,2026-04,2026-06,2026-06,2267.99,2560.5,2213.75,990.0,98.84,-54.24,-2.39,-346.75,-13.54,1796,59,61.0,2.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618652,Chakur Loha Section of NH-361 from km 114.600 to km 187.80,Ministry of Road Transport & Highways,Roads & Highways,Maharashtra,NHAI,2026-06,True,2026-02,2026-05,4,1.0,2018-03,2019-03,2021-03,2026-02,2026-06,2026-06,1241.38,3342.11,1717.21,785.13,100.0,475.83,38.33,-1624.9,-48.62,1918,63,120.0,4.0,1,1,1,1,1,1,1,1,CLEAN
+619209,4L of existing 2/4L stretch from Lonand to Dive Ghat Km 166.400 to Km 220.900 of Mohol Alandi section of NH-965 Pkg - V,Ministry of Road Transport & Highways,Roads & Highways,Maharashtra,NHAI,2026-06,True,2026-02,2026-05,4,1.0,2021-10,2022-05,2024-05,2026-03,2026-06,2026-06,1709.56,2049.51,1295.04,1125.89,98.52,-414.52,-24.25,-754.47,-36.81,761,25,92.0,3.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618341,Up-gradation to 2-lane with paved shoulders of Ngopa - Pawlrang section of NH 102B of Aizawl - Imphal Economic Corridor from Existing Chainage km 32.796 to km 72.030 [Design Chainage km 31.280 to km 68.170] in the State of Mizoram under Bharatmala Pariyojna on EPC mode under NHO-NE Package-2 Keifang- Tuivai Pkg-2,Ministry of Road Transport & Highways,Roads & Highways,Mizoram,NHIDCL,2026-06,True,2025-12,2026-05,6,1.0,2021-09,2023-09,2025-02,2025-06,2026-06,2026-06,523.78,,426.69,394.29,95.31,-97.09,-18.54,,,485,16,365.0,12.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618381,Widening and up-gradation to 2-lane with paved shoulder configuration and geometric improvements from km 250.00 Lunglei to km 298.00 on Aizawl- Tuipang section under JICA ODA Loan assistance Phase-I Package-6,Ministry of Road Transport & Highways,Roads & Highways,Mizoram,NHIDCL,2026-06,True,2025-12,2026-05,6,1.0,2019-09,2019-12,2023-06,2025-05,2026-06,2026-06,768.76,,168.78,168.78,98.73,-599.98,-78.05,,,1096,36,396.0,13.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618382,Widening and up-gradation to 2-lane with paved shoulder configuration and geometric improvements from km 298.00 to km 339.00 on Aizawl-Tuipang section under JICA ODA Loan assistance Phase-I Package-7,Ministry of Road Transport & Highways,Roads & Highways,Mizoram,NHIDCL,2026-06,True,2025-12,2026-05,6,1.0,2019-09,2020-10,2024-04,2025-05,2026-06,2026-06,605.76,750.32,132.33,0.01,100.0,-473.43,-78.15,-617.99,-82.36,791,26,396.0,13.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618384,Widening and Up-gradation to 2- Lane with Paved Shoulder Configuration and geometric improvement from Km. 166. 000 to Km 208.000 Package-4 on Aizawl Tuipang Section of NH-54 in the State of Mizoram Package-4,Ministry of Road Transport & Highways,Roads & Highways,Mizoram,NHIDCL,2026-06,True,2025-12,2026-05,6,1.0,2019-09,2019-10,2023-04,2025-04,2026-06,2026-06,899.45,,191.68,191.59,99.88,-707.77,-78.69,,,1157,38,426.0,14.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618771,6L of Varadharajula to Kumarajapet from km 0.000 to km 43.800 of NH-716B Pkg-I,Ministry of Road Transport & Highways,Roads & Highways,"Multi-States (Andhra
+Pradesh, Tamil Nadu)",NHAI,2026-06,True,2025-12,2026-05,6,1.0,2021-02,2022-12,2024-12,2026-02,2026-06,2026-06,1924.75,1887.38,1120.2,947.66,99.19,-804.55,-41.8,-767.18,-40.65,547,18,120.0,4.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618532,6L of Aurangabad to Bihar-Jharkhand border Chordaha section from km. 209.827 to Km. 249.525 of NH-19 PKG-02,Ministry of Road Transport & Highways,Roads & Highways,"Multi-States (Bihar,
+Jharkhand)",NHAI,2026-06,True,2025-12,2026-05,6,1.0,2021-06,2022-03,2024-03,2026-04,2026-06,2026-06,1822.46,738.11,611.43,605.5,97.92,-1211.03,-66.45,-126.68,-17.16,822,27,61.0,2.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618676,6L of Dhanara - Hatibena Section from Km 124.611 to km 146.50 of NH-130-CD Package OD-1,Ministry of Road Transport & Highways,Roads & Highways,"Multi-States
+(Chhattisgarh, Odisha)",NHAI,2026-06,True,2025-12,2026-05,6,1.0,2021-02,2022-03,2024-03,2026-03,2026-06,2026-06,477.76,638.32,359.28,297.98,99.95,-118.48,-24.8,-279.04,-43.71,822,27,92.0,3.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618515,6L from Belgaum to Sankeshwar Bypass from Km. 515.000 to Km. 555.017 of NH-48 Pkg-I,Ministry of Road Transport & Highways,Roads & Highways,"Multi-States
+(Maharashtra,
+Karnataka)",NHAI,2026-06,True,2025-12,2026-05,6,1.0,2021-11,2022-10,2025-04,2026-03,2026-06,2026-06,1479.3,1237.04,1199.4,1178.31,100.0,-279.9,-18.92,-37.64,-3.04,426,14,92.0,3.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618624,Mangloor to Telangana Maharashtra Border,Ministry of Road Transport & Highways,Roads & Highways,"Multi-States
+(Maharashtra,
+Telangana)",NHAI,2026-06,True,2026-02,2026-05,4,1.0,2018-03,2019-04,2021-04,2025-10,2026-06,2026-06,1082.65,1323.12,1011.7,180.13,96.02,-70.95,-6.55,-311.42,-23.54,1887,62,243.0,8.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618938,4L of Rajura-Korpana-Adilabad Road upto M.S. Border from km 32.910 to km 89.090 of NH-353B,Ministry of Road Transport & Highways,Roads & Highways,"Multi-States
+(Maharashtra,
+Telangana)",NHAI,2026-06,True,2025-12,2026-05,6,1.0,2022-03,2022-10,2024-10,2026-03,2026-06,2026-06,1013.33,1274.63,699.33,630.06,100.0,-314.0,-30.99,-575.3,-45.13,608,20,92.0,3.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618760,4L Greenfield a Malout bypass from ch. Km 44.500 to ch. Km 35.500 on NH-07 and Ch. Km 0.000 to Km 6.984 on NH-09 bMandi Dabwali Bypass from Ch. 38.450 Km to Km 27.910 Pkg-02,Ministry of Road Transport & Highways,Roads & Highways,"Multi-States (Punjab,
+Haryana)",NHAI,2026-06,True,2025-12,2026-05,6,1.0,2021-11,2022-12,2024-07,2026-01,2026-06,2026-06,646.42,556.09,571.11,549.2,98.0,-75.31,-11.65,15.02,2.7,700,23,151.0,5.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618935,4L Ambala - Kalaamb from Km. -0.800 to Km. 33.015 of old NH-72,Ministry of Road Transport & Highways,Roads & Highways,"Multi-States (Punjab,
+Haryana)",NHAI,2026-06,True,2025-12,2026-05,6,1.0,2022-10,2023-06,2025-06,2026-02,2026-06,2026-06,1183.7,1190.34,706.54,452.48,100.0,-477.16,-40.31,-483.8,-40.64,365,12,120.0,4.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618755,4L of left out existing road section from Lalgopalganj Km 161.450 to Nawabganj Km 180.200 in Prayagraj,Ministry of Road Transport & Highways,Roads & Highways,"Multi-States (Rajasthan,
+Uttar Pradesh)",NHAI,2026-06,True,2026-02,2026-05,4,1.0,2024-03,2025-04,2026-03,2026-04,2026-06,2026-06,159.53,100.74,93.24,72.44,100.0,-66.29,-41.55,-7.5,-7.44,92,3,61.0,2.0,0,0,0,1,1,0,0,0,COST_UNDERRUN
+619122,Akshardham - DL/UP Border Pkg-01,Ministry of Road Transport & Highways,Roads & Highways,"Multi-States (Uttar
+Pradesh, Delhi)",NHAI,2026-06,True,2026-01,2026-05,5,1.0,2020-09,2022-06,2024-12,2024-08,2026-06,2026-06,1479.22,1476.75,1399.88,1351.78,100.0,-79.34,-5.36,-76.87,-5.21,547,18,669.0,22.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618828,4L from Km 219.600 Khajuri to Km 260.483 Wyndhamganj on NH-75 Sec-V,Ministry of Road Transport & Highways,Roads & Highways,"Multi-States (Uttar
+Pradesh, Jharkhand)",NHAI,2026-06,True,2025-12,2026-05,6,1.0,2022-03,2023-09,2025-09,2026-05,2026-06,2026-06,1436.49,1465.55,959.96,830.18,92.02,-476.53,-33.17,-505.59,-34.5,273,9,31.0,1.0,0,0,0,1,1,1,0,0,COST_UNDERRUN
+618912,Construction of Rudrapur Bypass Section from Km. 0.000 to 20.640 in the state of Uttar Pradesh & Uttarakhand,Ministry of Road Transport & Highways,Roads & Highways,"Multi-States (Uttar
+Pradesh, Uttarakhand)",NHAI,2026-06,True,2026-02,2026-05,4,1.0,2023-03,2024-01,2026-01,2026-03,2026-06,2026-06,1051.73,1117.17,670.74,665.1,99.1,-380.99,-36.23,-446.43,-39.96,151,5,92.0,3.0,0,0,0,1,1,0,0,0,COST_UNDERRUN
+619104,4L/2L PS of Govindpur Raiganj - Chas - WB border section of from km. 0.00 to km. 56.889 of Old NH-32,Ministry of Road Transport & Highways,Roads & Highways,"Multi-States (West
+Bengal, Jharkhand)",NHAI,2026-06,True,2026-01,2026-05,5,1.0,2016-03,2017-12,2019-12,2025-09,2026-06,2026-06,1139.65,1154.8,1064.7,6.64,99.84,-74.95,-6.58,-90.1,-7.8,2374,78,273.0,9.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618002,Widening of existing single lane to intermediate lane road from Mokokchung to Chare via Dikhu in the state of Nagaland on EPC mode,Ministry of Road Transport & Highways,Roads & Highways,Nagaland,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2021-02,2023-06,2025-06,2025-11,2026-06,2026-06,192.93,,110.98,99.65,0.0,-81.95,-42.48,,,365,12,212.0,7.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618329,Construction of 4/6 Laning from Km 132.375 to Km 153.058 Total New Alignment length of 20.683 Km of Daboka-Dimapur Section Dimapur Bypass Nagaland Portion of NH-36 & 39 in the State of Nagaland on EPC basis under PhaseA of SARDP-NE,Ministry of Road Transport & Highways,Roads & Highways,Nagaland,NHIDCL,2026-06,True,2025-12,2026-05,6,1.0,2017-02,2017-09,2020-09,2025-09,2026-06,2026-06,819.39,,635.0,0.0,0.0,-184.39,-22.5,,,2099,69,273.0,9.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+617924,Construction of bypass to Nayagarh town from km 235.469 to 252.482 of NH-57 including land acquisition in the state of Odisha.,Ministry of Road Transport & Highways,Roads & Highways,Odisha,MoRTH,2026-06,True,2025-12,2026-05,5,1.0,2022-01,2023-05,2025-04,2026-02,2026-06,2026-06,300.33,,103.64,82.33,100.0,-196.69,-65.49,,,426,14,120.0,4.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618819,Balance work of Panikoili Rimoli Section of new NH-20 from Km 0.00 to Km. 163.000,Ministry of Road Transport & Highways,Roads & Highways,Odisha,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2020-09,2021-03,2022-03,2023-12,2026-06,2026-06,183.03,200.79,185.4,89.36,99.0,2.37,1.29,-15.39,-7.66,1553,51,913.0,30.0,1,0,0,1,1,1,1,1,CLEAN
+618913,4-L of Rajamunda to Barkote Section of NH-23 from km. 287.200 to km. 337.185,Ministry of Road Transport & Highways,Roads & Highways,Odisha,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2017-10,2018-12,2021-06,2025-07,2026-06,2026-06,609.63,630.97,608.19,114.77,96.52,-1.44,-0.24,-22.78,-3.61,1826,60,335.0,11.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+619075,6L of Bhubaneswar - Jagatpur - Chandikhole Section of NH-16,Ministry of Road Transport & Highways,Roads & Highways,Odisha,NHAI,2026-06,True,2026-01,2026-05,5,1.0,2009-01,2011-12,2014-06,2026-04,2026-06,2026-06,639.3,632.89,579.23,52.23,97.48,-60.07,-9.4,-53.66,-8.48,4383,144,61.0,2.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618487,Delhi-Amritsar-Katra Expressway Phase-I Pkg-VII from Junction with Patiala- Bathinda road NH-7 near Bhawanigarh to Junction with Ludhiana-Malerhkotla SH-11 near Bhogiwal village Km 188830 to km 225770,Ministry of Road Transport & Highways,Roads & Highways,Punjab,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2020-12,2022-07,2024-07,2026-02,2026-06,2026-06,1759.82,1774.32,1695.83,1250.45,95.8,-63.99,-3.64,-78.49,-4.42,700,23,120.0,4.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+617891,"Construction of Two lane with Paved Shoulder for Fatehpur Bypass Design Km 0.000 to Km 7.400 , Mandawa Bypass Design Km 20.925 to Km 27.300 & Jhunjhunu Bypass Design Km 41.625 to Km 54.689 of NH-11 on EPC Mode in the state of Rajasthan .",Ministry of Road Transport & Highways,Roads & Highways,Rajasthan,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2022-03,2023-02,2024-08,2025-09,2026-06,2026-06,186.29,,78.06,66.7,100.0,-108.23,-58.1,,,669,22,273.0,9.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+617900,Upgradation to Two Lane Paved Shoulder in km 33/0 to 126/520 of NH-23 Old NH-11B Kothun-Lalsot-Karoli-Dholpur road in the state of Rajasthan under EPC mode Length-93.52 Km.,Ministry of Road Transport & Highways,Roads & Highways,Rajasthan,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2021-12,2022-09,2024-09,2026-05,2026-06,2026-06,150.11,,12.25,12.2,99.0,-137.86,-91.84,,,638,21,31.0,1.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618093,Up-gradation to 2 lane with Paved shoulder from Charbhuja at Design km 0.00 existing km 150.00 to Neechli Oden Nathdwara at Design ch. Km 88.800 existing km 55.950 of NH-162E on EPC mode.,Ministry of Road Transport & Highways,Roads & Highways,Rajasthan,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2022-02,2023-09,2025-09,2025-04,2026-06,2026-06,838.43,,43.9,55.04,0.0,-794.53,-94.76,,,273,9,426.0,14.0,0,0,0,1,1,1,0,0,COST_UNDERRUN
+618118,Upgradation of two lane paved shoulder from Shahpura existing km. 0.00 Design Ch. 000 to Thanagazi existing Km.37352 Design Ch. 36810 of NH- 248A on EPC mode in the State of Rajasthan.,Ministry of Road Transport & Highways,Roads & Highways,Rajasthan,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2022-03,2023-02,2024-07,2025-07,2026-06,2026-06,174.34,,100.48,63.55,100.0,-73.86,-42.37,,,700,23,335.0,11.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618456,Delhi-Vadodara Greenfield Alignment NH-148N Pkg-14 Ch. 388.420 to Ch. 419.000 [Junction with NH- 76 to Junction with NH-12 near village Ummedpura],Ministry of Road Transport & Highways,Roads & Highways,Rajasthan,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2019-11,2021-05,2023-05,2025-03,2026-06,2026-06,1119.35,1194.17,1114.19,975.7,99.8,-5.16,-0.46,-79.98,-6.7,1127,37,457.0,15.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+619063,4L Greenfield spur from Delhi-Vadodara Greenfield expressway near Bandikui to Jaipur,Ministry of Road Transport & Highways,Roads & Highways,Rajasthan,NHAI,2026-06,True,2026-01,2026-05,5,1.0,2022-03,2022-11,2024-11,2025-10,2026-06,2026-06,1636.15,2170.39,1283.3,1278.04,100.0,-352.85,-21.57,-887.09,-40.87,577,19,243.0,8.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618562,Dindigul Bypass - Samyanallore from km. 373.275 to km. 426.00,Ministry of Road Transport & Highways,Roads & Highways,Tamil Nadu,NHAI,2026-06,True,2026-02,2026-05,4,1.0,2005-06,2006-07,2009-01,2025-07,2026-06,2026-06,579.0,295.5,141.09,1.4,100.0,-437.91,-75.63,-154.41,-52.25,6360,209,335.0,11.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618743,Trichy 135.800 to Karur 218.000 section of NH-67 - Trichy Bypass,Ministry of Road Transport & Highways,Roads & Highways,Tamil Nadu,NHAI,2026-06,True,2026-02,2026-05,4,1.0,2006-12,2008-01,2010-07,2026-06,2026-06,2026-06,876.88,360.88,336.71,66.59,100.0,-540.17,-61.6,-24.17,-6.7,5814,191,0.0,0.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618745,4L of Vadugapatti to Therkuvenganallur Rajapalyam section from km 36.000 to km 71.600 of NH-744,Ministry of Road Transport & Highways,Roads & Highways,Tamil Nadu,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2022-02,2023-04,2025-04,2026-06,2026-06,2026-06,1317.6,1137.16,954.04,932.02,99.99,-363.56,-27.59,-183.12,-16.1,426,14,0.0,0.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618773,Tuticorin - Tirunelveli from km. 0.00 to km. 47.250,Ministry of Road Transport & Highways,Roads & Highways,Tamil Nadu,NHAI,2026-06,True,2026-02,2026-05,4,1.0,2009-11,2010-04,2012-04,2014-06,2026-06,2026-06,449.85,452.48,2.8,1.17,100.0,-447.05,-99.38,-449.68,-99.38,5174,170,4383.0,144.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618874,Four Laning of Trichy - Dindigul from km. 333.00 to km. 421.273 of NH-45,Ministry of Road Transport & Highways,Roads & Highways,Tamil Nadu,NHAI,2026-06,True,2026-02,2026-05,4,1.0,2006-12,2008-01,2010-07,2026-06,2026-06,2026-06,1003.11,435.81,377.7,9.74,100.0,-625.41,-62.35,-58.11,-13.33,5814,191,0.0,0.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618897,4L of Sethiyathope -Cholapuram section from Km. 65.960 to Km. 116.440 section of NH45 C Pkg-II,Ministry of Road Transport & Highways,Roads & Highways,Tamil Nadu,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2017-03,2018-08,2020-08,2025-11,2026-06,2026-06,2356.19,2356.9,1697.35,1011.39,100.0,-658.84,-27.96,-659.55,-27.98,2130,70,212.0,7.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618943,Salem - Ulundurpet section from km 0.313 to km 136.670 of NH-68,Ministry of Road Transport & Highways,Roads & Highways,Tamil Nadu,NHAI,2026-06,True,2026-01,2026-05,5,1.0,2006-12,2008-01,2011-01,2025-11,2026-06,2026-06,861.23,1019.85,940.44,140.31,100.0,79.21,9.2,-79.41,-7.79,5630,185,212.0,7.0,1,0,0,1,1,1,1,1,CLEAN
+619083,Thumbipadi-Namakkal from km. 180.00 to km. 248.625 Package No. NS- 2/BOT/TN-02,Ministry of Road Transport & Highways,Roads & Highways,Tamil Nadu,NHAI,2026-06,True,2026-01,2026-05,5,1.0,2005-06,2006-08,2009-02,2026-06,2026-06,2026-06,255.53,395.43,392.41,206.64,100.0,136.88,53.57,-3.02,-0.76,6329,208,0.0,0.0,1,1,1,1,1,1,1,1,CLEAN
+619084,Start of Karur Bypass - Dindigul from km. 292.600 to km. 305.600 Contract Package No. NS2/BOT/TN-4,Ministry of Road Transport & Highways,Roads & Highways,Tamil Nadu,NHAI,2026-06,True,2026-01,2026-05,5,1.0,2005-08,2006-10,2009-04,2025-12,2026-06,2026-06,461.54,515.03,222.72,42.28,100.0,-238.82,-51.74,-292.31,-56.76,6270,206,182.0,6.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+617992,Rehabilitation & upgradation of NH - 167 from design km 187.723 to 234.434 Miryalaguda to Kodad section to two lane with paved shoulder on EPC mode in the state of Telangana,Ministry of Road Transport & Highways,Roads & Highways,Telangana,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2018-03,2018-09,2020-09,2026-01,2026-06,2026-06,322.81,322.81,154.47,148.48,98.14,-168.34,-52.15,-168.34,-52.15,2099,69,151.0,5.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+617996,Widening to 2/4 Lane with paved shoulders from Km 182.120 to Km 227.600 of NH 167 on Haggari-Jadcherla Road on EPC mode under NHO in the state of Telangana,Ministry of Road Transport & Highways,Roads & Highways,Telangana,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2016-10,2017-02,2019-02,2024-04,2026-06,2026-06,298.0,,238.2,234.7,95.6,-59.8,-20.07,,,2677,88,791.0,26.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618026,Rehabilitation and upgradation to two lane with paved shoulders from Km 0/000 to 72/6 of NH-365 Nakrekal to Tanamcherla section under NHDP IV in the state of Telangana under EPC mode,Ministry of Road Transport & Highways,Roads & Highways,Telangana,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2017-06,2017-11,2019-10,2025-05,2026-06,2026-06,605.08,,585.2,585.2,99.9,-19.88,-3.29,,,2435,80,396.0,13.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618132,Widening & strengthening of existing carriageway in 2 lane with paved shoulders from km 25/0 to 59/2 design Ch km 25.467 to 59.200 of NH - 353C on EPC mode in the state of Telangana,Ministry of Road Transport & Highways,Roads & Highways,Telangana,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2018-02,2018-06,2020-06,2025-01,2026-06,2026-06,206.13,,318.62,152.77,98.57,112.49,54.57,,,2191,72,516.0,17.0,1,1,1,1,1,1,1,1,CLEAN
+618142,Widening to Two lane with Paved shoulders from km.40/410 to 84/037 of Thirumanlagiri-- Suryapet Section of NH-365B earstwhile section of SH-16,Ministry of Road Transport & Highways,Roads & Highways,Telangana,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2017-01,2017-05,2019-05,2023-08,2026-06,2026-06,244.54,,147.48,0.0,99.96,-97.06,-39.69,,,2588,85,1035.0,34.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618143,widening to two lane with Paved shoulders from Km.0/970 to Km.40/410 of Jangaon - Thirumal giriof NH- 365B in the state of Telanganaon EPC mode under NHO Annual Plan 2016-17,Ministry of Road Transport & Highways,Roads & Highways,Telangana,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2017-03,2017-11,2019-10,2023-10,2026-06,2026-06,197.0,,3.24,0.0,92.74,-193.76,-98.36,,,2435,80,974.0,32.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618386,Rehabilitation & Upgradation of Road from Km 0.00 to Km 18.600 Total length- 18.600 km of Kumarghat-Kailashahar section on NH-208 to 2-lane with Paved shoulder on EPC bais under NHO,Ministry of Road Transport & Highways,Roads & Highways,Tripura,NHIDCL,2026-06,True,2025-12,2026-05,6,1.0,2020-02,2020-07,2022-01,2024-12,2026-06,2026-06,277.5,302.03,273.04,0.0,0.0,-4.46,-1.61,-28.99,-9.6,1612,53,547.0,18.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618008,"Construction of four-lane elevated viaduct from km.4634 to km.6345 on NH-24A including Retaining wall, service lane, at grade road and improvement of junctions, on EPC mode",Ministry of Road Transport & Highways,Roads & Highways,Uttar Pradesh,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2021-03,2022-03,2023-09,2024-09,2026-06,2026-06,185.09,269.81,200.32,175.09,100.0,15.23,8.23,-69.49,-25.76,1004,33,638.0,21.0,1,0,0,1,1,1,1,1,CLEAN
+618110,Improvement and upgradation to two lane with Paved Shoulder configuration from existing km 55.00 to km 90.00 Design length 34.76 of NH-227A near Chhapia Village to near Sikriganj in the State of UP on EPC Mode.,Ministry of Road Transport & Highways,Roads & Highways,Uttar Pradesh,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2021-11,2022-11,2024-05,2025-05,2026-06,2026-06,307.11,,136.8,125.88,0.0,-170.31,-55.46,,,761,25,396.0,13.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618498,6L Greenfield Kanpur - Lucknow Expressway Pkg II from km. 28.500 to km. 73.744,Ministry of Road Transport & Highways,Roads & Highways,Uttar Pradesh,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2021-12,2022-11,2025-05,2026-02,2026-06,2026-06,2471.56,2489.0,1439.5,1178.84,99.8,-1032.06,-41.76,-1049.5,-42.17,396,13,120.0,4.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618553,6L of Agra Bypass Northern connecting Km. 174.500 of NH-2 new NH-19 to Km. 141.000 of Yamuna Expressways,Ministry of Road Transport & Highways,Roads & Highways,Uttar Pradesh,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2022-01,2023-02,2025-02,2026-01,2026-06,2026-06,957.62,1034.42,759.58,758.67,100.0,-198.04,-20.68,-274.84,-26.57,485,16,151.0,5.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618565,Strengthening of existing 4L Ayodhya Bypass Section from design Km. 121 600 to Km. 144020 of NH 28 New NH 27Pkg-3,Ministry of Road Transport & Highways,Roads & Highways,Uttar Pradesh,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2023-03,2023-09,2025-03,2025-11,2026-06,2026-06,526.45,281.13,270.75,259.66,81.85,-255.7,-48.57,-10.38,-3.69,457,15,212.0,7.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618770,4L Spur of Panipat - Shamli connecting NH-709AD Panipat Shamli Muzaffarnagar and NH-709A Karnal Meerut bypassing Shamli district UP,Ministry of Road Transport & Highways,Roads & Highways,Uttar Pradesh,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2021-10,2022-10,2024-10,2025-05,2026-06,2026-06,516.16,273.42,247.21,232.93,74.23,-268.95,-52.11,-26.21,-9.59,608,20,396.0,13.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618854,2L PS of Raebareli - Jagdishpur with 4L Jagdishpur Bypass Spur,Ministry of Road Transport & Highways,Roads & Highways,Uttar Pradesh,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2021-02,2022-01,2024-01,2025-11,2026-06,2026-06,706.41,752.52,534.31,515.53,97.2,-172.1,-24.36,-218.21,-29.0,882,29,212.0,7.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618855,"Improvement and Up-Gradation of Existing Road to 2/4L PS from Km 40.000 to 88.750, start of Khutar bypass to start of Shahjahanpur bypass of NH 731Pkg-I",Ministry of Road Transport & Highways,Roads & Highways,Uttar Pradesh,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2022-03,2023-02,2025-02,2026-03,2026-06,2026-06,838.68,838.68,616.56,560.48,99.2,-222.12,-26.48,-222.12,-26.48,485,16,92.0,3.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618864,4L from Mathura Bypass Start at Existing Km. 154.20 of NH-44 to Gaju Village at Km 32.982 of NH-530B Pkg-IB,Ministry of Road Transport & Highways,Roads & Highways,Uttar Pradesh,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2022-01,2023-03,2025-03,2026-01,2026-06,2026-06,1722.11,1820.77,1057.04,1050.08,100.0,-665.07,-38.62,-763.73,-41.95,457,15,151.0,5.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618865,4L from Gaju Village at Km. 32.982 to Devinagar Bypass End at Km. 208.000 of NH-530B Pkg-1C.,Ministry of Road Transport & Highways,Roads & Highways,Uttar Pradesh,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2021-12,2023-01,2025-01,2025-04,2026-06,2026-06,1384.79,1496.44,862.65,823.04,99.99,-522.14,-37.71,-633.79,-42.35,516,17,426.0,14.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618959,4L Prayagraj Greenfield By-pass from design Km 50860 near Nibi Kala Uperhar to design Km 64763 on NH-19 near Khodaypur Kasgaon including Interchange loop at NH-19,Ministry of Road Transport & Highways,Roads & Highways,Uttar Pradesh,NHAI,2026-06,True,2025-12,2026-05,6,1.0,2023-08,2023-12,2025-03,2026-02,2026-06,2026-06,1017.99,427.54,412.74,406.6,100.0,-605.25,-59.46,-14.8,-3.46,457,15,120.0,4.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+617970,Reconstruction of existing 2 L/IL to 2L with paved shoulder from existing km 52.200 to 92.880 of NH-,Ministry of Road Transport & Highways,Roads & Highways,Uttarakhand,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2016-10,2017-06,2019-06,2023-09,2026-06,2026-06,282.08,,352.53,166.13,100.0,70.45,24.98,,,2557,84,1004.0,33.0,1,1,1,1,1,1,1,1,CLEAN
+617975,Rehabilitation and upgradation to 2 lane with paved shoulder configuration from km 122.00 Dharasu Bend to km 147.230 Silkyara Bend of NH-94 in the state of Uttarakhand,Ministry of Road Transport & Highways,Roads & Highways,Uttarakhand,MoRTH,2026-06,True,2025-12,2026-05,6,1.0,2017-03,2017-11,2019-11,2026-01,2026-06,2026-06,237.79,,196.69,79.56,100.0,-41.1,-17.28,,,2404,79,151.0,5.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+617253,Revamping of old sub-systems of Blast Furnace 3 at Bokaro Steel Plant,Ministry of Steel,Steel,Jharkhand,Steel Authority of India Limited [SAIL],2026-06,True,2025-12,2026-05,6,1.0,2023-08,2023-10,2025-07,2026-05,2026-06,2026-06,513.82,,415.18,412.95,98.72,-98.64,-19.2,,,335,11,31.0,1.0,0,0,0,1,1,1,0,0,COST_UNDERRUN
+701406,Rajiv Bhima Lift Irrigation Scheme,"Department of Water Resources, River Development & GR",Water Resources,Telangana,Irrigation and CAD-TG,2026-07,True,2025-12,2026-06,7,1.0,2007-04,2008-01,2019-12,2026-03,2026-06,2026-06,1402.0,2509.66,1839.76,1839.76,100.0,437.76,31.22,-669.9,-26.69,2374,78,92.0,3.0,1,1,1,1,1,1,1,1,CLEAN
+702851,Pune Water Supply Infrastructure Project,Ministry of Housing & Urban Affairs,Waste & Water,Maharashtra,Ministry of Housing & Urban Affairs,2026-07,True,2025-12,2026-06,7,1.0,2017-03,2017-07,2023-03,2026-08,2026-07,2026-07,235.95,,220.77,220.77,96.0,-15.18,-6.43,,,1218,40,-31.0,-1.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+701343,Srikakulam Angul Gas Pipeline Project,Ministry of Petroleum & Natural Gas,Energy Storage,Odisha,Gas Authority of India Limited [GAIL],2026-07,True,2025-12,2026-06,7,1.0,2019-09,2019-09,2026-07,2026-07,2026-07,2026-07,2658.34,2810.0,2315.2,2315.2,98.1,-343.14,-12.91,-494.8,-17.61,0,0,0.0,0.0,0,0,0,1,0,0,0,0,COST_UNDERRUN
+400078,New Mundra Panipat Crude Oil Pipeline,Ministry of Petroleum & Natural Gas,Energy Storage,Rajasthan,Indian Oil Corporation Limited [IOCL],2026-07,True,2025-12,2026-06,7,1.0,2021-12,2021-12,2024-12,2026-07,2026-07,2026-07,9028.0,9028.0,7554.56,7482.71,94.1,-1473.44,-16.32,-1473.44,-16.32,577,19,0.0,0.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+611966,Transmission System for Evacuation of power from Potential RE Zone in Khavda Area of Gujarat under phase IV 7GW-Part E4,Ministry of Power,Transmission & Distribution,Maharashtra,Power Grid Corporation of India Limited [POWERGRID],2026-07,True,2025-12,2026-06,7,1.0,2023-11,2023-11,2025-07,2026-05,2026-06,2026-06,224.41,,224.41,224.41,100.0,0.0,0.0,,,335,11,31.0,1.0,1,0,0,1,1,1,0,0,CLEAN
+617949,Tadipatri Bypass Km 0000 to Km 6285 of 4-Lane on NH-67 in Anantapuramu district of AP state under NHO on EPC Mode under Annual Plan 2022-23,Ministry of Road Transport & Highways,Roads & Highways,Andhra Pradesh,MoRTH,2026-07,True,2025-12,2026-06,7,1.0,2023-03,2024-03,2026-03,2026-01,2026-01,2026-01,159.66,,75.74,75.64,100.0,-83.92,-52.56,,,-59,-2,0.0,0.0,0,0,0,0,0,0,0,0,COST_UNDERRUN; COMPLETED_EARLY
+618051,Rehabilitation and Upgrading of NH-707 OLD 72-B Package - 2 Hewna to Ashyari,Ministry of Road Transport & Highways,Roads & Highways,Himachal Pradesh,MoRTH,2026-07,True,2025-12,2026-06,3,1.0,2020-04,2021-03,2023-03,2025-12,2025-12,2025-12,242.8,220.95,145.49,145.49,98.38,-97.31,-40.08,-75.46,-34.15,1006,33,0.0,0.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+617915,Upgradation of Dindori-Sagartola-kabichabutra MP-CG border section of NH -45 from km 000Design to km 77.00 Design to Two lane with paved shoulder configration along with one time improvement in 04 nos. of bypaased built-up areas in a total length of 9.1 km in the state of Madhya Pradesh on EPC mode.,Ministry of Road Transport & Highways,Roads & Highways,Madhya Pradesh,MoRTH,2026-07,True,2025-12,2026-06,7,1.0,2022-01,2023-09,2025-09,2026-03,2026-03,2026-03,329.14,319.09,204.39,0.0,100.0,-124.75,-37.9,-114.7,-35.95,181,6,0.0,0.0,0,0,0,1,1,1,0,0,COST_UNDERRUN
+618136,Upgradatiobn and Rehabilitation of Section of NH 361 F from Parli 00/000 to Gangakhed 30/400 to Two Lanes with paved shoulder / Four lane configurations on EPC mode in the State of Maharashtra.,Ministry of Road Transport & Highways,Roads & Highways,Maharashtra,MoRTH,2026-07,True,2025-12,2026-05,6,2.0,2021-03,2022-02,2023-09,2025-08,2025-08,2025-08,224.44,,268.45,0.0,91.0,44.01,19.61,,,700,23,0.0,0.0,1,1,0,1,1,1,1,0,CLEAN
+618175,Rehabilitation and Upgradation of Satana to Mangrul Chandwad Section of NH752 G Design Ch Km 64.000 to Ch Km 101.140 two lane with paved shoulder/four lane configuration in the state of Maharashtra on EPC mode.,Ministry of Road Transport & Highways,Roads & Highways,Maharashtra,MoRTH,2026-07,True,2025-12,2026-06,7,1.0,2022-03,2023-05,2025-05,2026-02,2026-02,2026-02,428.8,,184.63,0.0,93.46,-244.17,-56.94,,,276,9,0.0,0.0,0,0,0,1,1,1,0,0,COST_UNDERRUN
+617887,Beawer Gomti 4LPS from km 58.245 to km 108.600 Pkg-I,Ministry of Road Transport & Highways,Roads & Highways,Rajasthan,MoRTH,2026-07,True,2025-12,2026-06,7,1.0,2020-12,2021-10,2023-10,2025-12,2025-12,2025-12,379.23,,206.48,206.48,100.0,-172.75,-45.55,,,792,26,0.0,0.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+617981,Widening to Two with Paved shoulders from Km 59.500 to Km 132.033 of Manneguda- Ravunapally section of NH-163 Erstwhile SH-4 in the State of Telangana on EPC mode under NH O Annual Plan 2016-17,Ministry of Road Transport & Highways,Roads & Highways,Telangana,MoRTH,2026-07,True,2026-02,2026-05,4,2.0,2017-03,2017-05,2019-05,2024-10,2024-10,2024-10,359.0,,724.23,0.0,99.92,365.23,101.74,,,1980,65,0.0,0.0,1,1,1,1,1,1,1,1,CLEAN
+617982,Widening and strengthening of existing 2-lane to 2- lane with paved shoulders from km 159/0 to 165/4 and 186/0 to 215/0 of NH-163 on EPC mode int the state of Telangana,Ministry of Road Transport & Highways,Roads & Highways,Telangana,MoRTH,2026-07,True,2025-12,2026-05,6,2.0,2018-01,2018-06,2019-11,2024-11,2024-11,2024-11,230.03,,383.3,0.0,0.0,153.27,66.63,,,1827,60,0.0,0.0,1,1,1,1,1,1,1,1,CLEAN
+617993,Rehabilitation and upgradation of NH-167 from design km 157.707 to 187.723 design length 30.016 km to two lane with paved shoulders of Alinagar- Miryalaguda Sec on EPC mode in the state of Telangana,Ministry of Road Transport & Highways,Roads & Highways,Telangana,MoRTH,2026-07,True,2026-02,2026-05,4,2.0,2018-02,2018-05,2019-11,2025-12,2025-12,2025-12,220.28,,223.79,0.0,97.74,3.51,1.59,,,2222,73,0.0,0.0,1,0,0,1,1,1,1,1,CLEAN
+618749,Khammam-Devarapalle Pkg V [4L Access Controlled Greenfield from Gurvaygudem village to Devarapalle village Design Chainage 132664 to 162126,Ministry of Road Transport & Highways,Roads & Highways,Andhra Pradesh,NHAI,2026-07,True,2025-12,2026-06,7,1.0,2020-12,2022-09,2024-09,2026-05,2026-05,2026-05,711.94,926.48,591.01,566.96,100.0,-120.93,-16.99,-335.47,-36.21,607,20,0.0,0.0,0,0,0,1,1,1,1,0,COST_UNDERRUN
+618460,Delhi-Vadodara Greenfield Alignment NH-148N Pkg-28 Ch.756052 to Ch.781282,Ministry of Road Transport & Highways,Roads & Highways,Gujarat,NHAI,2026-07,True,2025-12,2026-06,7,1.0,2020-09,2021-11,2023-11,2026-04,2026-04,2026-04,1263.38,1266.98,935.5,934.98,100.0,-327.88,-25.95,-331.48,-26.16,882,29,0.0,0.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618833,Kodinar - Veraval Package VI from km. 221.610 to km. 263.00 of NH-8E & km. 120.900 to km. 121.150 of NH-8D,Ministry of Road Transport & Highways,Roads & Highways,Gujarat,NHAI,2026-07,True,2025-12,2026-06,7,1.0,2016-02,2018-02,2020-07,2026-05,2026-05,2026-05,894.01,1127.42,730.06,730.04,98.79,-163.95,-18.34,-397.36,-35.25,2130,70,0.0,0.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+619146,Kagvadar - Una Package-IV,Ministry of Road Transport & Highways,Roads & Highways,Gujarat,NHAI,2026-07,True,2026-01,2026-06,6,1.0,2016-02,2017-03,2019-09,2026-06,2026-06,2026-06,750.53,955.78,833.13,833.12,97.93,82.6,11.01,-122.65,-12.83,2465,81,0.0,0.0,1,1,0,1,1,1,1,1,CLEAN
+618577,Dwarka Expressway Pkg-III Delhi/HR Border to Start of RoB Gurugram,Ministry of Road Transport & Highways,Roads & Highways,"Multi-States (Delhi,
+Haryana)",NHAI,2026-07,True,2026-02,2026-06,5,1.0,2018-01,2018-11,2020-11,2024-05,2024-05,2024-05,2228.26,2298.37,1775.04,1759.52,100.0,-453.22,-20.34,-523.33,-22.77,1277,42,0.0,0.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+619291,4L Poanta SahebMednipur from Km. 435.65 to km. 458.65 of NH-07Pkg-1,Ministry of Road Transport & Highways,Roads & Highways,"Multi-States
+(Uttarakhand, Himachal
+Pradesh)",NHAI,2026-07,True,2026-03,2026-06,4,1.0,2022-03,2023-05,2025-05,2026-03,2026-03,2026-03,524.54,657.32,321.15,319.77,94.25,-203.39,-38.77,-336.17,-51.14,304,10,0.0,0.0,0,0,0,1,1,1,0,0,COST_UNDERRUN
+619113,4L of Padalur - Trichy section from km. 285.00 to km. 325.00 of NH - 45 Pkg VI-C,Ministry of Road Transport & Highways,Roads & Highways,Tamil Nadu,NHAI,2026-07,True,2026-01,2026-06,2,1.0,2005-12,2006-11,2009-05,2026-02,2026-02,2026-02,555.8,235.8,235.51,235.51,100.0,-320.29,-57.63,-0.29,-0.12,6120,201,0.0,0.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618692,Aligarh-Kanpur Pkg I [Aligarh-Bhadwas],Ministry of Road Transport & Highways,Roads & Highways,Uttar Pradesh,NHAI,2026-07,True,2026-02,2026-06,5,1.0,2018-03,2019-02,2022-06,2024-12,2024-12,2024-12,1226.64,2069.6,1359.15,1359.14,100.0,132.51,10.8,-710.45,-34.33,914,30,0.0,0.0,1,1,0,1,1,1,1,1,CLEAN
+618432,Construction of Balance work of 2-Lane with PS of Joram-Koloriang Road NH- 713 on EPC basis from Design Km 44.989 to Km 61.547 Existing Km 50.050 to Km 70.000 in the state of Arunachal Pradesh under SARDP-NE Pkg-3,Ministry of Road Transport & Highways,Roads & Highways,Arunachal Pradesh,NHIDCL,2026-07,True,2025-12,2026-05,6,2.0,2017-02,2020-10,2022-04,2024-09,2024-09,2024-09,228.72,,205.68,0.0,99.52,-23.04,-10.07,,,884,29,0.0,0.0,0,0,0,1,1,1,1,1,COST_UNDERRUN
+618342,Rehabilitation and upgradation to 2 Lane with Paved shoulder of Economic corridor of NH-6 from Design chaiange Km 0.000 to Km 13.510 Package-1 in the state of Mizoram under Bharatmala Pariyojana on EPC mode,Ministry of Road Transport & Highways,Roads & Highways,Mizoram,NHIDCL,2026-07,True,2025-12,2026-05,6,2.0,2020-03,2020-07,2022-06,2024-06,2024-06,2024-06,206.9,,214.51,0.0,0.0,7.61,3.68,,,731,24,0.0,0.0,1,0,0,1,1,1,1,1,CLEAN
+618343,"Rehabilitation and Up gradation to 2-lane with paved shoulder of Keifang Section Economic Corridor of NH-06 from Existing Chainage Km 30050 Keifang to Km 50360 Keifang, Design Chainage Km 27400 to Km 45040 PkgIII in the State of Mizoram under Bharatmala Pariyojna on EPC Mode Seling-Dulte - III",Ministry of Road Transport & Highways,Roads & Highways,Mizoram,NHIDCL,2026-07,True,2025-12,2026-05,6,2.0,2020-03,2020-07,2022-06,2024-10,2024-10,2024-10,292.23,,298.93,0.0,0.0,6.7,2.29,,,853,28,0.0,0.0,1,0,0,1,1,1,1,1,CLEAN

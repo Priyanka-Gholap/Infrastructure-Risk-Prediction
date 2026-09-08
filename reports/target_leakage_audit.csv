@@ -1,0 +1,22 @@
+column_name,source_table,leakage_classification,leakage_risk_level,rationale
+actual_date_of_completion,Table 3,OUTCOME / TARGET ONLY,CRITICAL (100% LEAKAGE IF USED AT PREDICTION TIME),Represents realized completion date recorded upon formal commissioning. Not known during project execution. Must be used strictly to construct the training target label.
+completion_cost,Table 3,OUTCOME / TARGET ONLY,CRITICAL (100% LEAKAGE IF USED AT PREDICTION TIME),Represents final capital disbursed at project closeout. Not known during project execution. Must be used strictly to construct the training target label.
+revised_doc (from Table 3),Table 3,OUTCOME / TARGET ONLY,HIGH LEAKAGE,Reflects the final revision approved up to project completion. Using Table 3 revised_doc at an earlier prediction snapshot leaks future administrative revisions.
+revised_cost (from Table 3),Table 3,OUTCOME / TARGET ONLY,HIGH LEAKAGE,Reflects the final budget revision sanctioned up to completion. Table 3 values must not be merged back onto earlier Table 6 observation snapshots.
+revised_doc (from Table 6 snapshot),Table 6 (At Observation Time),POTENTIAL LEAKAGE / TEMPORAL CAUTION,MEDIUM CAUTION,"Safe if taken strictly from the observation month snapshot, as it was known to planners at that time. However, if predicting delay vs original_doc, using current revised_doc directly can mask early slippage because the deadline was already extended."
+revised_cost (from Table 6 snapshot),Table 6 (At Observation Time),POTENTIAL LEAKAGE / TEMPORAL CAUTION,MEDIUM CAUTION,"Safe if strictly timestamped at the prediction snapshot. However, administrative revisions to cost often lag actual contractor cost pressures by 6–12 months, or conversely, already incorporate cost escalation."
+future Table 6 observations (t > t_pred),Table 6 (Future Months),POTENTIAL LEAKAGE / TEMPORAL CAUTION,CRITICAL IF INCLUDED,"Any cumulative expenditure, physical progress, or revised dates from months after the chosen prediction cutoff constitute future temporal leakage."
+report_month,Table 6,SAFE AT PREDICTION TIME,NONE,Defines the monitoring snapshot epoch. Known at prediction time.
+sl_no,Table 6,SAFE AT PREDICTION TIME,NONE,Administrative index in monthly PDF. Known at prediction time.
+project_id,Table 6,SAFE AT PREDICTION TIME,NONE,Immutable project identifier. Known at inception.
+project_name,Table 6,SAFE AT PREDICTION TIME,NONE,Static text description. Known at inception.
+ministry,Table 6,SAFE AT PREDICTION TIME,NONE,Administrative line ministry. Known at inception.
+sector,Table 6,SAFE AT PREDICTION TIME,NONE,Infrastructure sector classification. Known at inception.
+implementing_agency,Table 6,SAFE AT PREDICTION TIME,NONE,Nodal agency executing the project. Known at inception.
+state,Table 6,SAFE AT PREDICTION TIME,NONE,Geographic state/UT. Known at inception.
+date_of_approval,Table 6,SAFE AT PREDICTION TIME,NONE,Cabinet / ministry approval date. Baseline parameter known at project inception.
+start_date,Table 6,SAFE AT PREDICTION TIME,NONE,Commencement date. Known at project launch.
+original_doc,Table 6,SAFE AT PREDICTION TIME,NONE,Contractually targeted completion deadline. Known at project sanction.
+original_cost,Table 6,SAFE AT PREDICTION TIME,NONE,Originally sanctioned budget. Known at project sanction.
+cumulative_expenditure (at t_pred),Table 6,SAFE AT PREDICTION TIME,NONE,Total capital disbursed up to the prediction snapshot date. Known at prediction time.
+physical_progress_pct (at t_pred),Table 6,SAFE AT PREDICTION TIME,NONE,Certified physical progress achieved up to the prediction snapshot date. Known at prediction time.

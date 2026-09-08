@@ -1,0 +1,50 @@
+feature_name,category,data_type,formula_or_derivation,description,source_table_and_column,recommended_for_mvp,handling_of_missing_values
+project_id,Identifier,string,Official MoSPI Project ID,Unique identifier for the infrastructure project,Table 6: project_id,Metadata,None (Key)
+project_name,Identifier,string,Official Project Title,Full project name from MoSPI reports,Table 6: project_name,Metadata,None
+snapshot_month,Temporal/Metadata,string,YYYY-MM of Table 6 observation,Month of the monitoring report snapshot used for prediction (T-2),Table 6: report_month,Metadata,None
+ministry,Static,categorical,Direct extraction,Central Government Ministry sponsoring the project,Table 6: ministry,Yes,"Impute ""Unknown"""
+sector,Static,categorical,Direct extraction,"Sector classification (Railways, Road Transport, Power, etc.)",Table 6: sector,Yes,"Impute ""Unknown"""
+implementing_agency,Static,categorical,Direct extraction,Public sector agency or authority executing the project,Table 6: implementing_agency,Yes,"Impute ""Unknown"""
+state,Static,categorical,Direct extraction,State/UT where project is physically executed,Table 6: state,Yes,"Impute ""Unknown"""
+original_cost,Static/Financial,numeric,Direct extraction,Original sanctioned project cost in INR Crores,Table 6: original_cost,Yes,None missing
+approval_to_start_months,Static/Schedule,numeric,start_date - date_of_approval,Pre-construction lead time between approval and ground start in months,"Table 6: date_of_approval, start_date",Yes,Median imputation or indicator flag
+cumulative_expenditure,Financial,numeric,Direct extraction at snapshot,Total funds disbursed up to the T-2 snapshot in INR Crores,Table 6: cumulative_expenditure,Yes,None missing
+expenditure_percent_of_original_cost,Financial,numeric,(cumulative_expenditure / original_cost) * 100,Financial budget utilization percentage at snapshot,"Table 6: cumulative_expenditure, original_cost",Yes,None missing
+monthly_expenditure_change,Financial/Trend,numeric,expenditure(T-2) - expenditure(T-3),Net capital expenditure disbursed during the month preceding snapshot,Table 6: cumulative_expenditure,Yes,Median imputation + missing_previous_month_flag
+monthly_expenditure_growth_pct,Financial/Trend,numeric,((exp(T-2) - exp(T-3)) / exp(T-3)) * 100,Percentage growth rate in cumulative expenditure over prior month,Table 6: cumulative_expenditure,Yes,Median imputation + missing_previous_month_flag
+physical_progress_pct,Physical,numeric,Direct extraction at snapshot,Reported cumulative physical progress percentage at T-2 snapshot,Table 6: physical_progress_pct,Yes,None missing
+monthly_progress_change,Physical/Trend,numeric,phys(T-2) - phys(T-3),Percentage points of physical progress completed in month prior to snapshot,Table 6: physical_progress_pct,Yes,Median imputation + missing_previous_month_flag
+progress_growth_rate,Physical/Trend,numeric,((phys(T-2) - phys(T-3)) / phys(T-3)) * 100,Relative percentage growth in cumulative physical progress,Table 6: physical_progress_pct,Yes,Median imputation + missing_previous_month_flag
+planned_duration_months,Schedule,numeric,original_doc - start_date,Total planned duration sanctioned at project inception in months,"Table 6: start_date, original_doc",Yes,None missing
+elapsed_months,Schedule,numeric,snapshot_month - start_date,Actual calendar months elapsed since ground start up to snapshot,"Table 6: start_date, report_month",Yes,None missing
+remaining_planned_months,Schedule,numeric,original_doc - snapshot_month,Months remaining until original deadline (negative if already past),"Table 6: original_doc, report_month",Yes,None missing
+elapsed_duration_ratio,Schedule,numeric,elapsed_months / planned_duration_months,Ratio of timeline elapsed to original planned duration,"Table 6: start_date, original_doc, report_month",Yes,None missing
+is_past_original_doc,Schedule/Flag,binary,1 if snapshot_month > original_doc else 0,Indicator whether project has already exceeded original scheduled deadline at T-2,"Table 6: original_doc, report_month",Yes,None missing
+efficiency_gap,Interaction,numeric,physical_progress_pct - expenditure_percent_of_original_cost,Difference between physical delivery % and financial utilization %,"Table 6: physical_progress_pct, expenditure, original_cost",Yes,None missing
+cost_physical_ratio,Interaction,numeric,expenditure_pct / physical_progress_pct,Capital expenditure consumed per unit percentage of physical completion,"Table 6: expenditure, original_cost, physical_progress_pct",Yes,None missing
+expected_progress_pct,Analytical Baseline,numeric,"min(100, max(0, elapsed_duration_ratio * 100))",Analytical linear planned progress benchmark derived from original schedule,"Table 6: start_date, original_doc, report_month",Yes,None missing
+progress_gap_pct_points,Analytical Baseline,numeric,physical_progress_pct - expected_progress_pct,Progress delivery gap relative to analytical linear baseline,"Table 6: physical_progress_pct, derived baseline",Yes,None missing
+months_since_first_observation,Temporal,numeric,snapshot_month - first_observed_month,Number of months project has been monitored in our dataset prior to snapshot,Table 6: report_month,Yes,None missing
+observation_count_to_date,Temporal,numeric,count of monthly reports <= snapshot,Total number of monthly monitoring records available for project <= T-2,Table 6: report_month,Yes,None missing
+physical_progress_1_month_change,Trend,numeric,phys(T-2) - phys(T-3),1-month change in physical progress,Table 6: physical_progress_pct,Yes,Median imputation + flag
+physical_progress_2_month_change,Trend,numeric,phys(T-2) - phys(T-4),2-month change in physical progress,Table 6: physical_progress_pct,Yes,Median imputation + flag
+expenditure_1_month_change,Trend,numeric,exp(T-2) - exp(T-3),1-month change in cumulative expenditure,Table 6: cumulative_expenditure,Yes,Median imputation + flag
+expenditure_2_month_change,Trend,numeric,exp(T-2) - exp(T-4),2-month change in cumulative expenditure,Table 6: cumulative_expenditure,Yes,Median imputation + flag
+progress_trend_slope,Trend,numeric,(phys(T-2) - phys(first)) / months_span,Average monthly progress rate over monitored window,Table 6: physical_progress_pct,Yes,0 for single-month observations
+expenditure_trend_slope,Trend,numeric,(exp(T-2) - exp(first)) / months_span,Average monthly capital spend rate over monitored window,Table 6: cumulative_expenditure,Yes,0 for single-month observations
+negative_expenditure_flag,Data Quality Flag,binary,1 if cumulative_expenditure < 0 else 0,Flags negative expenditure accounting anomalies,Table 6: cumulative_expenditure,Yes,None missing
+missing_previous_month_flag,Data Quality Flag,binary,1 if T-3 observation missing else 0,Flags whether prior-month observation was unavailable,Table 6: report_month continuity,Yes,None missing
+invalid_duration_flag,Data Quality Flag,binary,1 if planned_duration <= 0 else 0,Flags projects where original duration is invalid/zero/negative,"Table 6: start_date, original_doc",Yes,None missing
+past_original_doc_flag,Data Quality Flag,binary,1 if snapshot_month > original_doc else 0,Flags projects already in schedule overrun at snapshot,"Table 6: original_doc, report_month",Yes,None missing
+missing_key_date_flag,Data Quality Flag,binary,1 if start_date or original_doc is missing else 0,Flags projects missing milestone baseline dates,"Table 6: start_date, original_doc",Yes,None missing
+suspicious_value_flag,Data Quality Flag,binary,"1 if progress not in [0, 100] or exp_pct > 300 or < 0",Flags physical progress >100% or extreme expenditure ratios,"Table 6: physical_progress_pct, expenditure",Yes,None missing
+snapshot_revised_cost,Administrative Revision,numeric,Table 6 revised_cost at T-2,Administrative sanctioned cost at snapshot (if revised),Table 6: revised_cost,Optional/Experiment,Equals original_cost if not revised
+snapshot_cost_revision_pct,Administrative Revision,numeric,((revised_cost - original_cost) / original_cost) * 100 at T-2,Administrative cost revision percentage approved prior to snapshot,"Table 6: revised_cost, original_cost",Optional/Experiment,0 if not revised
+snapshot_has_revised_doc,Administrative Revision,binary,1 if revised_doc is non-null at T-2 else 0,Indicator whether an administrative completion date revision exists at T-2,Table 6: revised_doc,Optional/Experiment,None missing
+snapshot_schedule_extension_months,Administrative Revision,numeric,revised_doc - original_doc in months at T-2,Administrative schedule extension granted prior to snapshot,"Table 6: revised_doc, original_doc",Optional/Experiment,0 if not revised
+meta_actual_completion_date,Metadata/Target Audit,string,Table 3 actual_date_of_completion,Actual completion month used for ground-truth verification,Table 3: actual_date_of_completion,Outcome-Only (Do Not Fit),None missing in usable subset
+meta_lead_time_months,Metadata/Target Audit,integer,actual_date - snapshot_month,Prediction lead time in months (exactly 2 for T-2),Derived,Outcome-Only (Do Not Fit),None missing
+target_cost_overrun_binary,Locked Target,binary,1 if completion_cost >= 1.10 * original_cost else 0,Primary ML Classification Target: Cost overrun >=10% above original sanction,"Table 3: completion_cost, original_cost",Primary Target,None missing
+target_cost_overrun_pct,Locked Target,numeric,((completion_cost - original_cost) / original_cost) * 100,Continuous Cost Overrun Target: Percentage cost overrun at completion,"Table 3: completion_cost, original_cost",Continuous Target,None missing
+target_delay_binary,Locked Target,binary,1 if actual_completion >= revised_doc + 60 days else 0,Primary ML Classification Target: Project delay >=60 days beyond latest revised deadline,"Table 3: actual_date, revised_doc",Primary Target,None missing
+target_delay_from_original_months,Locked Target,numeric,actual_completion - original_doc in months,Secondary Delay Target: Total calendar months delayed from original baseline,"Table 3: actual_date, original_doc",Secondary Target,None missing

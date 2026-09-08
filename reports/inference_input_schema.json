@@ -1,0 +1,367 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "InferenceInputPayload",
+  "description": "JSON payload schema accepted by the SIH26103 early-warning inference endpoint for a single infrastructure project snapshot.",
+  "type": "object",
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "description": "Unique official MoSPI Project ID (metadata identifier, not passed into ML estimators).",
+      "example": "701107"
+    },
+    "project_name": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Official Project Title (metadata).",
+      "example": "Integrated Terminal Building at Vijayawada Airport"
+    },
+    "snapshot_month": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Monitoring snapshot month YYYY-MM (metadata).",
+      "example": "2026-04"
+    },
+    "features": {
+      "type": "object",
+      "description": "Exact 36 SAFE_MVP model features required for prediction.",
+      "properties": {
+        "original_cost": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: original_cost. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "approval_to_start_months": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: approval_to_start_months. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "cumulative_expenditure": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: cumulative_expenditure. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "expenditure_percent_of_original_cost": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: expenditure_percent_of_original_cost. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "monthly_expenditure_change": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: monthly_expenditure_change. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "monthly_expenditure_growth_pct": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: monthly_expenditure_growth_pct. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "physical_progress_pct": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: physical_progress_pct. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "monthly_progress_change": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: monthly_progress_change. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "progress_growth_rate": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: progress_growth_rate. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "planned_duration_months": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: planned_duration_months. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "elapsed_months": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: elapsed_months. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "remaining_planned_months": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: remaining_planned_months. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "elapsed_duration_ratio": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: elapsed_duration_ratio. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "is_past_original_doc": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: is_past_original_doc. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "efficiency_gap": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: efficiency_gap. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "cost_physical_ratio": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: cost_physical_ratio. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "expected_progress_pct": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: expected_progress_pct. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "progress_gap_pct_points": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: progress_gap_pct_points. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "months_since_first_observation": {
+          "type": [
+            "integer",
+            "number",
+            "null"
+          ],
+          "description": "Longitudinal count: months_since_first_observation.",
+          "example": 6
+        },
+        "observation_count_to_date": {
+          "type": [
+            "integer",
+            "number",
+            "null"
+          ],
+          "description": "Longitudinal count: observation_count_to_date.",
+          "example": 6
+        },
+        "physical_progress_1_month_change": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: physical_progress_1_month_change. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "physical_progress_2_month_change": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: physical_progress_2_month_change. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "expenditure_1_month_change": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: expenditure_1_month_change. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "expenditure_2_month_change": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: expenditure_2_month_change. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "progress_trend_slope": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: progress_trend_slope. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "expenditure_trend_slope": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Numerical feature: expenditure_trend_slope. If missing or null, imputed with training median.",
+          "example": 125.5
+        },
+        "negative_expenditure_flag": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "enum": [
+            0,
+            1,
+            null
+          ],
+          "description": "Binary quality/schedule flag: negative_expenditure_flag. 1 if active, 0 otherwise.",
+          "example": 0
+        },
+        "missing_previous_month_flag": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "enum": [
+            0,
+            1,
+            null
+          ],
+          "description": "Binary quality/schedule flag: missing_previous_month_flag. 1 if active, 0 otherwise.",
+          "example": 0
+        },
+        "invalid_duration_flag": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "enum": [
+            0,
+            1,
+            null
+          ],
+          "description": "Binary quality/schedule flag: invalid_duration_flag. 1 if active, 0 otherwise.",
+          "example": 0
+        },
+        "past_original_doc_flag": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "enum": [
+            0,
+            1,
+            null
+          ],
+          "description": "Binary quality/schedule flag: past_original_doc_flag. 1 if active, 0 otherwise.",
+          "example": 0
+        },
+        "missing_key_date_flag": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "enum": [
+            0,
+            1,
+            null
+          ],
+          "description": "Binary quality/schedule flag: missing_key_date_flag. 1 if active, 0 otherwise.",
+          "example": 0
+        },
+        "suspicious_value_flag": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "enum": [
+            0,
+            1,
+            null
+          ],
+          "description": "Binary quality/schedule flag: suspicious_value_flag. 1 if active, 0 otherwise.",
+          "example": 0
+        },
+        "ministry": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Categorical feature: ministry. If missing or null, imputed as 'Unknown'.",
+          "example": "Ministry of Road Transport and Highways"
+        },
+        "sector": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Categorical feature: sector. If missing or null, imputed as 'Unknown'.",
+          "example": "Roads & Highways"
+        },
+        "implementing_agency": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Categorical feature: implementing_agency. If missing or null, imputed as 'Unknown'.",
+          "example": "NHAI"
+        },
+        "state": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Categorical feature: state. If missing or null, imputed as 'Unknown'.",
+          "example": "Maharashtra"
+        }
+      },
+      "required": [
+        "original_cost",
+        "cumulative_expenditure",
+        "physical_progress_pct",
+        "planned_duration_months",
+        "elapsed_months"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "project_id",
+    "features"
+  ]
+}

@@ -1,0 +1,46 @@
+feature_name,source_column(s),calculation,available_at_prediction_time,uses_future_information,leakage_risk,recommended_for_MVP,reason
+ministry,Table 6: ministry,Direct extraction at snapshot,Yes,No,SAFE,SAFE_MVP,Administrative project owner known at sanction time.
+sector,Table 6: sector,Direct extraction at snapshot,Yes,No,SAFE,SAFE_MVP,Sector classification fixed at project inception.
+implementing_agency,Table 6: implementing_agency,Direct extraction at snapshot,Yes,No,SAFE,SAFE_MVP,Executing agency fixed at sanction time.
+state,Table 6: state,Direct extraction at snapshot,Yes,No,SAFE,SAFE_MVP,Geographic location fixed at sanction time.
+original_cost,Table 6: original_cost,Direct extraction at snapshot,Yes,No,SAFE,SAFE_MVP,Original sanctioned baseline cost.
+approval_to_start_months,"Table 6: date_of_approval, start_date",start_date - date_of_approval in months,Yes,No,SAFE,SAFE_MVP,Pre-construction gestation duration known once work begins.
+cumulative_expenditure,Table 6: cumulative_expenditure,Direct extraction at snapshot T-2,Yes,No,SAFE,SAFE_MVP,Actual audited expenditure up to snapshot month.
+expenditure_percent_of_original_cost,"Table 6: cumulative_expenditure, original_cost",(cumulative_expenditure / original_cost) * 100,Yes,No,SAFE,SAFE_MVP,Financial burn rate relative to initial sanction.
+monthly_expenditure_change,"Table 6: cumulative_expenditure (T-2, T-3)",expenditure(T-2) - expenditure(T-3),Yes,No,SAFE,SAFE_MVP,Historical 1-month financial disbursement.
+monthly_expenditure_growth_pct,"Table 6: cumulative_expenditure (T-2, T-3)",((exp(T-2) - exp(T-3)) / exp(T-3)) * 100,Yes,No,SAFE,SAFE_MVP,Percentage growth in cumulative expenditure over prior month.
+physical_progress_pct,Table 6: physical_progress_pct,Direct extraction at snapshot T-2,Yes,No,SAFE,SAFE_MVP,Reported physical progress at snapshot month.
+monthly_progress_change,"Table 6: physical_progress_pct (T-2, T-3)",physical_progress(T-2) - physical_progress(T-3),Yes,No,SAFE,SAFE_MVP,Progress velocity achieved in the preceding month.
+progress_growth_rate,"Table 6: physical_progress_pct (T-2, T-3)",((phys(T-2) - phys(T-3)) / phys(T-3)) * 100,Yes,No,SAFE,SAFE_MVP,Relative acceleration in physical execution.
+planned_duration_months,"Table 6: start_date, original_doc",original_doc - start_date in months,Yes,No,SAFE,SAFE_MVP,Baseline original planned project duration.
+elapsed_months,"Table 6: start_date, snapshot_month",snapshot_month - start_date in months,Yes,No,SAFE,SAFE_MVP,Calendar duration elapsed up to prediction time.
+remaining_planned_months,"Table 6: original_doc, snapshot_month",original_doc - snapshot_month in months,Yes,No,SAFE,SAFE_MVP,Remaining scheduled months until original deadline.
+elapsed_duration_ratio,"Table 6: start_date, original_doc, snapshot_month",elapsed_months / planned_duration_months,Yes,No,SAFE,SAFE_MVP,Fraction of original timeline consumed by prediction point.
+is_past_original_doc,"Table 6: original_doc, snapshot_month",1 if snapshot_month > original_doc else 0,Yes,No,SAFE,SAFE_MVP,Indicator if project had already breached original deadline at T-2.
+efficiency_gap,"Table 6: physical_progress_pct, expenditure, original_cost",physical_progress_pct - expenditure_percent_of_original_cost,Yes,No,SAFE,SAFE_MVP,Disparity between physical accomplishment and financial utilization.
+cost_physical_ratio,"Table 6: expenditure_percent_of_original_cost, physical_progress_pct",expenditure_pct / physical_progress_pct,Yes,No,SAFE,SAFE_MVP,Cost burn per unit of physical work delivered.
+expected_progress_pct,"Table 6: elapsed_months, planned_duration_months","min(100, max(0, (elapsed_months / planned_duration_months) * 100))",Yes,No,SAFE,SAFE_MVP,Analytical linear progress expectation baseline.
+progress_gap_pct_points,"Table 6: physical_progress_pct, expected_progress_pct",physical_progress_pct - expected_progress_pct,Yes,No,SAFE,SAFE_MVP,Deviation from analytical linear schedule expectation.
+months_since_first_observation,"Table 6: report_month (min, snapshot)",snapshot_month - first_observed_month in months,Yes,No,SAFE,SAFE_MVP,Monitoring tenure observed prior to prediction.
+observation_count_to_date,Table 6: report_month count,Count of available records <= snapshot_month,Yes,No,SAFE,SAFE_MVP,Density of historical reporting track record.
+physical_progress_1_month_change,"Table 6: physical_progress_pct (T-2, T-3)",phys(T-2) - phys(T-3),Yes,No,SAFE,SAFE_MVP,Velocity of progress in prior month.
+physical_progress_2_month_change,"Table 6: physical_progress_pct (T-2, T-4)",phys(T-2) - phys(T-4),Yes,No,SAFE,SAFE_MVP,Bi-monthly velocity of physical execution.
+expenditure_1_month_change,"Table 6: cumulative_expenditure (T-2, T-3)",exp(T-2) - exp(T-3),Yes,No,SAFE,SAFE_MVP,Monthly capital outflow leading into T-2.
+expenditure_2_month_change,"Table 6: cumulative_expenditure (T-2, T-4)",exp(T-2) - exp(T-4),Yes,No,SAFE,SAFE_MVP,Bi-monthly capital outflow leading into T-2.
+progress_trend_slope,Table 6: physical_progress_pct across window,(phys(T-2) - phys(first)) / months_span,Yes,No,SAFE,SAFE_MVP,Average monthly progress rate over observed history.
+expenditure_trend_slope,Table 6: cumulative_expenditure across window,(exp(T-2) - exp(first)) / months_span,Yes,No,SAFE,SAFE_MVP,Average monthly capital spend rate over observed history.
+negative_expenditure_flag,Table 6: cumulative_expenditure,1 if cumulative_expenditure < 0 else 0,Yes,No,SAFE,SAFE_MVP,Captures accounting adjustments or negative data anomalies.
+missing_previous_month_flag,Table 6: report_month continuity,1 if T-3 observation is missing else 0,Yes,No,SAFE,SAFE_MVP,Captures incomplete historical monitoring track record.
+invalid_duration_flag,"Table 6: start_date, original_doc",1 if planned_duration_months <= 0 else 0,Yes,No,SAFE,SAFE_MVP,Flags dates where start is at or after completion.
+past_original_doc_flag,"Table 6: original_doc, snapshot_month",1 if snapshot_month > original_doc else 0,Yes,No,SAFE,SAFE_MVP,Explicit indicator of baseline schedule overrun.
+missing_key_date_flag,"Table 6: start_date, original_doc",1 if start_date or original_doc is missing else 0,Yes,No,SAFE,SAFE_MVP,Flags record date integrity.
+suspicious_value_flag,"Table 6: physical_progress_pct, expenditure","1 if progress not in [0, 100] or exp_pct > 300 or < 0",Yes,No,SAFE,SAFE_MVP,Flags reporting anomalies without discarding rows.
+snapshot_revised_cost,Table 6: revised_cost (at T-2 snapshot),Direct extraction from Table 6 at T-2,Yes,No,CAUTION,OPTIONAL_EXPERIMENT,"Available at T-2, but administrative revision behavior varies; excluded from primary baseline to avoid policy noise."
+snapshot_cost_revision_pct,"Table 6: revised_cost, original_cost (at T-2)",((revised_cost - original_cost) / original_cost) * 100 at T-2,Yes,No,CAUTION,OPTIONAL_EXPERIMENT,Reflects approved budget expansions prior to T-2. Usable as optional experiment.
+snapshot_has_revised_doc,Table 6: revised_doc (at T-2),1 if revised_doc is non-null at T-2 else 0,Yes,No,CAUTION,OPTIONAL_EXPERIMENT,Indicates if administrative timeline extension was granted before T-2.
+snapshot_schedule_extension_months,"Table 6: revised_doc, original_doc (at T-2)",revised_doc - original_doc in months at T-2,Yes,No,CAUTION,OPTIONAL_EXPERIMENT,Magnitude of formal deadline extension granted before T-2.
+completion_cost,Table 3: completion_cost,Direct from Table 3,No,Yes,LEAKAGE,EXCLUDE,Final cost at project completion. Available only post-completion. Target-only.
+final_revised_cost,Table 3: revised_cost,Direct from Table 3,No,Yes,LEAKAGE,EXCLUDE,Often revised at completion to match final cost. 100% future leakage.
+final_revised_doc,Table 3: revised_doc,Direct from Table 3,No,Yes,LEAKAGE,EXCLUDE,Revised in 62% of projects in the last 2 months to match completion date. 100% future leakage.
+actual_date_of_completion,Table 3: actual_date_of_completion,Direct from Table 3,No,Yes,LEAKAGE,EXCLUDE,Defines the completion event itself. Target-only.
+post_t2_table6_observations,"Table 6 records at T-1, T",Observations occurring after T-2,No,Yes,LEAKAGE,EXCLUDE,Observations occurring in the final 2 months prior to completion.

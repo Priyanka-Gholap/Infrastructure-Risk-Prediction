@@ -1,0 +1,4 @@
+model_name,prediction_target,algorithm,input_feature_count,operating_threshold,primary_output,secondary_output,artifact_filename
+cost_overrun_model,target_cost_overrun_binary (Cost Overrun >= 10%),"RandomForestClassifier (n_estimators=100, max_depth=4, class_weight=balanced)",36,0.4,cost_overrun_flag (Binary: 0 or 1),cost_overrun_probability (Float: 0.0 to 1.0),cost_overrun_model.joblib
+delay_model,target_delay_binary (Delay >= 60 days vs revised deadline),"RandomForestClassifier (n_estimators=100, max_depth=4, min_samples_leaf=3)",36,0.5,delay_flag (Binary: 0 or 1),delay_probability (Float: 0.0 to 1.0),delay_model.joblib
+delay_regressor,target_delay_from_original_months (Months delayed from sanction),"RandomForestRegressor (n_estimators=100, max_depth=4, min_samples_leaf=3)",36,N/A (Continuous Regressor),predicted_delay_months (Float: calendar months),N/A,delay_regressor.joblib
